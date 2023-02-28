@@ -1,0 +1,692 @@
+2023-02-22 11:22:56,549 INFO com.chatGpt.Etech7ChatGptServiceApplication [restartedMain] Starting Etech7ChatGptServiceApplication using Java 17.0.3 on GOGIA with PID 19784 (C:\Users\adity\Documents\workspace-spring-tool-suite-4-4.15.2.RELEASE\etech7-chatGpt-service\target\classes started by adity in C:\Users\adity\Documents\workspace-spring-tool-suite-4-4.15.2.RELEASE\etech7-chatGpt-service)
+2023-02-22 11:22:56,577 INFO com.chatGpt.Etech7ChatGptServiceApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-02-22 11:22:56,631 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-22 11:22:56,632 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-22 11:22:57,964 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-02-22 11:22:57,973 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-02-22 11:22:57,974 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.63]
+2023-02-22 11:22:58,086 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-02-22 11:22:58,087 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1454 ms
+2023-02-22 11:22:58,365 INFO com.azure.spring.cloud.autoconfigure.aad.properties.AadAuthenticationProperties [restartedMain] AadAuthenticationFilter Constructor.
+2023-02-22 11:22:58,907 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [restartedMain] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-02-22 11:22:58,968 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [restartedMain] 3 mappings in 'requestMappingHandlerMapping'
+2023-02-22 11:22:58,975 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2023-02-22 11:22:59,002 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [restartedMain] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-02-22 11:22:59,015 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [restartedMain] ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-02-22 11:22:59,279 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@fe47b72, org.springframework.security.web.context.SecurityContextPersistenceFilter@66050efc, org.springframework.security.web.header.HeaderWriterFilter@22927c6c, org.springframework.security.web.csrf.CsrfFilter@2974c220, org.springframework.security.web.authentication.logout.LogoutFilter@3f363b44, org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter@888b67d, org.springframework.security.oauth2.client.web.OAuth2LoginAuthenticationFilter@64c8a83e, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@6ba0d361, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@7ab36d44, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@65f34ed1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@54f5b995, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6c6b4508, org.springframework.security.web.session.SessionManagementFilter@717a1faf, org.springframework.security.web.access.ExceptionTranslationFilter@5ba41402, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@e8595f0]
+2023-02-22 11:22:59,375 INFO com.azure.core.implementation.jackson.JacksonVersion [restartedMain] Package versions: jackson-core=2.13.3, jackson-databind=2.13.3, jackson-dataformat-xml=2.13.3, jackson-datatype-jsr310=2.13.3, azure-core=1.35.0, Troubleshooting version conflicts: https://aka.ms/azsdk/java/dependency/troubleshoot
+2023-02-22 11:22:59,448 INFO com.azure.spring.cloud.core.implementation.factory.AbstractAzureServiceClientBuilderFactory [restartedMain] Will configure the default credential of type DefaultAzureCredential for class com.azure.identity.DefaultAzureCredentialBuilder.
+2023-02-22 11:22:59,656 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-02-22 11:22:59,744 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-22 11:22:59,780 INFO com.chatGpt.Etech7ChatGptServiceApplication [restartedMain] Started Etech7ChatGptServiceApplication in 3.997 seconds (JVM running for 4.958)
+2023-02-22 11:23:30,793 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-22 11:23:30,795 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-02-22 11:23:30,795 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected StandardServletMultipartResolver
+2023-02-22 11:23:30,796 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected AcceptHeaderLocaleResolver
+2023-02-22 11:23:30,796 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected FixedThemeResolver
+2023-02-22 11:23:30,797 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@4b151234
+2023-02-22 11:23:30,798 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected org.springframework.web.servlet.support.SessionFlashMapManager@74843635
+2023-02-22 11:23:30,798 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-02-22 11:23:30,799 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 3 ms
+2023-02-22 11:24:21,466 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(11)-127.0.0.1] Application shutdown requested.
+2023-02-22 11:24:22,553 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(12)-127.0.0.1] Application shutdown requested.
+2023-02-22 11:24:22,942 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(13)-127.0.0.1] Application shutdown requested.
+2023-02-22 11:24:24,380 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(14)-127.0.0.1] Application shutdown requested.
+2023-02-22 11:24:25,526 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(15)-127.0.0.1] Application shutdown requested.
+2023-02-22 11:24:29,702 INFO com.chatGpt.Etech7ChatGptServiceApplication [restartedMain] Starting Etech7ChatGptServiceApplication using Java 17.0.3 on GOGIA with PID 9436 (C:\Users\adity\Documents\workspace-spring-tool-suite-4-4.15.2.RELEASE\etech7-chatGpt-service\target\classes started by adity in C:\Users\adity\Documents\workspace-spring-tool-suite-4-4.15.2.RELEASE\etech7-chatGpt-service)
+2023-02-22 11:24:29,705 INFO com.chatGpt.Etech7ChatGptServiceApplication [restartedMain] Starting Etech7ChatGptServiceApplication using Java 17.0.3 on GOGIA with PID 18768 (C:\Users\adity\Documents\workspace-spring-tool-suite-4-4.15.2.RELEASE\etech7-chatGpt-service\target\classes started by adity in C:\Users\adity\Documents\workspace-spring-tool-suite-4-4.15.2.RELEASE\etech7-chatGpt-service)
+2023-02-22 11:24:29,727 INFO com.chatGpt.Etech7ChatGptServiceApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-02-22 11:24:29,728 INFO com.chatGpt.Etech7ChatGptServiceApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-02-22 11:24:29,788 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-22 11:24:29,789 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-22 11:24:29,791 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-22 11:24:29,791 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-22 11:24:31,180 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-02-22 11:24:31,187 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-02-22 11:24:31,191 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-02-22 11:24:31,191 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.63]
+2023-02-22 11:24:31,198 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-02-22 11:24:31,199 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.63]
+2023-02-22 11:24:31,326 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-02-22 11:24:31,327 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1534 ms
+2023-02-22 11:24:31,333 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-02-22 11:24:31,334 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1544 ms
+2023-02-22 11:24:31,572 INFO com.azure.spring.cloud.autoconfigure.aad.properties.AadAuthenticationProperties [restartedMain] AadAuthenticationFilter Constructor.
+2023-02-22 11:24:31,579 INFO com.azure.spring.cloud.autoconfigure.aad.properties.AadAuthenticationProperties [restartedMain] AadAuthenticationFilter Constructor.
+2023-02-22 11:24:31,636 WARN org.apache.catalina.session.StandardManager [restartedMain] Unable to delete [C:\Users\adity\AppData\Local\Temp\202A6AED4F600C7A94CE203A4C4B70DD2E516411\servlet-sessions\SESSIONS.ser] after reading the persisted sessions. The continued presence of this file may cause future attempts to persist sessions to fail.
+2023-02-22 11:24:31,906 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [restartedMain] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-02-22 11:24:31,939 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [restartedMain] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-02-22 11:24:31,978 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [restartedMain] 3 mappings in 'requestMappingHandlerMapping'
+2023-02-22 11:24:31,985 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2023-02-22 11:24:32,011 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [restartedMain] 3 mappings in 'requestMappingHandlerMapping'
+2023-02-22 11:24:32,015 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [restartedMain] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-02-22 11:24:32,019 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2023-02-22 11:24:32,029 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [restartedMain] ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-02-22 11:24:32,053 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [restartedMain] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-02-22 11:24:32,068 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [restartedMain] ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-02-22 11:24:32,274 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7abc18b1, org.springframework.security.web.context.SecurityContextPersistenceFilter@486165d2, org.springframework.security.web.header.HeaderWriterFilter@516c9f14, org.springframework.security.web.csrf.CsrfFilter@2a6379b7, org.springframework.security.web.authentication.logout.LogoutFilter@750429ca, org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter@1ed44dec, org.springframework.security.oauth2.client.web.OAuth2LoginAuthenticationFilter@31b50326, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@60322471, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@6caae993, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1df0b7df, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@293ac1f1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7f274e6d, org.springframework.security.web.session.SessionManagementFilter@62d96539, org.springframework.security.web.access.ExceptionTranslationFilter@973653a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1987250]
+2023-02-22 11:24:32,316 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1b1a9935, org.springframework.security.web.context.SecurityContextPersistenceFilter@29bb7444, org.springframework.security.web.header.HeaderWriterFilter@589f316e, org.springframework.security.web.csrf.CsrfFilter@3506d75a, org.springframework.security.web.authentication.logout.LogoutFilter@3fe883ab, org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter@690b1954, org.springframework.security.oauth2.client.web.OAuth2LoginAuthenticationFilter@6473662f, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@11665c98, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@75de01ee, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@49403444, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2bd84688, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@71b1c644, org.springframework.security.web.session.SessionManagementFilter@6b8cd9ea, org.springframework.security.web.access.ExceptionTranslationFilter@1863d935, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2631c83e]
+2023-02-22 11:24:32,375 INFO com.azure.core.implementation.jackson.JacksonVersion [restartedMain] Package versions: jackson-core=2.13.3, jackson-databind=2.13.3, jackson-dataformat-xml=2.13.3, jackson-datatype-jsr310=2.13.3, azure-core=1.35.0, Troubleshooting version conflicts: https://aka.ms/azsdk/java/dependency/troubleshoot
+2023-02-22 11:24:32,413 INFO com.azure.core.implementation.jackson.JacksonVersion [restartedMain] Package versions: jackson-core=2.13.3, jackson-databind=2.13.3, jackson-dataformat-xml=2.13.3, jackson-datatype-jsr310=2.13.3, azure-core=1.35.0, Troubleshooting version conflicts: https://aka.ms/azsdk/java/dependency/troubleshoot
+2023-02-22 11:24:32,445 INFO com.azure.spring.cloud.core.implementation.factory.AbstractAzureServiceClientBuilderFactory [restartedMain] Will configure the default credential of type DefaultAzureCredential for class com.azure.identity.DefaultAzureCredentialBuilder.
+2023-02-22 11:24:32,479 INFO com.azure.spring.cloud.core.implementation.factory.AbstractAzureServiceClientBuilderFactory [restartedMain] Will configure the default credential of type DefaultAzureCredential for class com.azure.identity.DefaultAzureCredentialBuilder.
+2023-02-22 11:24:32,648 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-02-22 11:24:32,697 WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] Unable to start LiveReload server
+2023-02-22 11:24:32,698 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-22 11:24:32,714 INFO com.chatGpt.Etech7ChatGptServiceApplication [restartedMain] Started Etech7ChatGptServiceApplication in 3.861 seconds (JVM running for 4.96)
+2023-02-22 11:24:32,723 WARN org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2023-02-22 11:24:32,729 INFO org.apache.catalina.core.StandardService [restartedMain] Stopping service [Tomcat]
+2023-02-22 11:24:36,613 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-02-22 11:24:36,635 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2023-02-22 11:25:06,402 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(10)-127.0.0.1] Application shutdown requested.
+2023-02-22 11:25:47,855 INFO com.chatGpt.Etech7ChatGptServiceApplication [restartedMain] Starting Etech7ChatGptServiceApplication using Java 17.0.3 on GOGIA with PID 3940 (C:\Users\adity\Documents\workspace-spring-tool-suite-4-4.15.2.RELEASE\etech7-chatGpt-service\target\classes started by adity in C:\Users\adity\Documents\workspace-spring-tool-suite-4-4.15.2.RELEASE\etech7-chatGpt-service)
+2023-02-22 11:25:47,873 INFO com.chatGpt.Etech7ChatGptServiceApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-02-22 11:25:47,921 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-22 11:25:47,922 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-22 11:25:48,786 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-02-22 11:25:48,797 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-02-22 11:25:48,797 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.63]
+2023-02-22 11:25:48,884 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-02-22 11:25:48,885 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 962 ms
+2023-02-22 11:25:49,111 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [restartedMain] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-02-22 11:25:49,181 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [restartedMain] 3 mappings in 'requestMappingHandlerMapping'
+2023-02-22 11:25:49,184 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2023-02-22 11:25:49,201 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [restartedMain] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-02-22 11:25:49,208 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [restartedMain] ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-02-22 11:25:49,269 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-02-22 11:25:49,305 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-22 11:25:49,314 INFO com.chatGpt.Etech7ChatGptServiceApplication [restartedMain] Started Etech7ChatGptServiceApplication in 2.16 seconds (JVM running for 3.169)
+2023-02-22 11:26:33,150 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-22 11:26:33,151 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-02-22 11:26:33,152 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected StandardServletMultipartResolver
+2023-02-22 11:26:33,152 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected AcceptHeaderLocaleResolver
+2023-02-22 11:26:33,153 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected FixedThemeResolver
+2023-02-22 11:26:33,154 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@5874baba
+2023-02-22 11:26:33,154 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected org.springframework.web.servlet.support.SessionFlashMapManager@134a33f7
+2023-02-22 11:26:33,155 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-02-22 11:26:33,155 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 3 ms
+2023-02-22 11:26:33,323 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] GET "/", parameters={}
+2023-02-22 11:26:33,336 DEBUG org.springframework.web.servlet.view.ContentNegotiatingViewResolver [http-nio-8080-exec-1] Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2023-02-22 11:26:33,337 DEBUG org.springframework.web.servlet.view.InternalResourceView [http-nio-8080-exec-1] View name 'forward:', model {}
+2023-02-22 11:26:33,338 DEBUG org.springframework.web.servlet.view.InternalResourceView [http-nio-8080-exec-1] Forwarding to [index.html]
+2023-02-22 11:26:33,343 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] "FORWARD" dispatch for GET "/index.html", parameters={}
+2023-02-22 11:26:33,347 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [http-nio-8080-exec-1] Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-02-22 11:26:33,358 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Exiting from "FORWARD" dispatch, status 200
+2023-02-22 11:26:33,359 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed 200 OK
+2023-02-22 11:26:33,835 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] GET "/ChatGPT.jpeg", parameters={}
+2023-02-22 11:26:33,837 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [http-nio-8080-exec-2] Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-02-22 11:26:33,840 DEBUG org.springframework.web.servlet.resource.ResourceHttpRequestHandler [http-nio-8080-exec-2] Resource not found
+2023-02-22 11:26:33,840 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Completed 404 NOT_FOUND
+2023-02-22 11:26:33,842 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] "ERROR" dispatch for GET "/error", parameters={}
+2023-02-22 11:26:33,846 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [http-nio-8080-exec-2] Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-02-22 11:26:33,895 DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor [http-nio-8080-exec-2] Using 'application/json;q=0.8', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-02-22 11:26:33,898 DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor [http-nio-8080-exec-2] Writing [{timestamp=Wed Feb 22 11:26:33 EST 2023, status=404, error=Not Found, message=No message available,  (truncated)...]
+2023-02-22 11:26:33,959 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Exiting from "ERROR" dispatch, status 404
+2023-02-22 11:27:59,679 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-4] GET "/send?message=Tell%20me%20about%20ai%20in%20one%20sentence", parameters={masked}
+2023-02-22 11:27:59,680 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [http-nio-8080-exec-4] Mapped to com.chatGpt.controller.GptController#send(HttpServletRequest, String)
+2023-02-22 11:27:59,692 INFO com.chatGpt.controller.GptController [http-nio-8080-exec-4] requestId a0205c53-865f-44e4-b91b-4c86a864f7af, ip 127.0.0.1, send a message : Tell me about ai in one sentence
+2023-02-22 11:27:59,696 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8080-exec-4] request url: https://api.openai.com/v1/completions, httpEntity: <ChatRequest(model=text-davinci-003, prompt=Tell me about ai in one sentence, maxTokens=1000, temperature=0.0, topP=1.0),[Content-Type:"application/json;charset=UTF-8", Authorization:"Bearer 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"]>
+2023-02-22 11:27:59,718 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-4] HTTP POST https://api.openai.com/v1/completions
+2023-02-22 11:27:59,747 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-4] Accept=[application/json, application/*+json]
+2023-02-22 11:27:59,755 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-4] Writing [ChatRequest(model=text-davinci-003, prompt=Tell me about ai in one sentence, maxTokens=1000, temperature=0.0, topP=1.0)] as "application/json;charset=UTF-8"
+2023-02-22 11:28:03,331 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-4] Response 200 OK
+2023-02-22 11:28:03,364 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-4] Reading to [com.chatGpt.dto.ChatResponse]
+2023-02-22 11:28:03,380 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8080-exec-4] response: <200,ChatResponse(id=cmpl-6mmGFFYCWlpN4v8VFrY8a5iUofudt, object=text_completion, created=+4593668-01-23, model=text-davinci-003, choices=[Choice(text=
+
+AI is a branch of computer science that focuses on creating intelligent machines that can think and act like humans., index=0, logprobs=null, finishReason=stop)], usage=Usage(promptTokens=8, completionTokens=23, totalTokens=31)),[Date:"Wed, 22 Feb 2023 16:28:02 GMT", Content-Type:"application/json", Content-Length:"381", Connection:"keep-alive", Access-Control-Allow-Origin:"*", Cache-Control:"no-cache, must-revalidate", Openai-Model:"text-davinci-003", Openai-Organization:"user-xbngof7ex9kgc20aeaxs8tdl", Openai-Processing-Ms:"3201", Openai-Version:"2020-10-01", Strict-Transport-Security:"max-age=15724800; includeSubDomains", X-Request-Id:"0e69ffd04822dda6c6f16e0543a436db"]>
+2023-02-22 11:28:03,380 INFO com.chatGpt.controller.GptController [http-nio-8080-exec-4] requestId a0205c53-865f-44e4-b91b-4c86a864f7af, ip 127.0.0.1, get a reply : 
+
+AI is a branch of computer science that focuses on creating intelligent machines that can think and act like humans.
+2023-02-22 11:28:03,385 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor [http-nio-8080-exec-4] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-02-22 11:28:03,385 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor [http-nio-8080-exec-4] Writing [ResponseModel(code=200, message=success, data=<EOL><EOL>AI is a branch of computer science that focuses on c (truncated)...]
+2023-02-22 11:28:03,387 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-4] Completed 200 OK
+2023-02-22 11:43:12,232 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-6] GET "/send?message=Write%20me%20an%20essay%20in%20astro%20physics", parameters={masked}
+2023-02-22 11:43:12,233 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [http-nio-8080-exec-6] Mapped to com.chatGpt.controller.GptController#send(HttpServletRequest, String)
+2023-02-22 11:43:12,234 INFO com.chatGpt.controller.GptController [http-nio-8080-exec-6] requestId d71e762d-f4b0-4bb9-940a-b582539b1a33, ip 127.0.0.1, send a message : Write me an essay in astro physics
+2023-02-22 11:43:12,235 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8080-exec-6] request url: https://api.openai.com/v1/completions, httpEntity: <ChatRequest(model=text-davinci-003, prompt=Write me an essay in astro physics, maxTokens=1000, temperature=0.0, topP=1.0),[Content-Type:"application/json;charset=UTF-8", Authorization:"Bearer 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"]>
+2023-02-22 11:43:12,237 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-6] HTTP POST https://api.openai.com/v1/completions
+2023-02-22 11:43:12,240 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-6] Accept=[application/json, application/*+json]
+2023-02-22 11:43:12,242 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-6] Writing [ChatRequest(model=text-davinci-003, prompt=Write me an essay in astro physics, maxTokens=1000, temperature=0.0, topP=1.0)] as "application/json;charset=UTF-8"
+2023-02-22 11:43:42,740 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-6] Response 200 OK
+2023-02-22 11:43:42,741 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-6] Reading to [com.chatGpt.dto.ChatResponse]
+2023-02-22 11:43:42,743 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8080-exec-6] response: <200,ChatResponse(id=cmpl-6mmUxCQ2PZ3t8I1QQjepGLO3Ebglr, object=text_completion, created=+4593670-07-23, model=text-davinci-003, choices=[Choice(text=
+
+Astro physics is a branch of physics that studies the physical properties of celestial bodies, such as stars, planets, and galaxies. It is a fascinating field of study that has been around for centuries, and it continues to be a source of fascination and discovery for scientists today.
+
+The study of astro physics is a complex one, as it involves the study of the physical laws of the universe, such as gravity, electromagnetism, and thermodynamics. It also involves the study of the structure and evolution of the universe, including the formation of stars, galaxies, and other celestial bodies. Astro physics also involves the study of the origin and evolution of the universe, including the Big Bang theory and the evolution of galaxies.
+
+In order to understand astro physics, one must first understand the basic principles of physics. This includes the laws of motion, energy, and thermodynamics. It also involves the study of the structure and evolution of the universe, including the formation of stars, galaxies, and other celestial bodies. Additionally, astro physics involves the study of the origin and evolution of the universe, including the Big Bang theory and the evolution of galaxies.
+
+Once the basic principles of physics are understood, one can then begin to explore the more complex aspects of astro physics. This includes the study of the structure and evolution of the universe, including the formation of stars, galaxies, and other celestial bodies. Additionally, astro physics involves the study of the origin and evolution of the universe, including the Big Bang theory and the evolution of galaxies.
+
+In addition to the study of the structure and evolution of the universe, astro physics also involves the study of the physical properties of celestial bodies, such as stars, planets, and galaxies. This includes the study of the composition and structure of stars, the formation of planets, and the evolution of galaxies. Additionally, astro physics involves the study of the origin and evolution of the universe, including the Big Bang theory and the evolution of galaxies.
+
+Finally, astro physics also involves the study of the physical properties of the universe, such as dark matter and dark energy. This includes the study of the structure and evolution of the universe, including the formation of stars, galaxies, and other celestial bodies. Additionally, astro physics involves the study of the origin and evolution of the universe, including the Big Bang theory and the evolution of galaxies.
+
+Astro physics is a fascinating field of study that has been around for centuries, and it continues to be a source of fascination and discovery for scientists today. It is a complex field of study that involves the study of the physical laws of the universe, the structure and evolution of the universe, and the physical properties of celestial bodies. Astro physics is an important field of study that helps us to better understand the universe and our place in it., index=0, logprobs=null, finishReason=stop)], usage=Usage(promptTokens=8, completionTokens=579, totalTokens=587)),[Date:"Wed, 22 Feb 2023 16:43:41 GMT", Content-Type:"application/json", Content-Length:"3272", Connection:"keep-alive", Access-Control-Allow-Origin:"*", Cache-Control:"no-cache, must-revalidate", Openai-Model:"text-davinci-003", Openai-Organization:"user-xbngof7ex9kgc20aeaxs8tdl", Openai-Processing-Ms:"30182", Openai-Version:"2020-10-01", Strict-Transport-Security:"max-age=15724800; includeSubDomains", X-Request-Id:"04cbff89fc5a0b37f5f06dcd7b880392"]>
+2023-02-22 11:43:42,743 INFO com.chatGpt.controller.GptController [http-nio-8080-exec-6] requestId d71e762d-f4b0-4bb9-940a-b582539b1a33, ip 127.0.0.1, get a reply : 
+
+Astro physics is a branch of physics that studies the physical properties of celestial bodies, such as stars, planets, and galaxies. It is a fascinating field of study that has been around for centuries, and it continues to be a source of fascination and discovery for scientists today.
+
+The study of astro physics is a complex one, as it involves the study of the physical laws of the universe, such as gravity, electromagnetism, and thermodynamics. It also involves the study of the structure and evolution of the universe, including the formation of stars, galaxies, and other celestial bodies. Astro physics also involves the study of the origin and evolution of the universe, including the Big Bang theory and the evolution of galaxies.
+
+In order to understand astro physics, one must first understand the basic principles of physics. This includes the laws of motion, energy, and thermodynamics. It also involves the study of the structure and evolution of the universe, including the formation of stars, galaxies, and other celestial bodies. Additionally, astro physics involves the study of the origin and evolution of the universe, including the Big Bang theory and the evolution of galaxies.
+
+Once the basic principles of physics are understood, one can then begin to explore the more complex aspects of astro physics. This includes the study of the structure and evolution of the universe, including the formation of stars, galaxies, and other celestial bodies. Additionally, astro physics involves the study of the origin and evolution of the universe, including the Big Bang theory and the evolution of galaxies.
+
+In addition to the study of the structure and evolution of the universe, astro physics also involves the study of the physical properties of celestial bodies, such as stars, planets, and galaxies. This includes the study of the composition and structure of stars, the formation of planets, and the evolution of galaxies. Additionally, astro physics involves the study of the origin and evolution of the universe, including the Big Bang theory and the evolution of galaxies.
+
+Finally, astro physics also involves the study of the physical properties of the universe, such as dark matter and dark energy. This includes the study of the structure and evolution of the universe, including the formation of stars, galaxies, and other celestial bodies. Additionally, astro physics involves the study of the origin and evolution of the universe, including the Big Bang theory and the evolution of galaxies.
+
+Astro physics is a fascinating field of study that has been around for centuries, and it continues to be a source of fascination and discovery for scientists today. It is a complex field of study that involves the study of the physical laws of the universe, the structure and evolution of the universe, and the physical properties of celestial bodies. Astro physics is an important field of study that helps us to better understand the universe and our place in it.
+2023-02-22 11:43:42,744 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor [http-nio-8080-exec-6] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-02-22 11:43:42,745 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor [http-nio-8080-exec-6] Writing [ResponseModel(code=200, message=success, data=<EOL><EOL>Astro physics is a branch of physics that studies th (truncated)...]
+2023-02-22 11:43:42,746 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-6] Completed 200 OK
+2023-02-22 11:47:37,260 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(29)-127.0.0.1] Application shutdown requested.
+2023-02-22 11:47:57,506 INFO com.chatGpt.Etech7ChatGptServiceApplication [restartedMain] Starting Etech7ChatGptServiceApplication using Java 17.0.3 on GOGIA with PID 11596 (C:\Users\adity\Documents\workspace-spring-tool-suite-4-4.15.2.RELEASE\etech7-chatGpt-service\target\classes started by adity in C:\Users\adity\Documents\workspace-spring-tool-suite-4-4.15.2.RELEASE\etech7-chatGpt-service)
+2023-02-22 11:47:57,527 INFO com.chatGpt.Etech7ChatGptServiceApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-02-22 11:47:57,582 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-22 11:47:57,583 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-22 11:47:58,482 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-02-22 11:47:58,492 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-02-22 11:47:58,493 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.63]
+2023-02-22 11:47:58,586 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-02-22 11:47:58,586 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1002 ms
+2023-02-22 11:47:58,811 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [restartedMain] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-02-22 11:47:58,882 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [restartedMain] 3 mappings in 'requestMappingHandlerMapping'
+2023-02-22 11:47:58,885 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2023-02-22 11:47:58,904 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [restartedMain] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-02-22 11:47:58,913 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [restartedMain] ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-02-22 11:47:58,978 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-02-22 11:47:59,018 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-22 11:47:59,027 INFO com.chatGpt.Etech7ChatGptServiceApplication [restartedMain] Started Etech7ChatGptServiceApplication in 2.196 seconds (JVM running for 3.007)
+2023-02-22 11:48:04,499 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-22 11:48:04,500 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-02-22 11:48:04,501 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected StandardServletMultipartResolver
+2023-02-22 11:48:04,502 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected AcceptHeaderLocaleResolver
+2023-02-22 11:48:04,502 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected FixedThemeResolver
+2023-02-22 11:48:04,503 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@55d0afa
+2023-02-22 11:48:04,504 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected org.springframework.web.servlet.support.SessionFlashMapManager@650c03
+2023-02-22 11:48:04,505 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-02-22 11:48:04,505 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 4 ms
+2023-02-22 11:48:04,651 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] GET "/", parameters={}
+2023-02-22 11:48:04,665 DEBUG org.springframework.web.servlet.view.ContentNegotiatingViewResolver [http-nio-8080-exec-1] Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2023-02-22 11:48:04,666 DEBUG org.springframework.web.servlet.view.InternalResourceView [http-nio-8080-exec-1] View name 'forward:', model {}
+2023-02-22 11:48:04,668 DEBUG org.springframework.web.servlet.view.InternalResourceView [http-nio-8080-exec-1] Forwarding to [index.html]
+2023-02-22 11:48:04,672 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] "FORWARD" dispatch for GET "/index.html", parameters={}
+2023-02-22 11:48:04,675 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [http-nio-8080-exec-1] Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-02-22 11:48:04,686 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Exiting from "FORWARD" dispatch, status 200
+2023-02-22 11:48:04,688 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed 200 OK
+2023-02-22 11:48:23,304 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] GET "/send?message=wHAT%20IS%20THE%20ChILDHREN%20PROP?", parameters={masked}
+2023-02-22 11:48:23,306 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [http-nio-8080-exec-2] Mapped to com.chatGpt.controller.GptController#send(HttpServletRequest, String)
+2023-02-22 11:48:23,326 INFO com.chatGpt.controller.GptController [http-nio-8080-exec-2] requestId 7ea00be0-53be-4aa0-8bee-00d0ce224626, ip 127.0.0.1, send a message : wHAT IS THE ChILDHREN PROP?
+2023-02-22 11:48:23,328 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8080-exec-2] request url: https://api.openai.com/v1/completions, httpEntity: <ChatRequest(model=text-davinci-003, prompt=wHAT IS THE ChILDHREN PROP?, maxTokens=1000, temperature=0.0, topP=1.0),[Content-Type:"application/json;charset=UTF-8", Authorization:"Bearer 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"]>
+2023-02-22 11:48:23,352 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-2] HTTP POST https://api.openai.com/v1/completions
+2023-02-22 11:48:23,405 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-2] Accept=[application/json, application/*+json]
+2023-02-22 11:48:23,416 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-2] Writing [ChatRequest(model=text-davinci-003, prompt=wHAT IS THE ChILDHREN PROP?, maxTokens=1000, temperature=0.0, topP=1.0)] as "application/json;charset=UTF-8"
+2023-02-22 11:48:30,586 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-2] Response 200 OK
+2023-02-22 11:48:30,590 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-2] Reading to [com.chatGpt.dto.ChatResponse]
+2023-02-22 11:48:30,617 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8080-exec-2] response: <200,ChatResponse(id=cmpl-6mma21Xg0bkOsToo9OUh7C9mf2Tks, object=text_completion, created=+4593671-06-03, model=text-davinci-003, choices=[Choice(text=
+
+The Children’s Prop is a program designed to provide financial assistance to families with children in need. The program provides grants to families to help cover the costs of basic necessities such as food, clothing, and housing. The program also provides educational and recreational activities for children., index=0, logprobs=null, finishReason=stop)], usage=Usage(promptTokens=12, completionTokens=57, totalTokens=69)),[Date:"Wed, 22 Feb 2023 16:48:29 GMT", Content-Type:"application/json", Transfer-Encoding:"chunked", Connection:"keep-alive", Access-Control-Allow-Origin:"*", Cache-Control:"no-cache, must-revalidate", Openai-Model:"text-davinci-003", Openai-Organization:"user-xbngof7ex9kgc20aeaxs8tdl", Openai-Processing-Ms:"3123", Openai-Version:"2020-10-01", Strict-Transport-Security:"max-age=15724800; includeSubDomains", X-Request-Id:"764055fe47b173274750d73365300677"]>
+2023-02-22 11:48:30,649 INFO com.chatGpt.controller.GptController [http-nio-8080-exec-2] requestId 7ea00be0-53be-4aa0-8bee-00d0ce224626, ip 127.0.0.1, get a reply : 
+
+The Children’s Prop is a program designed to provide financial assistance to families with children in need. The program provides grants to families to help cover the costs of basic necessities such as food, clothing, and housing. The program also provides educational and recreational activities for children.
+2023-02-22 11:48:30,659 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor [http-nio-8080-exec-2] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-02-22 11:48:30,660 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor [http-nio-8080-exec-2] Writing [ResponseModel(code=200, message=success, data=<EOL><EOL>The Children’s Prop is a program designed to provide (truncated)...]
+2023-02-22 11:48:30,662 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Completed 200 OK
+2023-02-22 16:18:42,124 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(48)-127.0.0.1] Application shutdown requested.
+2023-02-22 16:24:13,612 INFO com.chatGpt.Etech7ChatGptServiceApplication [restartedMain] Starting Etech7ChatGptServiceApplication using Java 17.0.3 on GOGIA with PID 6680 (C:\Users\adity\Documents\workspace-spring-tool-suite-4-4.15.2.RELEASE\etech7-chatGpt-service\target\classes started by adity in C:\Users\adity\Documents\workspace-spring-tool-suite-4-4.15.2.RELEASE\etech7-chatGpt-service)
+2023-02-22 16:24:13,627 INFO com.chatGpt.Etech7ChatGptServiceApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-02-22 16:24:13,678 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-22 16:24:13,679 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-22 16:24:14,532 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-02-22 16:24:14,541 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-02-22 16:24:14,542 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.63]
+2023-02-22 16:24:14,628 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-02-22 16:24:14,629 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 950 ms
+2023-02-22 16:24:14,859 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [restartedMain] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-02-22 16:24:14,925 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [restartedMain] 3 mappings in 'requestMappingHandlerMapping'
+2023-02-22 16:24:14,926 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2023-02-22 16:24:14,943 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [restartedMain] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-02-22 16:24:14,950 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [restartedMain] ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-02-22 16:24:15,015 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-02-22 16:24:15,050 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-22 16:24:15,060 INFO com.chatGpt.Etech7ChatGptServiceApplication [restartedMain] Started Etech7ChatGptServiceApplication in 2.154 seconds (JVM running for 2.909)
+2023-02-22 16:26:12,588 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-22 16:26:12,590 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-02-22 16:26:12,590 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected StandardServletMultipartResolver
+2023-02-22 16:26:12,591 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected AcceptHeaderLocaleResolver
+2023-02-22 16:26:12,592 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected FixedThemeResolver
+2023-02-22 16:26:12,592 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@435e5bd2
+2023-02-22 16:26:12,593 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected org.springframework.web.servlet.support.SessionFlashMapManager@52649453
+2023-02-22 16:26:12,594 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-02-22 16:26:12,594 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 4 ms
+2023-02-22 16:26:12,763 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] GET "/", parameters={}
+2023-02-22 16:26:12,778 DEBUG org.springframework.web.servlet.view.ContentNegotiatingViewResolver [http-nio-8080-exec-1] Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2023-02-22 16:26:12,779 DEBUG org.springframework.web.servlet.view.InternalResourceView [http-nio-8080-exec-1] View name 'forward:', model {}
+2023-02-22 16:26:12,780 DEBUG org.springframework.web.servlet.view.InternalResourceView [http-nio-8080-exec-1] Forwarding to [index.html]
+2023-02-22 16:26:12,784 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] "FORWARD" dispatch for GET "/index.html", parameters={}
+2023-02-22 16:26:12,787 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [http-nio-8080-exec-1] Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-02-22 16:26:12,800 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Exiting from "FORWARD" dispatch, status 200
+2023-02-22 16:26:12,802 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed 200 OK
+2023-02-22 16:28:43,311 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(14)-127.0.0.1] Application shutdown requested.
+2023-02-22 16:28:46,073 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(15)-127.0.0.1] Application shutdown requested.
+2023-02-22 16:29:18,510 ERROR org.springframework.boot.SpringApplication [restartedMain] Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - Could not find an appender named [AZURE-INSIGHTS]. Did you define it below instead of above in the configuration file?
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - See http://logback.qos.ch/codes.html#appender_order for more details.
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:328)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:282)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:240)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:216)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:85)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:66)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:120)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:114)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:65)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at com.chatGpt.Etech7ChatGptServiceApplication.main(Etech7ChatGptServiceApplication.java:11)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - Could not find an appender named [AZURE-INSIGHTS]. Did you define it below instead of above in the configuration file?
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - See http://logback.qos.ch/codes.html#appender_order for more details.
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:179)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:80)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:132)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:313)
+	... 23 common frames omitted
+2023-02-22 16:29:37,084 INFO com.chatGpt.Etech7ChatGptServiceApplication [restartedMain] Starting Etech7ChatGptServiceApplication using Java 17.0.3 on GOGIA with PID 15112 (C:\Users\adity\Documents\workspace-spring-tool-suite-4-4.15.2.RELEASE\etech7-chatGpt-service\target\classes started by adity in C:\Users\adity\Documents\workspace-spring-tool-suite-4-4.15.2.RELEASE\etech7-chatGpt-service)
+2023-02-22 16:29:37,102 INFO com.chatGpt.Etech7ChatGptServiceApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-02-22 16:29:37,152 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-22 16:29:37,153 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-22 16:29:38,033 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-02-22 16:29:38,042 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-02-22 16:29:38,043 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.63]
+2023-02-22 16:29:38,123 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-02-22 16:29:38,123 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 969 ms
+2023-02-22 16:29:38,360 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [restartedMain] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-02-22 16:29:38,429 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [restartedMain] 3 mappings in 'requestMappingHandlerMapping'
+2023-02-22 16:29:38,431 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2023-02-22 16:29:38,450 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [restartedMain] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-02-22 16:29:38,458 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [restartedMain] ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-02-22 16:29:38,533 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-02-22 16:29:38,567 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-22 16:29:38,577 INFO com.chatGpt.Etech7ChatGptServiceApplication [restartedMain] Started Etech7ChatGptServiceApplication in 2.147 seconds (JVM running for 2.974)
+2023-02-22 16:30:35,160 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-22 16:30:35,161 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-02-22 16:30:35,162 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected StandardServletMultipartResolver
+2023-02-22 16:30:35,163 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected AcceptHeaderLocaleResolver
+2023-02-22 16:30:35,163 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected FixedThemeResolver
+2023-02-22 16:30:35,164 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@45a4e153
+2023-02-22 16:30:35,165 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected org.springframework.web.servlet.support.SessionFlashMapManager@2c3706ec
+2023-02-22 16:30:35,166 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-02-22 16:30:35,166 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 4 ms
+2023-02-22 16:30:35,324 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] GET "/send?message=Which%20Iphone%20should%20I%20buy%20in%202023", parameters={masked}
+2023-02-22 16:30:35,330 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [http-nio-8080-exec-1] Mapped to com.chatGpt.controller.GptController#send(HttpServletRequest, String)
+2023-02-22 16:30:35,357 INFO com.chatGpt.controller.GptController [http-nio-8080-exec-1] requestId ddd95137-8b0f-4d37-bcc8-775e6d434b18, ip 127.0.0.1, send a message : Which Iphone should I buy in 2023
+2023-02-22 16:30:35,359 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8080-exec-1] request url: https://api.openai.com/v1/completions, httpEntity: <ChatRequest(model=text-davinci-003, prompt=Which Iphone should I buy in 2023, maxTokens=1000, temperature=0.0, topP=1.0),[Content-Type:"application/json;charset=UTF-8", Authorization:"Bearer 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"]>
+2023-02-22 16:30:35,383 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-1] HTTP POST https://api.openai.com/v1/completions
+2023-02-22 16:30:35,430 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-1] Accept=[application/json, application/*+json]
+2023-02-22 16:30:35,440 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-1] Writing [ChatRequest(model=text-davinci-003, prompt=Which Iphone should I buy in 2023, maxTokens=1000, temperature=0.0, topP=1.0)] as "application/json;charset=UTF-8"
+2023-02-22 16:30:38,267 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-1] Response 200 OK
+2023-02-22 16:30:38,271 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-1] Reading to [com.chatGpt.dto.ChatResponse]
+2023-02-22 16:30:38,301 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8080-exec-1] response: <200,ChatResponse(id=cmpl-6mqz4cVnMjfscEKpzMCnGLi3WqIUN, object=text_completion, created=+4593717-10-08, model=text-davinci-003, choices=[Choice(text=
+
+It is impossible to say which iPhone you should buy in 2023 as it is too far in the future. Apple releases new iPhones every year, so the best option would be to wait until 2023 and then decide which iPhone is best for you., index=0, logprobs=null, finishReason=stop)], usage=Usage(promptTokens=9, completionTokens=52, totalTokens=61)),[Date:"Wed, 22 Feb 2023 21:30:36 GMT", Content-Type:"application/json", Content-Length:"488", Connection:"keep-alive", Access-Control-Allow-Origin:"*", Cache-Control:"no-cache, must-revalidate", Openai-Model:"text-davinci-003", Openai-Organization:"user-xbngof7ex9kgc20aeaxs8tdl", Openai-Processing-Ms:"2334", Openai-Version:"2020-10-01", Strict-Transport-Security:"max-age=15724800; includeSubDomains", X-Request-Id:"136e631825b882ed2bbb1ffd44a4bcab"]>
+2023-02-22 16:30:38,303 INFO com.chatGpt.controller.GptController [http-nio-8080-exec-1] requestId ddd95137-8b0f-4d37-bcc8-775e6d434b18, ip 127.0.0.1, get a reply : 
+
+It is impossible to say which iPhone you should buy in 2023 as it is too far in the future. Apple releases new iPhones every year, so the best option would be to wait until 2023 and then decide which iPhone is best for you.
+2023-02-22 16:30:38,319 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor [http-nio-8080-exec-1] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-02-22 16:30:38,321 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor [http-nio-8080-exec-1] Writing [ResponseModel(code=200, message=success, data=<EOL><EOL>It is impossible to say which iPhone you should buy  (truncated)...]
+2023-02-22 16:30:38,336 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed 200 OK
+2023-02-22 16:34:44,580 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-3] GET "/send?message=Send%20ma%20mesasge%20to%20Tim%20say%20hello", parameters={masked}
+2023-02-22 16:34:44,582 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [http-nio-8080-exec-3] Mapped to com.chatGpt.controller.GptController#send(HttpServletRequest, String)
+2023-02-22 16:34:44,583 INFO com.chatGpt.controller.GptController [http-nio-8080-exec-3] requestId d23e3568-de91-4280-af22-1562590488e1, ip 127.0.0.1, send a message : Send ma mesasge to Tim say hello
+2023-02-22 16:34:44,583 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8080-exec-3] request url: https://api.openai.com/v1/completions, httpEntity: <ChatRequest(model=text-davinci-003, prompt=Send ma mesasge to Tim say hello, maxTokens=1000, temperature=0.0, topP=1.0),[Content-Type:"application/json;charset=UTF-8", Authorization:"Bearer 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"]>
+2023-02-22 16:34:44,586 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-3] HTTP POST https://api.openai.com/v1/completions
+2023-02-22 16:34:44,589 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-3] Accept=[application/json, application/*+json]
+2023-02-22 16:34:44,590 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-3] Writing [ChatRequest(model=text-davinci-003, prompt=Send ma mesasge to Tim say hello, maxTokens=1000, temperature=0.0, topP=1.0)] as "application/json;charset=UTF-8"
+2023-02-22 16:34:45,459 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-3] Response 200 OK
+2023-02-22 16:34:45,462 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-3] Reading to [com.chatGpt.dto.ChatResponse]
+2023-02-22 16:34:45,464 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8080-exec-3] response: <200,ChatResponse(id=cmpl-6mr35Dlmo0ZoGLd33CO7q8iY6gYLd, object=text_completion, created=+4593718-06-14, model=text-davinci-003, choices=[Choice(text=
+
+Hello Tim!, index=0, logprobs=null, finishReason=stop)], usage=Usage(promptTokens=9, completionTokens=5, totalTokens=14)),[Date:"Wed, 22 Feb 2023 21:34:44 GMT", Content-Type:"application/json", Content-Length:"274", Connection:"keep-alive", Access-Control-Allow-Origin:"*", Cache-Control:"no-cache, must-revalidate", Openai-Model:"text-davinci-003", Openai-Organization:"user-xbngof7ex9kgc20aeaxs8tdl", Openai-Processing-Ms:"404", Openai-Version:"2020-10-01", Strict-Transport-Security:"max-age=15724800; includeSubDomains", X-Request-Id:"e228aa7b6422df2042151b1222673e66"]>
+2023-02-22 16:34:45,465 INFO com.chatGpt.controller.GptController [http-nio-8080-exec-3] requestId d23e3568-de91-4280-af22-1562590488e1, ip 127.0.0.1, get a reply : 
+
+Hello Tim!
+2023-02-22 16:34:45,468 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor [http-nio-8080-exec-3] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-02-22 16:34:45,469 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor [http-nio-8080-exec-3] Writing [ResponseModel(code=200, message=success, data=<EOL><EOL>Hello Tim!)]
+2023-02-22 16:34:45,471 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-3] Completed 200 OK
+2023-02-22 16:48:28,705 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(28)-127.0.0.1] Application shutdown requested.
+2023-02-22 16:48:32,715 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(29)-127.0.0.1] Application shutdown requested.
+2023-02-22 16:48:48,828 INFO com.chatGpt.Etech7ChatGptServiceApplication [restartedMain] Starting Etech7ChatGptServiceApplication using Java 17.0.3 on GOGIA with PID 25960 (C:\Users\adity\Documents\workspace-spring-tool-suite-4-4.15.2.RELEASE\etech7-chatGpt-service\target\classes started by adity in C:\Users\adity\Documents\workspace-spring-tool-suite-4-4.15.2.RELEASE\etech7-chatGpt-service)
+2023-02-22 16:48:48,841 INFO com.chatGpt.Etech7ChatGptServiceApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-02-22 16:48:48,876 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-22 16:48:48,877 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-22 16:48:49,485 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-02-22 16:48:49,496 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-02-22 16:48:49,496 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.63]
+2023-02-22 16:48:49,555 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-02-22 16:48:49,555 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 678 ms
+2023-02-22 16:48:49,720 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [restartedMain] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-02-22 16:48:49,769 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [restartedMain] 3 mappings in 'requestMappingHandlerMapping'
+2023-02-22 16:48:49,771 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2023-02-22 16:48:49,787 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [restartedMain] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-02-22 16:48:49,793 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [restartedMain] ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-02-22 16:48:49,838 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-02-22 16:48:49,864 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-22 16:48:49,871 INFO com.chatGpt.Etech7ChatGptServiceApplication [restartedMain] Started Etech7ChatGptServiceApplication in 1.523 seconds (JVM running for 2.096)
+2023-02-22 16:49:58,876 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-22 16:49:58,877 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-02-22 16:49:58,877 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected StandardServletMultipartResolver
+2023-02-22 16:49:58,878 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected AcceptHeaderLocaleResolver
+2023-02-22 16:49:58,878 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected FixedThemeResolver
+2023-02-22 16:49:58,879 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@53d9bd
+2023-02-22 16:49:58,879 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected org.springframework.web.servlet.support.SessionFlashMapManager@879b242
+2023-02-22 16:49:58,879 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-02-22 16:49:58,880 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 3 ms
+2023-02-22 16:49:59,001 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] GET "/send?message=Hi%20Alexa,%20How%20are%20you", parameters={masked}
+2023-02-22 16:49:59,005 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [http-nio-8080-exec-1] Mapped to com.chatGpt.controller.GptController#send(HttpServletRequest, String)
+2023-02-22 16:49:59,015 INFO com.chatGpt.controller.GptController [http-nio-8080-exec-1] requestId e3487bee-fe06-44d7-9c86-130bdf1e19e4, ip 0:0:0:0:0:0:0:1, send a message : Hi Alexa, How are you
+2023-02-22 16:49:59,020 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8080-exec-1] request url: https://api.openai.com/v1/completions, httpEntity: <ChatRequest(model=text-davinci-003, prompt=Hi Alexa, How are you, maxTokens=1000, temperature=0.0, topP=1.0),[Content-Type:"application/json;charset=UTF-8", Authorization:"Bearer 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"]>
+2023-02-22 16:49:59,039 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-1] HTTP POST https://api.openai.com/v1/completions
+2023-02-22 16:49:59,072 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-1] Accept=[application/json, application/*+json]
+2023-02-22 16:49:59,081 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-1] Writing [ChatRequest(model=text-davinci-003, prompt=Hi Alexa, How are you, maxTokens=1000, temperature=0.0, topP=1.0)] as "application/json;charset=UTF-8"
+2023-02-22 16:50:00,241 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-1] Response 200 OK
+2023-02-22 16:50:00,242 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-1] Reading to [com.chatGpt.dto.ChatResponse]
+2023-02-22 16:50:00,249 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8080-exec-1] response: <200,ChatResponse(id=cmpl-6mrHqb1maEoEGOk7ALYp8vpZjXLYR, object=text_completion, created=+4593720-12-15, model=text-davinci-003, choices=[Choice(text=?
+
+I'm doing great, thanks for asking!, index=0, logprobs=null, finishReason=stop)], usage=Usage(promptTokens=6, completionTokens=12, totalTokens=18)),[Date:"Wed, 22 Feb 2023 21:49:58 GMT", Content-Type:"application/json", Content-Length:"301", Connection:"keep-alive", Access-Control-Allow-Origin:"*", Cache-Control:"no-cache, must-revalidate", Openai-Model:"text-davinci-003", Openai-Organization:"user-xbngof7ex9kgc20aeaxs8tdl", Openai-Processing-Ms:"893", Openai-Version:"2020-10-01", Strict-Transport-Security:"max-age=15724800; includeSubDomains", X-Request-Id:"9e27e570d19e9dd678cd05fe2083f41b"]>
+2023-02-22 16:50:00,250 INFO com.chatGpt.controller.GptController [http-nio-8080-exec-1] Response--> requestId e3487bee-fe06-44d7-9c86-130bdf1e19e4, ip 0:0:0:0:0:0:0:1, response : ?
+
+I'm doing great, thanks for asking!
+2023-02-22 16:50:00,257 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor [http-nio-8080-exec-1] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-02-22 16:50:00,258 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor [http-nio-8080-exec-1] Writing [ResponseModel(code=200, message=success, data=?<EOL><EOL>I'm doing great, thanks for asking!)]
+2023-02-22 16:50:00,262 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed 200 OK
+2023-02-22 17:04:43,341 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(25)-127.0.0.1] Application shutdown requested.
+2023-02-22 17:04:45,578 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(26)-127.0.0.1] Application shutdown requested.
+2023-02-22 17:04:46,335 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(27)-127.0.0.1] Application shutdown requested.
+2023-02-22 17:04:46,893 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(28)-127.0.0.1] Application shutdown requested.
+2023-02-22 17:27:14,408 INFO com.chatGpt.Etech7ChatGptServiceApplication [restartedMain] Starting Etech7ChatGptServiceApplication using Java 17.0.3 on GOGIA with PID 14936 (C:\Users\adity\Documents\workspace-spring-tool-suite-4-4.15.2.RELEASE\etech7-chatGpt-service\target\classes started by adity in C:\Users\adity\Documents\workspace-spring-tool-suite-4-4.15.2.RELEASE\etech7-chatGpt-service)
+2023-02-22 17:27:14,422 INFO com.chatGpt.Etech7ChatGptServiceApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-02-22 17:27:14,471 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-22 17:27:14,471 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-22 17:27:15,301 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-02-22 17:27:15,309 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-02-22 17:27:15,310 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.63]
+2023-02-22 17:27:15,382 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-02-22 17:27:15,383 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 911 ms
+2023-02-22 17:27:15,689 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [restartedMain] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-02-22 17:27:15,749 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [restartedMain] 3 mappings in 'requestMappingHandlerMapping'
+2023-02-22 17:27:15,751 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2023-02-22 17:27:15,768 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [restartedMain] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-02-22 17:27:15,774 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [restartedMain] ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-02-22 17:27:15,834 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-02-22 17:27:15,866 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-22 17:27:15,875 INFO com.chatGpt.Etech7ChatGptServiceApplication [restartedMain] Started Etech7ChatGptServiceApplication in 2.087 seconds (JVM running for 2.845)
+2023-02-22 17:27:32,182 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-22 17:27:32,183 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-02-22 17:27:32,183 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected StandardServletMultipartResolver
+2023-02-22 17:27:32,184 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected AcceptHeaderLocaleResolver
+2023-02-22 17:27:32,184 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected FixedThemeResolver
+2023-02-22 17:27:32,185 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@52e27a10
+2023-02-22 17:27:32,186 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected org.springframework.web.servlet.support.SessionFlashMapManager@38eb54bd
+2023-02-22 17:27:32,187 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-02-22 17:27:32,187 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 4 ms
+2023-02-22 17:27:32,307 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] GET "/slack/events", parameters={}
+2023-02-22 17:27:32,316 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [http-nio-8080-exec-1] Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-02-22 17:27:32,319 DEBUG org.springframework.web.servlet.resource.ResourceHttpRequestHandler [http-nio-8080-exec-1] Resource not found
+2023-02-22 17:27:32,319 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed 404 NOT_FOUND
+2023-02-22 17:27:32,325 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] "ERROR" dispatch for GET "/error", parameters={}
+2023-02-22 17:27:32,327 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [http-nio-8080-exec-1] Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2023-02-22 17:27:32,354 DEBUG org.springframework.web.servlet.view.ContentNegotiatingViewResolver [http-nio-8080-exec-1] Selected 'text/html' given [text/html, text/html;q=0.8]
+2023-02-22 17:27:32,357 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Exiting from "ERROR" dispatch, status 404
+2023-02-22 17:27:32,569 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] GET "/favicon.ico", parameters={}
+2023-02-22 17:27:32,570 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [http-nio-8080-exec-2] Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-02-22 17:27:32,572 DEBUG org.springframework.web.servlet.resource.ResourceHttpRequestHandler [http-nio-8080-exec-2] Resource not found
+2023-02-22 17:27:32,573 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Completed 404 NOT_FOUND
+2023-02-22 17:27:32,575 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] "ERROR" dispatch for GET "/error", parameters={}
+2023-02-22 17:27:32,575 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [http-nio-8080-exec-2] Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-02-22 17:27:32,589 DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor [http-nio-8080-exec-2] Using 'application/json;q=0.8', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-02-22 17:27:32,589 DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor [http-nio-8080-exec-2] Writing [{timestamp=Wed Feb 22 17:27:32 EST 2023, status=404, error=Not Found, message=No message available,  (truncated)...]
+2023-02-22 17:27:32,623 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Exiting from "ERROR" dispatch, status 404
+2023-02-22 17:28:10,616 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-3] GET "/", parameters={}
+2023-02-22 17:28:10,618 DEBUG org.springframework.web.servlet.view.ContentNegotiatingViewResolver [http-nio-8080-exec-3] Selected '*/*' given [*/*]
+2023-02-22 17:28:10,619 DEBUG org.springframework.web.servlet.view.InternalResourceView [http-nio-8080-exec-3] View name 'forward:', model {}
+2023-02-22 17:28:10,620 DEBUG org.springframework.web.servlet.view.InternalResourceView [http-nio-8080-exec-3] Forwarding to [index.html]
+2023-02-22 17:28:10,621 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-3] "FORWARD" dispatch for GET "/index.html", parameters={}
+2023-02-22 17:28:10,622 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [http-nio-8080-exec-3] Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-02-22 17:28:10,625 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-3] Exiting from "FORWARD" dispatch, status 200
+2023-02-22 17:28:10,626 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-3] Completed 200 OK
+2023-02-22 17:28:28,605 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-4] GET "/slack/events", parameters={}
+2023-02-22 17:28:28,607 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [http-nio-8080-exec-4] Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-02-22 17:28:28,609 DEBUG org.springframework.web.servlet.resource.ResourceHttpRequestHandler [http-nio-8080-exec-4] Resource not found
+2023-02-22 17:28:28,610 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-4] Completed 404 NOT_FOUND
+2023-02-22 17:28:28,611 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-4] "ERROR" dispatch for GET "/error", parameters={}
+2023-02-22 17:28:28,612 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [http-nio-8080-exec-4] Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-02-22 17:28:28,613 DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor [http-nio-8080-exec-4] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-02-22 17:28:28,614 DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor [http-nio-8080-exec-4] Writing [{timestamp=Wed Feb 22 17:28:28 EST 2023, status=404, error=Not Found, message=No message available,  (truncated)...]
+2023-02-22 17:28:28,615 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-4] Exiting from "ERROR" dispatch, status 404
+2023-02-22 17:29:25,401 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(11)-127.0.0.1] Application shutdown requested.
+2023-02-22 17:29:36,746 INFO com.chatGpt.Etech7ChatGptServiceApplication [restartedMain] Starting Etech7ChatGptServiceApplication using Java 17.0.3 on GOGIA with PID 19992 (C:\Users\adity\Documents\workspace-spring-tool-suite-4-4.15.2.RELEASE\etech7-chatGpt-service\target\classes started by adity in C:\Users\adity\Documents\workspace-spring-tool-suite-4-4.15.2.RELEASE\etech7-chatGpt-service)
+2023-02-22 17:29:36,758 INFO com.chatGpt.Etech7ChatGptServiceApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-02-22 17:29:36,803 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-22 17:29:36,804 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-22 17:29:37,588 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-02-22 17:29:37,597 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-02-22 17:29:37,598 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.63]
+2023-02-22 17:29:37,670 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-02-22 17:29:37,671 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 867 ms
+2023-02-22 17:29:37,973 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [restartedMain] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-02-22 17:29:38,032 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [restartedMain] 3 mappings in 'requestMappingHandlerMapping'
+2023-02-22 17:29:38,034 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2023-02-22 17:29:38,052 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [restartedMain] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-02-22 17:29:38,059 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [restartedMain] ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-02-22 17:29:38,123 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-02-22 17:29:38,154 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-22 17:29:38,162 INFO com.chatGpt.Etech7ChatGptServiceApplication [restartedMain] Started Etech7ChatGptServiceApplication in 1.981 seconds (JVM running for 2.652)
+2023-02-22 17:29:48,205 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-22 17:29:48,207 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-02-22 17:29:48,207 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected StandardServletMultipartResolver
+2023-02-22 17:29:48,208 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected AcceptHeaderLocaleResolver
+2023-02-22 17:29:48,209 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected FixedThemeResolver
+2023-02-22 17:29:48,210 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@6aa18a2c
+2023-02-22 17:29:48,210 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected org.springframework.web.servlet.support.SessionFlashMapManager@1b1249ec
+2023-02-22 17:29:48,211 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-02-22 17:29:48,212 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 5 ms
+2023-02-22 17:29:48,328 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] GET "/slack/events", parameters={}
+2023-02-22 17:29:48,336 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [http-nio-8080-exec-1] Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-02-22 17:29:48,339 DEBUG org.springframework.web.servlet.resource.ResourceHttpRequestHandler [http-nio-8080-exec-1] Resource not found
+2023-02-22 17:29:48,339 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed 404 NOT_FOUND
+2023-02-22 17:29:48,345 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] "ERROR" dispatch for GET "/error", parameters={}
+2023-02-22 17:29:48,347 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [http-nio-8080-exec-1] Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-02-22 17:29:48,367 DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor [http-nio-8080-exec-1] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-02-22 17:29:48,368 DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor [http-nio-8080-exec-1] Writing [{timestamp=Wed Feb 22 17:29:48 EST 2023, status=404, error=Not Found, message=No message available,  (truncated)...]
+2023-02-22 17:29:48,393 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Exiting from "ERROR" dispatch, status 404
+2023-02-22 17:30:09,222 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(10)-127.0.0.1] Application shutdown requested.
+2023-02-22 17:30:21,881 INFO com.chatGpt.Etech7ChatGptServiceApplication [restartedMain] Starting Etech7ChatGptServiceApplication using Java 17.0.3 on GOGIA with PID 9668 (C:\Users\adity\Documents\workspace-spring-tool-suite-4-4.15.2.RELEASE\etech7-chatGpt-service\target\classes started by adity in C:\Users\adity\Documents\workspace-spring-tool-suite-4-4.15.2.RELEASE\etech7-chatGpt-service)
+2023-02-22 17:30:21,892 INFO com.chatGpt.Etech7ChatGptServiceApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-02-22 17:30:21,935 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-22 17:30:21,935 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-22 17:30:22,700 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-02-22 17:30:22,708 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-02-22 17:30:22,709 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.63]
+2023-02-22 17:30:22,781 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-02-22 17:30:22,781 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 845 ms
+2023-02-22 17:30:23,075 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [restartedMain] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-02-22 17:30:23,137 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [restartedMain] 3 mappings in 'requestMappingHandlerMapping'
+2023-02-22 17:30:23,139 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2023-02-22 17:30:23,155 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [restartedMain] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-02-22 17:30:23,162 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [restartedMain] ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-02-22 17:30:23,221 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-02-22 17:30:23,250 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-22 17:30:23,258 INFO com.chatGpt.Etech7ChatGptServiceApplication [restartedMain] Started Etech7ChatGptServiceApplication in 1.921 seconds (JVM running for 2.608)
+2023-02-22 17:30:52,621 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-22 17:30:52,622 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-02-22 17:30:52,622 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected StandardServletMultipartResolver
+2023-02-22 17:30:52,623 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected AcceptHeaderLocaleResolver
+2023-02-22 17:30:52,624 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected FixedThemeResolver
+2023-02-22 17:30:52,624 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@6aa18a2c
+2023-02-22 17:30:52,625 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected org.springframework.web.servlet.support.SessionFlashMapManager@1b1249ec
+2023-02-22 17:30:52,626 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-02-22 17:30:52,626 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 4 ms
+2023-02-22 17:30:52,761 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] GET "/send?message=Hi%20Alexa,%20How%20are%20you", parameters={masked}
+2023-02-22 17:30:52,766 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [http-nio-8080-exec-1] Mapped to com.chatGpt.controller.GptController#send(HttpServletRequest, String)
+2023-02-22 17:30:52,780 INFO com.chatGpt.controller.GptController [http-nio-8080-exec-1] requestId 6bd74985-0710-4334-b8f1-51c101e21eb1, ip 0:0:0:0:0:0:0:1, send a message : Hi Alexa, How are you
+2023-02-22 17:30:52,786 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8080-exec-1] request url: https://api.openai.com/v1/completions, httpEntity: <ChatRequest(model=text-davinci-003, prompt=Hi Alexa, How are you, maxTokens=1000, temperature=0.0, topP=1.0),[Content-Type:"application/json;charset=UTF-8", Authorization:"Bearer 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"]>
+2023-02-22 17:30:52,807 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-1] HTTP POST https://api.openai.com/v1/completions
+2023-02-22 17:30:52,858 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-1] Accept=[application/json, application/*+json]
+2023-02-22 17:30:52,869 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-1] Writing [ChatRequest(model=text-davinci-003, prompt=Hi Alexa, How are you, maxTokens=1000, temperature=0.0, topP=1.0)] as "application/json;charset=UTF-8"
+2023-02-22 17:30:53,942 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-1] Response 200 OK
+2023-02-22 17:30:53,943 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-1] Reading to [com.chatGpt.dto.ChatResponse]
+2023-02-22 17:30:53,952 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8080-exec-1] response: <200,ChatResponse(id=cmpl-6mrvPVohTH9H6Y1j32GaxxWKQnnii, object=text_completion, created=+4593727-09-03, model=text-davinci-003, choices=[Choice(text=?
+
+I'm doing great, thanks for asking!, index=0, logprobs=null, finishReason=stop)], usage=Usage(promptTokens=6, completionTokens=12, totalTokens=18)),[Date:"Wed, 22 Feb 2023 22:30:52 GMT", Content-Type:"application/json", Content-Length:"301", Connection:"keep-alive", Access-Control-Allow-Origin:"*", Cache-Control:"no-cache, must-revalidate", Openai-Model:"text-davinci-003", Openai-Organization:"user-xbngof7ex9kgc20aeaxs8tdl", Openai-Processing-Ms:"752", Openai-Version:"2020-10-01", Strict-Transport-Security:"max-age=15724800; includeSubDomains", X-Request-Id:"5b4473c612574030b71dd6c5418a97b8"]>
+2023-02-22 17:30:53,953 INFO com.chatGpt.controller.GptController [http-nio-8080-exec-1] Response--> requestId 6bd74985-0710-4334-b8f1-51c101e21eb1, ip 0:0:0:0:0:0:0:1, response : ?
+
+I'm doing great, thanks for asking!
+2023-02-22 17:30:53,959 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor [http-nio-8080-exec-1] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-02-22 17:30:53,960 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor [http-nio-8080-exec-1] Writing [ResponseModel(code=200, message=success, data=?<EOL><EOL>I'm doing great, thanks for asking!)]
+2023-02-22 17:30:53,965 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed 200 OK
+2023-02-22 17:43:33,070 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(21)-127.0.0.1] Application shutdown requested.
+2023-02-22 17:43:42,734 INFO com.chatGpt.Etech7ChatGptServiceApplication [restartedMain] Starting Etech7ChatGptServiceApplication using Java 17.0.3 on GOGIA with PID 27664 (C:\Users\adity\Documents\workspace-spring-tool-suite-4-4.15.2.RELEASE\etech7-chatGpt-service\target\classes started by adity in C:\Users\adity\Documents\workspace-spring-tool-suite-4-4.15.2.RELEASE\etech7-chatGpt-service)
+2023-02-22 17:43:42,746 INFO com.chatGpt.Etech7ChatGptServiceApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-02-22 17:43:42,786 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-22 17:43:42,787 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-22 17:43:43,120 WARN org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'initSlackApp' defined in class path resource [com/chatGpt/controller/GptController.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=gptController; factoryMethodName=initSlackApp; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/chatGpt/controller/GptController.class]] for bean 'initSlackApp': There is already [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=slackApp; factoryMethodName=initSlackApp; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/chatGpt/SlackApp.class]] bound.
+2023-02-22 17:43:43,125 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-02-22 17:43:43,143 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'initSlackApp', defined in class path resource [com/chatGpt/controller/GptController.class], could not be registered. A bean with that name has already been defined in class path resource [com/chatGpt/SlackApp.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2023-02-22 17:43:56,671 INFO com.chatGpt.Etech7ChatGptServiceApplication [restartedMain] Starting Etech7ChatGptServiceApplication using Java 17.0.3 on GOGIA with PID 4504 (C:\Users\adity\Documents\workspace-spring-tool-suite-4-4.15.2.RELEASE\etech7-chatGpt-service\target\classes started by adity in C:\Users\adity\Documents\workspace-spring-tool-suite-4-4.15.2.RELEASE\etech7-chatGpt-service)
+2023-02-22 17:43:56,682 INFO com.chatGpt.Etech7ChatGptServiceApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-02-22 17:43:56,726 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-22 17:43:56,726 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-22 17:43:57,498 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-02-22 17:43:57,507 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-02-22 17:43:57,507 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.63]
+2023-02-22 17:43:57,580 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-02-22 17:43:57,581 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 854 ms
+2023-02-22 17:43:57,877 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [restartedMain] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-02-22 17:43:57,934 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [restartedMain] 3 mappings in 'requestMappingHandlerMapping'
+2023-02-22 17:43:57,936 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2023-02-22 17:43:57,953 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [restartedMain] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-02-22 17:43:57,958 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [restartedMain] ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-02-22 17:43:58,023 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-02-22 17:43:58,054 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-22 17:43:58,062 INFO com.chatGpt.Etech7ChatGptServiceApplication [restartedMain] Started Etech7ChatGptServiceApplication in 1.944 seconds (JVM running for 2.659)
+2023-02-22 17:44:14,372 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-22 17:44:14,373 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-02-22 17:44:14,373 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected StandardServletMultipartResolver
+2023-02-22 17:44:14,374 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected AcceptHeaderLocaleResolver
+2023-02-22 17:44:14,374 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected FixedThemeResolver
+2023-02-22 17:44:14,375 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@1cf98fd2
+2023-02-22 17:44:14,375 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected org.springframework.web.servlet.support.SessionFlashMapManager@66f3aea1
+2023-02-22 17:44:14,376 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-02-22 17:44:14,376 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 3 ms
+2023-02-22 17:44:14,488 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] GET "/slack/events", parameters={}
+2023-02-22 17:44:14,495 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [http-nio-8080-exec-1] Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-02-22 17:44:14,498 DEBUG org.springframework.web.servlet.resource.ResourceHttpRequestHandler [http-nio-8080-exec-1] Resource not found
+2023-02-22 17:44:14,499 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed 404 NOT_FOUND
+2023-02-22 17:44:14,505 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] "ERROR" dispatch for GET "/error", parameters={}
+2023-02-22 17:44:14,507 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [http-nio-8080-exec-1] Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-02-22 17:44:14,528 DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor [http-nio-8080-exec-1] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-02-22 17:44:14,528 DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor [http-nio-8080-exec-1] Writing [{timestamp=Wed Feb 22 17:44:14 EST 2023, status=404, error=Not Found, message=No message available,  (truncated)...]
+2023-02-22 17:44:14,555 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Exiting from "ERROR" dispatch, status 404
+2023-02-22 17:44:31,034 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(7)-127.0.0.1] Application shutdown requested.
+2023-02-22 18:31:20,533 INFO com.chatGpt.Etech7ChatGptServiceApplication [restartedMain] Starting Etech7ChatGptServiceApplication using Java 17.0.3 on GOGIA with PID 26064 (C:\Users\adity\Documents\workspace-spring-tool-suite-4-4.15.2.RELEASE\etech7-chatGpt-service\target\classes started by adity in C:\Users\adity\Documents\workspace-spring-tool-suite-4-4.15.2.RELEASE\etech7-chatGpt-service)
+2023-02-22 18:31:20,560 INFO com.chatGpt.Etech7ChatGptServiceApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-02-22 18:31:20,634 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-22 18:31:20,635 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-22 18:31:21,713 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-02-22 18:31:21,727 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-02-22 18:31:21,727 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.63]
+2023-02-22 18:31:21,833 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-02-22 18:31:21,834 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1198 ms
+2023-02-22 18:31:22,257 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [restartedMain] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-02-22 18:31:22,341 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [restartedMain] 3 mappings in 'requestMappingHandlerMapping'
+2023-02-22 18:31:22,343 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2023-02-22 18:31:22,366 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [restartedMain] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-02-22 18:31:22,376 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [restartedMain] ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-02-22 18:31:22,461 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-02-22 18:31:22,506 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-22 18:31:22,520 INFO com.chatGpt.Etech7ChatGptServiceApplication [restartedMain] Started Etech7ChatGptServiceApplication in 2.792 seconds (JVM running for 3.74)
+2023-02-22 18:31:41,467 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-22 18:31:41,469 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-02-22 18:31:41,470 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected StandardServletMultipartResolver
+2023-02-22 18:31:41,471 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected AcceptHeaderLocaleResolver
+2023-02-22 18:31:41,471 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected FixedThemeResolver
+2023-02-22 18:31:41,472 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@4e48cd75
+2023-02-22 18:31:41,473 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected org.springframework.web.servlet.support.SessionFlashMapManager@43dab3c
+2023-02-22 18:31:41,474 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-02-22 18:31:41,475 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 5 ms
+2023-02-22 18:31:41,665 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] GET "/", parameters={}
+2023-02-22 18:31:41,678 DEBUG org.springframework.web.servlet.view.ContentNegotiatingViewResolver [http-nio-8080-exec-1] Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2023-02-22 18:31:41,679 DEBUG org.springframework.web.servlet.view.InternalResourceView [http-nio-8080-exec-1] View name 'forward:', model {}
+2023-02-22 18:31:41,681 DEBUG org.springframework.web.servlet.view.InternalResourceView [http-nio-8080-exec-1] Forwarding to [index.html]
+2023-02-22 18:31:41,685 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] "FORWARD" dispatch for GET "/index.html", parameters={}
+2023-02-22 18:31:41,688 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [http-nio-8080-exec-1] Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-02-22 18:31:41,702 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Exiting from "FORWARD" dispatch, status 200
+2023-02-22 18:31:41,703 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed 200 OK
+2023-02-22 18:32:09,415 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] GET "/send?message=Write%20a%20paragraph%20on%20AI", parameters={masked}
+2023-02-22 18:32:09,417 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [http-nio-8080-exec-2] Mapped to com.chatGpt.controller.GptController#send(HttpServletRequest, String)
+2023-02-22 18:32:09,439 INFO com.chatGpt.controller.GptController [http-nio-8080-exec-2] requestId 5fd3dab4-04ec-4d5e-a962-5a2f3b80e1f8, ip 127.0.0.1, send a message : Write a paragraph on AI
+2023-02-22 18:32:09,441 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8080-exec-2] request url: https://api.openai.com/v1/completions, httpEntity: <ChatRequest(model=text-davinci-003, prompt=Write a paragraph on AI, maxTokens=1000, temperature=0.0, topP=1.0),[Content-Type:"application/json;charset=UTF-8", Authorization:"Bearer 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"]>
+2023-02-22 18:32:09,464 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-2] HTTP POST https://api.openai.com/v1/completions
+2023-02-22 18:32:09,514 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-2] Accept=[application/json, application/*+json]
+2023-02-22 18:32:09,526 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-2] Writing [ChatRequest(model=text-davinci-003, prompt=Write a paragraph on AI, maxTokens=1000, temperature=0.0, topP=1.0)] as "application/json;charset=UTF-8"
+2023-02-22 18:32:15,506 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-2] Response 200 OK
+2023-02-22 18:32:15,509 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-2] Reading to [com.chatGpt.dto.ChatResponse]
+2023-02-22 18:32:15,519 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8080-exec-2] response: <200,ChatResponse(id=cmpl-6mssidbpjp2lKC7AKh3eaWsJkUQQb, object=text_completion, created=+4593737-09-27, model=text-davinci-003, choices=[Choice(text=
+
+AI, or Artificial Intelligence, is a rapidly growing field of technology that is revolutionizing the way we interact with the world. AI is the ability of a computer or machine to think and learn, and it is being used in a variety of ways, from self-driving cars to medical diagnosis. AI is being used to automate mundane tasks, improve customer service, and even create new products and services. AI is also being used to improve decision-making, reduce costs, and increase efficiency. AI is a powerful tool that is transforming the way we live and work, and it is only going to become more important in the future., index=0, logprobs=null, finishReason=stop)], usage=Usage(promptTokens=5, completionTokens=128, totalTokens=133)),[Date:"Wed, 22 Feb 2023 23:32:14 GMT", Content-Type:"application/json", Content-Length:"882", Connection:"keep-alive", Access-Control-Allow-Origin:"*", Cache-Control:"no-cache, must-revalidate", Openai-Model:"text-davinci-003", Openai-Organization:"user-xbngof7ex9kgc20aeaxs8tdl", Openai-Processing-Ms:"5661", Openai-Version:"2020-10-01", Strict-Transport-Security:"max-age=15724800; includeSubDomains", X-Request-Id:"b07bb047de9f1d8f5d00bd79100854f2"]>
+2023-02-22 18:32:15,520 INFO com.chatGpt.controller.GptController [http-nio-8080-exec-2] Response--> requestId 5fd3dab4-04ec-4d5e-a962-5a2f3b80e1f8, ip 127.0.0.1, response : 
+
+AI, or Artificial Intelligence, is a rapidly growing field of technology that is revolutionizing the way we interact with the world. AI is the ability of a computer or machine to think and learn, and it is being used in a variety of ways, from self-driving cars to medical diagnosis. AI is being used to automate mundane tasks, improve customer service, and even create new products and services. AI is also being used to improve decision-making, reduce costs, and increase efficiency. AI is a powerful tool that is transforming the way we live and work, and it is only going to become more important in the future.
+2023-02-22 18:32:15,525 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor [http-nio-8080-exec-2] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-02-22 18:32:15,526 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor [http-nio-8080-exec-2] Writing [ResponseModel(code=200, message=success, data=<EOL><EOL>AI, or Artificial Intelligence, is a rapidly growing (truncated)...]
+2023-02-22 18:32:15,528 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Completed 200 OK
+2023-02-22 18:38:49,404 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(17)-127.0.0.1] Application shutdown requested.
+2023-02-22 18:38:52,825 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(18)-127.0.0.1] Application shutdown requested.

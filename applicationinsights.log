@@ -1,0 +1,22 @@
+2023-02-21 00:09:32.500-05:00 ERROR c.m.applicationinsights.agent - 
+*************************
+Application Insights Java Agent 3.4.9 startup failed (PID 37508)
+*************************
+
+Description:
+No connection string provided
+
+Action:
+Please provide connection string.
+
+2023-02-21 11:06:22.344-05:00 ERROR c.m.applicationinsights.agent - 
+*************************
+Application Insights Java Agent 3.4.9 startup failed (PID 23832)
+*************************
+
+Description:
+No connection string provided
+
+Action:
+Please provide connection string.
+

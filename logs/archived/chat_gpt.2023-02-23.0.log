@@ -1,0 +1,884 @@
+2023-02-23 18:03:10,191 INFO com.chatGpt.Etech7ChatGptServiceApplicationTests [main] Starting Etech7ChatGptServiceApplicationTests using Java 17.0.3 on GOGIA with PID 35192 (started by adity in C:\Users\adity\Documents\workspace-spring-tool-suite-4-4.15.2.RELEASE\etech7-chatGpt-service)
+2023-02-23 18:03:10,217 INFO com.chatGpt.Etech7ChatGptServiceApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2023-02-23 18:03:10,259 DEBUG org.springframework.web.context.support.GenericWebApplicationContext [main] Refreshing org.springframework.web.context.support.GenericWebApplicationContext@2c43eb8
+2023-02-23 18:03:11,320 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-02-23 18:03:11,389 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] 3 mappings in 'requestMappingHandlerMapping'
+2023-02-23 18:03:11,391 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page: class path resource [static/index.html]
+2023-02-23 18:03:11,437 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-02-23 18:03:11,453 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-02-23 18:03:11,705 INFO com.chatGpt.Etech7ChatGptServiceApplicationTests [main] Started Etech7ChatGptServiceApplicationTests in 2.047 seconds (JVM running for 2.9)
+2023-02-23 18:03:12,152 DEBUG org.springframework.web.context.support.GenericWebApplicationContext [SpringApplicationShutdownHook] Closing org.springframework.web.context.support.GenericWebApplicationContext@2c43eb8, started on Thu Feb 23 18:03:10 EST 2023
+2023-02-23 18:04:54,356 INFO com.chatGpt.Etech7ChatGptServiceApplicationTests [main] Starting Etech7ChatGptServiceApplicationTests using Java 17.0.3 on GOGIA with PID 31348 (started by adity in C:\Users\adity\Documents\workspace-spring-tool-suite-4-4.15.2.RELEASE\etech7-chatGpt-service)
+2023-02-23 18:04:54,376 INFO com.chatGpt.Etech7ChatGptServiceApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2023-02-23 18:04:54,414 DEBUG org.springframework.web.context.support.GenericWebApplicationContext [main] Refreshing org.springframework.web.context.support.GenericWebApplicationContext@67b7c170
+2023-02-23 18:04:55,424 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-02-23 18:04:55,496 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] 3 mappings in 'requestMappingHandlerMapping'
+2023-02-23 18:04:55,498 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page: class path resource [static/index.html]
+2023-02-23 18:04:55,542 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-02-23 18:04:55,557 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-02-23 18:04:55,797 INFO com.chatGpt.Etech7ChatGptServiceApplicationTests [main] Started Etech7ChatGptServiceApplicationTests in 1.973 seconds (JVM running for 2.8)
+2023-02-23 18:04:56,209 DEBUG org.springframework.web.context.support.GenericWebApplicationContext [SpringApplicationShutdownHook] Closing org.springframework.web.context.support.GenericWebApplicationContext@67b7c170, started on Thu Feb 23 18:04:54 EST 2023
+2023-02-23 18:07:16,514 INFO com.chatGpt.Etech7ChatGptServiceApplicationTests [main] Starting Etech7ChatGptServiceApplicationTests using Java 17.0.3 on GOGIA with PID 23868 (started by adity in C:\Users\adity\Documents\workspace-spring-tool-suite-4-4.15.2.RELEASE\etech7-chatGpt-service)
+2023-02-23 18:07:16,531 INFO com.chatGpt.Etech7ChatGptServiceApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2023-02-23 18:07:16,572 DEBUG org.springframework.web.context.support.GenericWebApplicationContext [main] Refreshing org.springframework.web.context.support.GenericWebApplicationContext@69da0b12
+2023-02-23 18:07:17,466 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-02-23 18:07:17,557 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] 3 mappings in 'requestMappingHandlerMapping'
+2023-02-23 18:07:17,559 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page: class path resource [static/index.html]
+2023-02-23 18:07:17,613 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-02-23 18:07:17,626 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-02-23 18:07:17,858 INFO com.chatGpt.Etech7ChatGptServiceApplicationTests [main] Started Etech7ChatGptServiceApplicationTests in 1.879 seconds (JVM running for 2.717)
+2023-02-23 18:07:18,277 DEBUG org.springframework.web.context.support.GenericWebApplicationContext [SpringApplicationShutdownHook] Closing org.springframework.web.context.support.GenericWebApplicationContext@69da0b12, started on Thu Feb 23 18:07:16 EST 2023
+2023-02-23 18:08:34,991 INFO com.chatGpt.Etech7ChatGptServiceApplicationTests [main] Starting Etech7ChatGptServiceApplicationTests using Java 17.0.3 on GOGIA with PID 34940 (started by adity in C:\Users\adity\Documents\workspace-spring-tool-suite-4-4.15.2.RELEASE\etech7-chatGpt-service)
+2023-02-23 18:08:35,006 INFO com.chatGpt.Etech7ChatGptServiceApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2023-02-23 18:08:35,037 DEBUG org.springframework.web.context.support.GenericWebApplicationContext [main] Refreshing org.springframework.web.context.support.GenericWebApplicationContext@314c8b4a
+2023-02-23 18:08:35,932 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-02-23 18:08:36,010 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] 3 mappings in 'requestMappingHandlerMapping'
+2023-02-23 18:08:36,012 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page: class path resource [static/index.html]
+2023-02-23 18:08:36,058 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-02-23 18:08:36,070 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-02-23 18:08:36,276 INFO com.chatGpt.Etech7ChatGptServiceApplicationTests [main] Started Etech7ChatGptServiceApplicationTests in 1.794 seconds (JVM running for 2.599)
+2023-02-23 18:08:36,662 DEBUG org.springframework.web.context.support.GenericWebApplicationContext [SpringApplicationShutdownHook] Closing org.springframework.web.context.support.GenericWebApplicationContext@314c8b4a, started on Thu Feb 23 18:08:35 EST 2023
+2023-02-23 18:11:22,216 INFO com.chatGpt.Etech7ChatGptServiceApplicationTests [main] Starting Etech7ChatGptServiceApplicationTests using Java 17.0.3 on GOGIA with PID 35588 (started by adity in C:\Users\adity\Documents\workspace-spring-tool-suite-4-4.15.2.RELEASE\etech7-chatGpt-service)
+2023-02-23 18:11:22,233 INFO com.chatGpt.Etech7ChatGptServiceApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2023-02-23 18:11:22,272 DEBUG org.springframework.web.context.support.GenericWebApplicationContext [main] Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5136207f
+2023-02-23 18:11:23,155 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-02-23 18:11:23,225 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] 3 mappings in 'requestMappingHandlerMapping'
+2023-02-23 18:11:23,228 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page: class path resource [static/index.html]
+2023-02-23 18:11:23,271 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-02-23 18:11:23,283 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-02-23 18:11:23,486 INFO com.chatGpt.Etech7ChatGptServiceApplicationTests [main] Started Etech7ChatGptServiceApplicationTests in 1.798 seconds (JVM running for 2.63)
+2023-02-23 18:11:23,872 DEBUG org.springframework.web.context.support.GenericWebApplicationContext [SpringApplicationShutdownHook] Closing org.springframework.web.context.support.GenericWebApplicationContext@5136207f, started on Thu Feb 23 18:11:22 EST 2023
+2023-02-23 18:15:03,847 INFO com.chatGpt.Etech7ChatGptServiceApplicationTests [main] Starting Etech7ChatGptServiceApplicationTests using Java 17.0.3 on GOGIA with PID 22556 (started by adity in C:\Users\adity\Documents\workspace-spring-tool-suite-4-4.15.2.RELEASE\etech7-chatGpt-service)
+2023-02-23 18:15:03,867 INFO com.chatGpt.Etech7ChatGptServiceApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2023-02-23 18:15:03,909 DEBUG org.springframework.web.context.support.GenericWebApplicationContext [main] Refreshing org.springframework.web.context.support.GenericWebApplicationContext@4d774249
+2023-02-23 18:15:04,994 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-02-23 18:15:05,106 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] 3 mappings in 'requestMappingHandlerMapping'
+2023-02-23 18:15:05,109 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page: class path resource [static/index.html]
+2023-02-23 18:15:05,164 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-02-23 18:15:05,178 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-02-23 18:15:05,415 INFO com.chatGpt.Etech7ChatGptServiceApplicationTests [main] Started Etech7ChatGptServiceApplicationTests in 2.097 seconds (JVM running for 2.946)
+2023-02-23 18:15:05,829 DEBUG org.springframework.web.context.support.GenericWebApplicationContext [SpringApplicationShutdownHook] Closing org.springframework.web.context.support.GenericWebApplicationContext@4d774249, started on Thu Feb 23 18:15:03 EST 2023
+2023-02-23 18:15:50,503 INFO com.chatGpt.Etech7ChatGptServiceApplication [restartedMain] Starting Etech7ChatGptServiceApplication using Java 17.0.3 on GOGIA with PID 6048 (C:\Users\adity\Documents\workspace-spring-tool-suite-4-4.15.2.RELEASE\etech7-chatGpt-service\target\classes started by adity in C:\Users\adity\Documents\workspace-spring-tool-suite-4-4.15.2.RELEASE\etech7-chatGpt-service)
+2023-02-23 18:15:50,518 INFO com.chatGpt.Etech7ChatGptServiceApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-02-23 18:15:50,556 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-23 18:15:50,557 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-23 18:15:51,159 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-02-23 18:15:51,166 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-02-23 18:15:51,166 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.63]
+2023-02-23 18:15:51,228 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-02-23 18:15:51,228 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 671 ms
+2023-02-23 18:15:51,402 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [restartedMain] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-02-23 18:15:51,453 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [restartedMain] 3 mappings in 'requestMappingHandlerMapping'
+2023-02-23 18:15:51,455 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2023-02-23 18:15:51,469 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [restartedMain] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-02-23 18:15:51,474 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [restartedMain] ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-02-23 18:15:51,520 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-02-23 18:15:51,555 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-23 18:15:51,563 INFO com.chatGpt.Etech7ChatGptServiceApplication [restartedMain] Started Etech7ChatGptServiceApplication in 1.53 seconds (JVM running for 2.161)
+2023-02-23 18:16:04,282 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-23 18:16:04,284 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-02-23 18:16:04,285 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected StandardServletMultipartResolver
+2023-02-23 18:16:04,286 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected AcceptHeaderLocaleResolver
+2023-02-23 18:16:04,288 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected FixedThemeResolver
+2023-02-23 18:16:04,290 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@3523b8a0
+2023-02-23 18:16:04,291 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected org.springframework.web.servlet.support.SessionFlashMapManager@4e650201
+2023-02-23 18:16:04,292 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-02-23 18:16:04,292 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 8 ms
+2023-02-23 18:16:04,416 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] GET "/", parameters={}
+2023-02-23 18:16:04,426 DEBUG org.springframework.web.servlet.view.ContentNegotiatingViewResolver [http-nio-8080-exec-1] Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2023-02-23 18:16:04,426 DEBUG org.springframework.web.servlet.view.InternalResourceView [http-nio-8080-exec-1] View name 'forward:', model {}
+2023-02-23 18:16:04,427 DEBUG org.springframework.web.servlet.view.InternalResourceView [http-nio-8080-exec-1] Forwarding to [index.html]
+2023-02-23 18:16:04,431 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] "FORWARD" dispatch for GET "/index.html", parameters={}
+2023-02-23 18:16:04,434 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [http-nio-8080-exec-1] Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-02-23 18:16:04,446 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Exiting from "FORWARD" dispatch, status 200
+2023-02-23 18:16:04,448 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed 200 OK
+2023-02-23 18:16:04,802 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] GET "/ChatGPT.jpeg", parameters={}
+2023-02-23 18:16:04,802 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [http-nio-8080-exec-2] Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-02-23 18:16:04,804 DEBUG org.springframework.web.servlet.resource.ResourceHttpRequestHandler [http-nio-8080-exec-2] Resource not found
+2023-02-23 18:16:04,804 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Completed 404 NOT_FOUND
+2023-02-23 18:16:04,805 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] "ERROR" dispatch for GET "/error", parameters={}
+2023-02-23 18:16:04,807 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [http-nio-8080-exec-2] Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-02-23 18:16:04,822 DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor [http-nio-8080-exec-2] Using 'application/json;q=0.8', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-02-23 18:16:04,823 DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor [http-nio-8080-exec-2] Writing [{timestamp=Thu Feb 23 18:16:04 EST 2023, status=404, error=Not Found, message=No message available,  (truncated)...]
+2023-02-23 18:16:04,843 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Exiting from "ERROR" dispatch, status 404
+2023-02-23 18:16:12,380 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-3] GET "/send?message=maven%20in%20one%20line", parameters={masked}
+2023-02-23 18:16:12,381 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [http-nio-8080-exec-3] Mapped to com.chatGpt.controller.GptController#send(HttpServletRequest, String)
+2023-02-23 18:16:12,389 INFO com.chatGpt.controller.GptController [http-nio-8080-exec-3] requestId 43a43be7-7cd5-49c0-9c7e-ebf221e74c48, ip 127.0.0.1, send a message : maven in one line
+2023-02-23 18:16:12,391 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8080-exec-3] request url: https://api.openai.com/v1/completions, httpEntity: <ChatRequest(model=text-davinci-003, prompt=maven in one line, maxTokens=1000, temperature=0.0, topP=1.0),[Content-Type:"application/json;charset=UTF-8", Authorization:"Bearer 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"]>
+2023-02-23 18:16:12,408 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-3] HTTP POST https://api.openai.com/v1/completions
+2023-02-23 18:16:12,433 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-3] Accept=[application/json, application/*+json]
+2023-02-23 18:16:12,439 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-3] Writing [ChatRequest(model=text-davinci-003, prompt=maven in one line, maxTokens=1000, temperature=0.0, topP=1.0)] as "application/json;charset=UTF-8"
+2023-02-23 18:16:14,328 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-3] Response 200 OK
+2023-02-23 18:16:14,329 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-3] Reading to [com.chatGpt.dto.ChatResponse]
+2023-02-23 18:16:14,337 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8080-exec-3] response: <200,ChatResponse(id=cmpl-6nF6qUUG4M2hbOvUVlpQRYnOgIVHD, object=text_completion, created=+4593971-09-05, model=text-davinci-003, choices=[Choice(text=
+
+Maven is a build automation tool used primarily for Java projects, which helps to manage dependencies and provide a uniform build system., index=0, logprobs=null, finishReason=stop)], usage=Usage(promptTokens=5, completionTokens=27, totalTokens=32)),[Date:"Thu, 23 Feb 2023 23:16:13 GMT", Content-Type:"application/json", Content-Length:"402", Connection:"keep-alive", Access-Control-Allow-Origin:"*", Cache-Control:"no-cache, must-revalidate", Openai-Model:"text-davinci-003", Openai-Organization:"user-xbngof7ex9kgc20aeaxs8tdl", Openai-Processing-Ms:"1556", Openai-Version:"2020-10-01", Strict-Transport-Security:"max-age=15724800; includeSubDomains", X-Request-Id:"d33428362c5a1d32a6c47dcf3e1a7fa6"]>
+2023-02-23 18:16:14,337 INFO com.chatGpt.controller.GptController [http-nio-8080-exec-3] Response--> requestId 43a43be7-7cd5-49c0-9c7e-ebf221e74c48, ip 127.0.0.1, response : 
+
+Maven is a build automation tool used primarily for Java projects, which helps to manage dependencies and provide a uniform build system.
+2023-02-23 18:16:14,340 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor [http-nio-8080-exec-3] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-02-23 18:16:14,341 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor [http-nio-8080-exec-3] Writing [ResponseModel(code=200, message=success, data=<EOL><EOL>Maven is a build automation tool used primarily for  (truncated)...]
+2023-02-23 18:16:14,342 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-3] Completed 200 OK
+2023-02-23 18:16:32,238 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-4] GET "/send?message=list%20all%20the%20question%20I%20asked%20you%20before", parameters={masked}
+2023-02-23 18:16:32,239 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [http-nio-8080-exec-4] Mapped to com.chatGpt.controller.GptController#send(HttpServletRequest, String)
+2023-02-23 18:16:32,240 INFO com.chatGpt.controller.GptController [http-nio-8080-exec-4] requestId 04e90347-3861-4ba5-871e-4f78a738fd81, ip 127.0.0.1, send a message : list all the question I asked you before
+2023-02-23 18:16:32,240 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8080-exec-4] request url: https://api.openai.com/v1/completions, httpEntity: <ChatRequest(model=text-davinci-003, prompt=list all the question I asked you before, maxTokens=1000, temperature=0.0, topP=1.0),[Content-Type:"application/json;charset=UTF-8", Authorization:"Bearer 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"]>
+2023-02-23 18:16:32,242 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-4] HTTP POST https://api.openai.com/v1/completions
+2023-02-23 18:16:32,243 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-4] Accept=[application/json, application/*+json]
+2023-02-23 18:16:32,245 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-4] Writing [ChatRequest(model=text-davinci-003, prompt=list all the question I asked you before, maxTokens=1000, temperature=0.0, topP=1.0)] as "application/json;charset=UTF-8"
+2023-02-23 18:16:36,228 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-4] Response 200 OK
+2023-02-23 18:16:36,229 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-4] Reading to [com.chatGpt.dto.ChatResponse]
+2023-02-23 18:16:36,231 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8080-exec-4] response: <200,ChatResponse(id=cmpl-6nF7AtDBbeDZFHHl7riy9wqfBbcyF, object=text_completion, created=+4593971-09-25, model=text-davinci-003, choices=[Choice(text=
+
+1. What is your name?
+2. How old are you?
+3. Where do you live?
+4. What do you do for a living?
+5. What are your hobbies?
+6. What is your favorite food?
+7. What is your favorite color?
+8. What is your favorite movie?
+9. What is your favorite book?
+10. What is your favorite music genre?, index=0, logprobs=null, finishReason=stop)], usage=Usage(promptTokens=8, completionTokens=90, totalTokens=98)),[Date:"Thu, 23 Feb 2023 23:16:35 GMT", Content-Type:"application/json", Content-Length:"560", Connection:"keep-alive", Access-Control-Allow-Origin:"*", Cache-Control:"no-cache, must-revalidate", Openai-Model:"text-davinci-003", Openai-Organization:"user-xbngof7ex9kgc20aeaxs8tdl", Openai-Processing-Ms:"3746", Openai-Version:"2020-10-01", Strict-Transport-Security:"max-age=15724800; includeSubDomains", X-Request-Id:"abc5ed5934d694bde5169ac861d09ff7"]>
+2023-02-23 18:16:36,231 INFO com.chatGpt.controller.GptController [http-nio-8080-exec-4] Response--> requestId 04e90347-3861-4ba5-871e-4f78a738fd81, ip 127.0.0.1, response : 
+
+1. What is your name?
+2. How old are you?
+3. Where do you live?
+4. What do you do for a living?
+5. What are your hobbies?
+6. What is your favorite food?
+7. What is your favorite color?
+8. What is your favorite movie?
+9. What is your favorite book?
+10. What is your favorite music genre?
+2023-02-23 18:16:36,232 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor [http-nio-8080-exec-4] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-02-23 18:16:36,233 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor [http-nio-8080-exec-4] Writing [ResponseModel(code=200, message=success, data=<EOL><EOL>1. What is your name?<EOL>2. How old are you?<EOL>3. Where d (truncated)...]
+2023-02-23 18:16:36,233 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-4] Completed 200 OK
+2023-02-23 18:16:49,631 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-5] GET "/send?message=what%20was%20my%20last%20question%20?", parameters={masked}
+2023-02-23 18:16:49,632 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [http-nio-8080-exec-5] Mapped to com.chatGpt.controller.GptController#send(HttpServletRequest, String)
+2023-02-23 18:16:49,633 INFO com.chatGpt.controller.GptController [http-nio-8080-exec-5] requestId 9c83acbb-bde3-4fcf-8f16-497454a0bc79, ip 127.0.0.1, send a message : what was my last question ?
+2023-02-23 18:16:49,634 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8080-exec-5] request url: https://api.openai.com/v1/completions, httpEntity: <ChatRequest(model=text-davinci-003, prompt=what was my last question ?, maxTokens=1000, temperature=0.0, topP=1.0),[Content-Type:"application/json;charset=UTF-8", Authorization:"Bearer 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"]>
+2023-02-23 18:16:49,636 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-5] HTTP POST https://api.openai.com/v1/completions
+2023-02-23 18:16:49,638 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-5] Accept=[application/json, application/*+json]
+2023-02-23 18:16:49,639 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-5] Writing [ChatRequest(model=text-davinci-003, prompt=what was my last question ?, maxTokens=1000, temperature=0.0, topP=1.0)] as "application/json;charset=UTF-8"
+2023-02-23 18:16:50,965 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-5] Response 200 OK
+2023-02-23 18:16:50,966 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-5] Reading to [com.chatGpt.dto.ChatResponse]
+2023-02-23 18:16:50,967 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8080-exec-5] response: <200,ChatResponse(id=cmpl-6nF7R9uEfB4aEZNJMmRj2zrphQhQB, object=text_completion, created=+4593971-10-12, model=text-davinci-003, choices=[Choice(text=
+
+Your last question was "What is the capital of India?"., index=0, logprobs=null, finishReason=stop)], usage=Usage(promptTokens=6, completionTokens=14, totalTokens=20)),[Date:"Thu, 23 Feb 2023 23:16:50 GMT", Content-Type:"application/json", Content-Length:"322", Connection:"keep-alive", Access-Control-Allow-Origin:"*", Cache-Control:"no-cache, must-revalidate", Openai-Model:"text-davinci-003", Openai-Organization:"user-xbngof7ex9kgc20aeaxs8tdl", Openai-Processing-Ms:"1087", Openai-Version:"2020-10-01", Strict-Transport-Security:"max-age=15724800; includeSubDomains", X-Request-Id:"0af969d18420d84944805ba3eea81eba"]>
+2023-02-23 18:16:50,967 INFO com.chatGpt.controller.GptController [http-nio-8080-exec-5] Response--> requestId 9c83acbb-bde3-4fcf-8f16-497454a0bc79, ip 127.0.0.1, response : 
+
+Your last question was "What is the capital of India?".
+2023-02-23 18:16:50,968 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor [http-nio-8080-exec-5] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-02-23 18:16:50,968 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor [http-nio-8080-exec-5] Writing [ResponseModel(code=200, message=success, data=<EOL><EOL>Your last question was "What is the capital of India (truncated)...]
+2023-02-23 18:16:50,969 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-5] Completed 200 OK
+2023-02-23 18:17:05,432 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-7] GET "/send?message=No%20the%20one%20which%20I%20asked%20you", parameters={masked}
+2023-02-23 18:17:05,433 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [http-nio-8080-exec-7] Mapped to com.chatGpt.controller.GptController#send(HttpServletRequest, String)
+2023-02-23 18:17:05,433 INFO com.chatGpt.controller.GptController [http-nio-8080-exec-7] requestId 0827f93e-e3df-4758-92ec-62812cb26aa5, ip 127.0.0.1, send a message : No the one which I asked you
+2023-02-23 18:17:05,434 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8080-exec-7] request url: https://api.openai.com/v1/completions, httpEntity: <ChatRequest(model=text-davinci-003, prompt=No the one which I asked you, maxTokens=1000, temperature=0.0, topP=1.0),[Content-Type:"application/json;charset=UTF-8", Authorization:"Bearer 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"]>
+2023-02-23 18:17:05,437 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-7] HTTP POST https://api.openai.com/v1/completions
+2023-02-23 18:17:05,440 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-7] Accept=[application/json, application/*+json]
+2023-02-23 18:17:05,441 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-7] Writing [ChatRequest(model=text-davinci-003, prompt=No the one which I asked you, maxTokens=1000, temperature=0.0, topP=1.0)] as "application/json;charset=UTF-8"
+2023-02-23 18:17:06,637 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-7] Response 200 OK
+2023-02-23 18:17:06,638 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-7] Reading to [com.chatGpt.dto.ChatResponse]
+2023-02-23 18:17:06,639 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8080-exec-7] response: <200,ChatResponse(id=cmpl-6nF7hrCMXouStGf5j6ORb6Bn8ixW3, object=text_completion, created=+4593971-10-28, model=text-davinci-003, choices=[Choice(text=
+
+I'm sorry, I'm not sure which one you asked me. Could you please clarify your question?, index=0, logprobs=null, finishReason=stop)], usage=Usage(promptTokens=7, completionTokens=23, totalTokens=30)),[Date:"Thu, 23 Feb 2023 23:17:06 GMT", Content-Type:"application/json", Content-Length:"352", Connection:"keep-alive", Access-Control-Allow-Origin:"*", Cache-Control:"no-cache, must-revalidate", Openai-Model:"text-davinci-003", Openai-Organization:"user-xbngof7ex9kgc20aeaxs8tdl", Openai-Processing-Ms:"942", Openai-Version:"2020-10-01", Strict-Transport-Security:"max-age=15724800; includeSubDomains", X-Request-Id:"59a1804b30f13137ff4d7006427d99b6"]>
+2023-02-23 18:17:06,639 INFO com.chatGpt.controller.GptController [http-nio-8080-exec-7] Response--> requestId 0827f93e-e3df-4758-92ec-62812cb26aa5, ip 127.0.0.1, response : 
+
+I'm sorry, I'm not sure which one you asked me. Could you please clarify your question?
+2023-02-23 18:17:06,640 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor [http-nio-8080-exec-7] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-02-23 18:17:06,640 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor [http-nio-8080-exec-7] Writing [ResponseModel(code=200, message=success, data=<EOL><EOL>I'm sorry, I'm not sure which one you asked me. Coul (truncated)...]
+2023-02-23 18:17:06,641 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-7] Completed 200 OK
+2023-02-23 18:17:26,704 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-8] GET "/send?message=really?", parameters={masked}
+2023-02-23 18:17:26,705 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [http-nio-8080-exec-8] Mapped to com.chatGpt.controller.GptController#send(HttpServletRequest, String)
+2023-02-23 18:17:26,706 INFO com.chatGpt.controller.GptController [http-nio-8080-exec-8] requestId e477eccc-f327-4a10-ba8b-3c8d6d600bfb, ip 127.0.0.1, send a message : really?
+2023-02-23 18:17:26,706 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8080-exec-8] request url: https://api.openai.com/v1/completions, httpEntity: <ChatRequest(model=text-davinci-003, prompt=really?, maxTokens=1000, temperature=0.0, topP=1.0),[Content-Type:"application/json;charset=UTF-8", Authorization:"Bearer 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"]>
+2023-02-23 18:17:26,708 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-8] HTTP POST https://api.openai.com/v1/completions
+2023-02-23 18:17:26,710 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-8] Accept=[application/json, application/*+json]
+2023-02-23 18:17:26,710 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-8] Writing [ChatRequest(model=text-davinci-003, prompt=really?, maxTokens=1000, temperature=0.0, topP=1.0)] as "application/json;charset=UTF-8"
+2023-02-23 18:17:27,394 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-8] Response 200 OK
+2023-02-23 18:17:27,394 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-8] Reading to [com.chatGpt.dto.ChatResponse]
+2023-02-23 18:17:27,395 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8080-exec-8] response: <200,ChatResponse(id=cmpl-6nF82WE5DwDFCcoXh70kihfKntltG, object=text_completion, created=+4593971-11-18, model=text-davinci-003, choices=[Choice(text=
+
+Yes, really., index=0, logprobs=null, finishReason=stop)], usage=Usage(promptTokens=2, completionTokens=6, totalTokens=8)),[Date:"Thu, 23 Feb 2023 23:17:26 GMT", Content-Type:"application/json", Content-Length:"275", Connection:"keep-alive", Access-Control-Allow-Origin:"*", Cache-Control:"no-cache, must-revalidate", Openai-Model:"text-davinci-003", Openai-Organization:"user-xbngof7ex9kgc20aeaxs8tdl", Openai-Processing-Ms:"444", Openai-Version:"2020-10-01", Strict-Transport-Security:"max-age=15724800; includeSubDomains", X-Request-Id:"0fdebe984debd11107297a365ca7e16d"]>
+2023-02-23 18:17:27,396 INFO com.chatGpt.controller.GptController [http-nio-8080-exec-8] Response--> requestId e477eccc-f327-4a10-ba8b-3c8d6d600bfb, ip 127.0.0.1, response : 
+
+Yes, really.
+2023-02-23 18:17:27,397 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor [http-nio-8080-exec-8] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-02-23 18:17:27,397 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor [http-nio-8080-exec-8] Writing [ResponseModel(code=200, message=success, data=<EOL><EOL>Yes, really.)]
+2023-02-23 18:17:27,398 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-8] Completed 200 OK
+2023-02-23 18:17:58,493 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-9] GET "/send?message=figure%20out%20by%20yourself,%20search%20all%20the%20history%20ralted%20to%20my%20accoiunt%20and%20give%20me%20all%20the%20questions%20I%20prompeted%20to%20chatgpt", parameters={masked}
+2023-02-23 18:17:58,494 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [http-nio-8080-exec-9] Mapped to com.chatGpt.controller.GptController#send(HttpServletRequest, String)
+2023-02-23 18:17:58,495 INFO com.chatGpt.controller.GptController [http-nio-8080-exec-9] requestId 9f7765b9-ecb8-464e-8cf6-e8af45ebe4bc, ip 127.0.0.1, send a message : figure out by yourself, search all the history ralted to my accoiunt and give me all the questions I prompeted to chatgpt
+2023-02-23 18:17:58,496 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8080-exec-9] request url: https://api.openai.com/v1/completions, httpEntity: <ChatRequest(model=text-davinci-003, prompt=figure out by yourself, search all the history ralted to my accoiunt and give me all the questions I prompeted to chatgpt, maxTokens=1000, temperature=0.0, topP=1.0),[Content-Type:"application/json;charset=UTF-8", Authorization:"Bearer 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"]>
+2023-02-23 18:17:58,498 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-9] HTTP POST https://api.openai.com/v1/completions
+2023-02-23 18:17:58,499 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-9] Accept=[application/json, application/*+json]
+2023-02-23 18:17:58,500 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-9] Writing [ChatRequest(model=text-davinci-003, prompt=figure out by yourself, search all the history ralted to my accoiunt and give me all the questions I prompeted to chatgpt, maxTokens=1000, temperature=0.0, topP=1.0)] as "application/json;charset=UTF-8"
+2023-02-23 18:18:00,349 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-9] Response 200 OK
+2023-02-23 18:18:00,350 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-9] Reading to [com.chatGpt.dto.ChatResponse]
+2023-02-23 18:18:00,350 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8080-exec-9] response: <200,ChatResponse(id=cmpl-6nF8YLo80EKBaDNJ6yniEMNUfUnMP, object=text_completion, created=+4593971-12-20, model=text-davinci-003, choices=[Choice(text=
+
+Unfortunately, this is not something that can be done. Chatbot conversations are not typically stored in a way that can be searched and retrieved., index=0, logprobs=null, finishReason=stop)], usage=Usage(promptTokens=30, completionTokens=30, totalTokens=60)),[Date:"Thu, 23 Feb 2023 23:17:59 GMT", Content-Type:"application/json", Content-Length:"412", Connection:"keep-alive", Access-Control-Allow-Origin:"*", Cache-Control:"no-cache, must-revalidate", Openai-Model:"text-davinci-003", Openai-Organization:"user-xbngof7ex9kgc20aeaxs8tdl", Openai-Processing-Ms:"1648", Openai-Version:"2020-10-01", Strict-Transport-Security:"max-age=15724800; includeSubDomains", X-Request-Id:"4264d863d07a9abbc9f4567f0a8ad4cc"]>
+2023-02-23 18:18:00,351 INFO com.chatGpt.controller.GptController [http-nio-8080-exec-9] Response--> requestId 9f7765b9-ecb8-464e-8cf6-e8af45ebe4bc, ip 127.0.0.1, response : 
+
+Unfortunately, this is not something that can be done. Chatbot conversations are not typically stored in a way that can be searched and retrieved.
+2023-02-23 18:18:00,351 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor [http-nio-8080-exec-9] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-02-23 18:18:00,351 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor [http-nio-8080-exec-9] Writing [ResponseModel(code=200, message=success, data=<EOL><EOL>Unfortunately, this is not something that can be don (truncated)...]
+2023-02-23 18:18:00,352 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-9] Completed 200 OK
+2023-02-23 18:18:26,433 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-10] GET "/send?message=all%20the%20converstions%20are%20not%20SAVED%20?", parameters={masked}
+2023-02-23 18:18:26,434 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [http-nio-8080-exec-10] Mapped to com.chatGpt.controller.GptController#send(HttpServletRequest, String)
+2023-02-23 18:18:26,435 INFO com.chatGpt.controller.GptController [http-nio-8080-exec-10] requestId 5fddc6e5-63eb-40f2-a380-4b850214e542, ip 127.0.0.1, send a message : all the converstions are not SAVED ?
+2023-02-23 18:18:26,435 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8080-exec-10] request url: https://api.openai.com/v1/completions, httpEntity: <ChatRequest(model=text-davinci-003, prompt=all the converstions are not SAVED ?, maxTokens=1000, temperature=0.0, topP=1.0),[Content-Type:"application/json;charset=UTF-8", Authorization:"Bearer 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"]>
+2023-02-23 18:18:26,438 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-10] HTTP POST https://api.openai.com/v1/completions
+2023-02-23 18:18:26,440 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-10] Accept=[application/json, application/*+json]
+2023-02-23 18:18:26,441 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-10] Writing [ChatRequest(model=text-davinci-003, prompt=all the converstions are not SAVED ?, maxTokens=1000, temperature=0.0, topP=1.0)] as "application/json;charset=UTF-8"
+2023-02-23 18:18:28,789 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-10] Response 200 OK
+2023-02-23 18:18:28,790 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-10] Reading to [com.chatGpt.dto.ChatResponse]
+2023-02-23 18:18:28,791 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8080-exec-10] response: <200,ChatResponse(id=cmpl-6nF90w0cdt8yg59FGS99hJjLOXuY3, object=text_completion, created=+4593972-01-17, model=text-davinci-003, choices=[Choice(text=
+
+No, not all conversations are saved. Depending on the platform or app you are using, some conversations may be saved and some may not. It is important to check the settings of the platform or app you are using to determine if conversations are being saved., index=0, logprobs=null, finishReason=stop)], usage=Usage(promptTokens=11, completionTokens=53, totalTokens=64)),[Date:"Thu, 23 Feb 2023 23:18:28 GMT", Content-Type:"application/json", Content-Length:"522", Connection:"keep-alive", Access-Control-Allow-Origin:"*", Cache-Control:"no-cache, must-revalidate", Openai-Model:"text-davinci-003", Openai-Organization:"user-xbngof7ex9kgc20aeaxs8tdl", Openai-Processing-Ms:"2162", Openai-Version:"2020-10-01", Strict-Transport-Security:"max-age=15724800; includeSubDomains", X-Request-Id:"e3a788f07518834172e45c37aaa082be"]>
+2023-02-23 18:18:28,792 INFO com.chatGpt.controller.GptController [http-nio-8080-exec-10] Response--> requestId 5fddc6e5-63eb-40f2-a380-4b850214e542, ip 127.0.0.1, response : 
+
+No, not all conversations are saved. Depending on the platform or app you are using, some conversations may be saved and some may not. It is important to check the settings of the platform or app you are using to determine if conversations are being saved.
+2023-02-23 18:18:28,792 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor [http-nio-8080-exec-10] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-02-23 18:18:28,793 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor [http-nio-8080-exec-10] Writing [ResponseModel(code=200, message=success, data=<EOL><EOL>No, not all conversations are saved. Depending on th (truncated)...]
+2023-02-23 18:18:28,794 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-10] Completed 200 OK
+2023-02-23 18:18:55,141 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] GET "/send?message=How%20can%20I%20knoe%20if%20I%27m%20suing%20an%20API%20wether%20my%20chat%20is%20been%20saved%20or%20not", parameters={masked}
+2023-02-23 18:18:55,142 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [http-nio-8080-exec-1] Mapped to com.chatGpt.controller.GptController#send(HttpServletRequest, String)
+2023-02-23 18:18:55,143 INFO com.chatGpt.controller.GptController [http-nio-8080-exec-1] requestId 57149be0-6fb8-4cd3-b35c-434f1d500306, ip 127.0.0.1, send a message : How can I knoe if I'm suing an API wether my chat is been saved or not
+2023-02-23 18:18:55,144 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8080-exec-1] request url: https://api.openai.com/v1/completions, httpEntity: <ChatRequest(model=text-davinci-003, prompt=How can I knoe if I'm suing an API wether my chat is been saved or not, maxTokens=1000, temperature=0.0, topP=1.0),[Content-Type:"application/json;charset=UTF-8", Authorization:"Bearer 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"]>
+2023-02-23 18:18:55,146 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-1] HTTP POST https://api.openai.com/v1/completions
+2023-02-23 18:18:55,148 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-1] Accept=[application/json, application/*+json]
+2023-02-23 18:18:55,150 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-1] Writing [ChatRequest(model=text-davinci-003, prompt=How can I knoe if I'm suing an API wether my chat is been saved or not, maxTokens=1000, temperature=0.0, topP=1.0)] as "application/json;charset=UTF-8"
+2023-02-23 18:18:57,000 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-1] Response 200 OK
+2023-02-23 18:18:57,001 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-1] Reading to [com.chatGpt.dto.ChatResponse]
+2023-02-23 18:18:57,001 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8080-exec-1] response: <200,ChatResponse(id=cmpl-6nF9TSrQJsk4blS485TV8f3FE4TI7, object=text_completion, created=+4593972-02-15, model=text-davinci-003, choices=[Choice(text=
+
+You can check the API documentation to see if the API provides any methods for saving chat data. If not, you may need to implement your own solution for saving chat data., index=0, logprobs=null, finishReason=stop)], usage=Usage(promptTokens=20, completionTokens=37, totalTokens=57)),[Date:"Thu, 23 Feb 2023 23:18:56 GMT", Content-Type:"application/json", Content-Length:"436", Connection:"keep-alive", Access-Control-Allow-Origin:"*", Cache-Control:"no-cache, must-revalidate", Openai-Model:"text-davinci-003", Openai-Organization:"user-xbngof7ex9kgc20aeaxs8tdl", Openai-Processing-Ms:"1605", Openai-Version:"2020-10-01", Strict-Transport-Security:"max-age=15724800; includeSubDomains", X-Request-Id:"efc1abef3dc369887d08abb2ea9a1219"]>
+2023-02-23 18:18:57,002 INFO com.chatGpt.controller.GptController [http-nio-8080-exec-1] Response--> requestId 57149be0-6fb8-4cd3-b35c-434f1d500306, ip 127.0.0.1, response : 
+
+You can check the API documentation to see if the API provides any methods for saving chat data. If not, you may need to implement your own solution for saving chat data.
+2023-02-23 18:18:57,002 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor [http-nio-8080-exec-1] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-02-23 18:18:57,003 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor [http-nio-8080-exec-1] Writing [ResponseModel(code=200, message=success, data=<EOL><EOL>You can check the API documentation to see if the AP (truncated)...]
+2023-02-23 18:18:57,003 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed 200 OK
+2023-02-23 18:19:16,447 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] GET "/send?message=ok%20fine", parameters={masked}
+2023-02-23 18:19:16,448 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [http-nio-8080-exec-2] Mapped to com.chatGpt.controller.GptController#send(HttpServletRequest, String)
+2023-02-23 18:19:16,449 INFO com.chatGpt.controller.GptController [http-nio-8080-exec-2] requestId 4f94983e-d96c-4139-a56f-435dba315575, ip 127.0.0.1, send a message : ok fine
+2023-02-23 18:19:16,450 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8080-exec-2] request url: https://api.openai.com/v1/completions, httpEntity: <ChatRequest(model=text-davinci-003, prompt=ok fine, maxTokens=1000, temperature=0.0, topP=1.0),[Content-Type:"application/json;charset=UTF-8", Authorization:"Bearer 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"]>
+2023-02-23 18:19:16,451 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-2] HTTP POST https://api.openai.com/v1/completions
+2023-02-23 18:19:16,453 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-2] Accept=[application/json, application/*+json]
+2023-02-23 18:19:16,455 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-2] Writing [ChatRequest(model=text-davinci-003, prompt=ok fine, maxTokens=1000, temperature=0.0, topP=1.0)] as "application/json;charset=UTF-8"
+2023-02-23 18:19:17,329 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-2] Response 200 OK
+2023-02-23 18:19:17,330 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-2] Reading to [com.chatGpt.dto.ChatResponse]
+2023-02-23 18:19:17,331 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8080-exec-2] response: <200,ChatResponse(id=cmpl-6nF9orE0N6rDcEQjfawgr27wfO6yG, object=text_completion, created=+4593972-03-07, model=text-davinci-003, choices=[Choice(text=
+
+No problem. Is there anything else I can help you with?, index=0, logprobs=null, finishReason=stop)], usage=Usage(promptTokens=2, completionTokens=15, totalTokens=17)),[Date:"Thu, 23 Feb 2023 23:19:16 GMT", Content-Type:"application/json", Content-Length:"320", Connection:"keep-alive", Access-Control-Allow-Origin:"*", Cache-Control:"no-cache, must-revalidate", Openai-Model:"text-davinci-003", Openai-Organization:"user-xbngof7ex9kgc20aeaxs8tdl", Openai-Processing-Ms:"706", Openai-Version:"2020-10-01", Strict-Transport-Security:"max-age=15724800; includeSubDomains", X-Request-Id:"31b81ca466f09fb7702c291ae5de850f"]>
+2023-02-23 18:19:17,332 INFO com.chatGpt.controller.GptController [http-nio-8080-exec-2] Response--> requestId 4f94983e-d96c-4139-a56f-435dba315575, ip 127.0.0.1, response : 
+
+No problem. Is there anything else I can help you with?
+2023-02-23 18:19:17,333 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor [http-nio-8080-exec-2] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-02-23 18:19:17,333 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor [http-nio-8080-exec-2] Writing [ResponseModel(code=200, message=success, data=<EOL><EOL>No problem. Is there anything else I can help you wi (truncated)...]
+2023-02-23 18:19:17,336 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Completed 200 OK
+2023-02-23 18:19:24,929 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-3] GET "/send?message=whats%20your%20name", parameters={masked}
+2023-02-23 18:19:24,930 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [http-nio-8080-exec-3] Mapped to com.chatGpt.controller.GptController#send(HttpServletRequest, String)
+2023-02-23 18:19:24,931 INFO com.chatGpt.controller.GptController [http-nio-8080-exec-3] requestId 1b38e881-d8c9-4f1f-b693-d997509e7e7e, ip 127.0.0.1, send a message : whats your name
+2023-02-23 18:19:24,932 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8080-exec-3] request url: https://api.openai.com/v1/completions, httpEntity: <ChatRequest(model=text-davinci-003, prompt=whats your name, maxTokens=1000, temperature=0.0, topP=1.0),[Content-Type:"application/json;charset=UTF-8", Authorization:"Bearer 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"]>
+2023-02-23 18:19:24,933 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-3] HTTP POST https://api.openai.com/v1/completions
+2023-02-23 18:19:24,935 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-3] Accept=[application/json, application/*+json]
+2023-02-23 18:19:24,936 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-3] Writing [ChatRequest(model=text-davinci-003, prompt=whats your name, maxTokens=1000, temperature=0.0, topP=1.0)] as "application/json;charset=UTF-8"
+2023-02-23 18:19:25,731 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-3] Response 200 OK
+2023-02-23 18:19:25,731 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-3] Reading to [com.chatGpt.dto.ChatResponse]
+2023-02-23 18:19:25,732 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8080-exec-3] response: <200,ChatResponse(id=cmpl-6nF9w7Wbz178c4FAy5Jt8Ktx9EwMv, object=text_completion, created=+4593972-03-15, model=text-davinci-003, choices=[Choice(text=
+
+My name is John., index=0, logprobs=null, finishReason=stop)], usage=Usage(promptTokens=4, completionTokens=7, totalTokens=11)),[Date:"Thu, 23 Feb 2023 23:19:25 GMT", Content-Type:"application/json", Content-Length:"280", Connection:"keep-alive", Access-Control-Allow-Origin:"*", Cache-Control:"no-cache, must-revalidate", Openai-Model:"text-davinci-003", Openai-Organization:"user-xbngof7ex9kgc20aeaxs8tdl", Openai-Processing-Ms:"632", Openai-Version:"2020-10-01", Strict-Transport-Security:"max-age=15724800; includeSubDomains", X-Request-Id:"5c299d85dd6fc649d2e83348ec69abe0"]>
+2023-02-23 18:19:25,733 INFO com.chatGpt.controller.GptController [http-nio-8080-exec-3] Response--> requestId 1b38e881-d8c9-4f1f-b693-d997509e7e7e, ip 127.0.0.1, response : 
+
+My name is John.
+2023-02-23 18:19:25,733 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor [http-nio-8080-exec-3] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-02-23 18:19:25,733 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor [http-nio-8080-exec-3] Writing [ResponseModel(code=200, message=success, data=<EOL><EOL>My name is John.)]
+2023-02-23 18:19:25,734 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-3] Completed 200 OK
+2023-02-23 18:19:34,011 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-4] GET "/send?message=and%20whats%20my%20name", parameters={masked}
+2023-02-23 18:19:34,013 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [http-nio-8080-exec-4] Mapped to com.chatGpt.controller.GptController#send(HttpServletRequest, String)
+2023-02-23 18:19:34,013 INFO com.chatGpt.controller.GptController [http-nio-8080-exec-4] requestId 05552e01-cb15-4b0e-a40a-81d6bb648991, ip 127.0.0.1, send a message : and whats my name
+2023-02-23 18:19:34,014 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8080-exec-4] request url: https://api.openai.com/v1/completions, httpEntity: <ChatRequest(model=text-davinci-003, prompt=and whats my name, maxTokens=1000, temperature=0.0, topP=1.0),[Content-Type:"application/json;charset=UTF-8", Authorization:"Bearer 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"]>
+2023-02-23 18:19:34,015 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-4] HTTP POST https://api.openai.com/v1/completions
+2023-02-23 18:19:34,017 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-4] Accept=[application/json, application/*+json]
+2023-02-23 18:19:34,018 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-4] Writing [ChatRequest(model=text-davinci-003, prompt=and whats my name, maxTokens=1000, temperature=0.0, topP=1.0)] as "application/json;charset=UTF-8"
+2023-02-23 18:19:35,041 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-4] Response 200 OK
+2023-02-23 18:19:35,041 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-4] Reading to [com.chatGpt.dto.ChatResponse]
+2023-02-23 18:19:35,042 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8080-exec-4] response: <200,ChatResponse(id=cmpl-6nFA5se9MyTRPzcC6jjwm6mKxyFcv, object=text_completion, created=+4593972-03-24, model=text-davinci-003, choices=[Choice(text=
+
+Your name is whatever you want it to be!, index=0, logprobs=null, finishReason=stop)], usage=Usage(promptTokens=4, completionTokens=12, totalTokens=16)),[Date:"Thu, 23 Feb 2023 23:19:34 GMT", Content-Type:"application/json", Content-Length:"305", Connection:"keep-alive", Access-Control-Allow-Origin:"*", Cache-Control:"no-cache, must-revalidate", Openai-Model:"text-davinci-003", Openai-Organization:"user-xbngof7ex9kgc20aeaxs8tdl", Openai-Processing-Ms:"831", Openai-Version:"2020-10-01", Strict-Transport-Security:"max-age=15724800; includeSubDomains", X-Request-Id:"74514c214b1cb01c8d81e1c7667efc8d"]>
+2023-02-23 18:19:35,043 INFO com.chatGpt.controller.GptController [http-nio-8080-exec-4] Response--> requestId 05552e01-cb15-4b0e-a40a-81d6bb648991, ip 127.0.0.1, response : 
+
+Your name is whatever you want it to be!
+2023-02-23 18:19:35,043 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor [http-nio-8080-exec-4] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-02-23 18:19:35,044 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor [http-nio-8080-exec-4] Writing [ResponseModel(code=200, message=success, data=<EOL><EOL>Your name is whatever you want it to be!)]
+2023-02-23 18:19:35,045 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-4] Completed 200 OK
+2023-02-23 18:19:40,739 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-5] GET "/send?message=sorry?", parameters={masked}
+2023-02-23 18:19:40,740 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [http-nio-8080-exec-5] Mapped to com.chatGpt.controller.GptController#send(HttpServletRequest, String)
+2023-02-23 18:19:40,741 INFO com.chatGpt.controller.GptController [http-nio-8080-exec-5] requestId 47b95aba-b7b3-4bc6-a7e4-f3cd8cdca2b2, ip 127.0.0.1, send a message : sorry?
+2023-02-23 18:19:40,742 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8080-exec-5] request url: https://api.openai.com/v1/completions, httpEntity: <ChatRequest(model=text-davinci-003, prompt=sorry?, maxTokens=1000, temperature=0.0, topP=1.0),[Content-Type:"application/json;charset=UTF-8", Authorization:"Bearer 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"]>
+2023-02-23 18:19:40,744 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-5] HTTP POST https://api.openai.com/v1/completions
+2023-02-23 18:19:40,746 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-5] Accept=[application/json, application/*+json]
+2023-02-23 18:19:40,747 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-5] Writing [ChatRequest(model=text-davinci-003, prompt=sorry?, maxTokens=1000, temperature=0.0, topP=1.0)] as "application/json;charset=UTF-8"
+2023-02-23 18:19:42,034 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-5] Response 200 OK
+2023-02-23 18:19:42,035 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-5] Reading to [com.chatGpt.dto.ChatResponse]
+2023-02-23 18:19:42,036 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8080-exec-5] response: <200,ChatResponse(id=cmpl-6nFACfP1BsFMPToU2ngrwIZLSddy6, object=text_completion, created=+4593972-03-31, model=text-davinci-003, choices=[Choice(text=
+
+I'm sorry, I didn't understand your question. Could you please rephrase it?, index=0, logprobs=null, finishReason=stop)], usage=Usage(promptTokens=2, completionTokens=20, totalTokens=22)),[Date:"Thu, 23 Feb 2023 23:19:41 GMT", Content-Type:"application/json", Content-Length:"340", Connection:"keep-alive", Access-Control-Allow-Origin:"*", Cache-Control:"no-cache, must-revalidate", Openai-Model:"text-davinci-003", Openai-Organization:"user-xbngof7ex9kgc20aeaxs8tdl", Openai-Processing-Ms:"1082", Openai-Version:"2020-10-01", Strict-Transport-Security:"max-age=15724800; includeSubDomains", X-Request-Id:"a35c8e6dd4d35f53d73f8e15be721fbb"]>
+2023-02-23 18:19:42,037 INFO com.chatGpt.controller.GptController [http-nio-8080-exec-5] Response--> requestId 47b95aba-b7b3-4bc6-a7e4-f3cd8cdca2b2, ip 127.0.0.1, response : 
+
+I'm sorry, I didn't understand your question. Could you please rephrase it?
+2023-02-23 18:19:42,037 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor [http-nio-8080-exec-5] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-02-23 18:19:42,037 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor [http-nio-8080-exec-5] Writing [ResponseModel(code=200, message=success, data=<EOL><EOL>I'm sorry, I didn't understand your question. Could  (truncated)...]
+2023-02-23 18:19:42,038 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-5] Completed 200 OK
+2023-02-23 18:19:52,892 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-6] GET "/send?message=leave%20it", parameters={masked}
+2023-02-23 18:19:52,893 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [http-nio-8080-exec-6] Mapped to com.chatGpt.controller.GptController#send(HttpServletRequest, String)
+2023-02-23 18:19:52,894 INFO com.chatGpt.controller.GptController [http-nio-8080-exec-6] requestId d7db6bec-2dd6-4403-acb1-dadbcfe3d796, ip 127.0.0.1, send a message : leave it
+2023-02-23 18:19:52,894 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8080-exec-6] request url: https://api.openai.com/v1/completions, httpEntity: <ChatRequest(model=text-davinci-003, prompt=leave it, maxTokens=1000, temperature=0.0, topP=1.0),[Content-Type:"application/json;charset=UTF-8", Authorization:"Bearer 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"]>
+2023-02-23 18:19:52,896 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-6] HTTP POST https://api.openai.com/v1/completions
+2023-02-23 18:19:52,899 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-6] Accept=[application/json, application/*+json]
+2023-02-23 18:19:52,900 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-6] Writing [ChatRequest(model=text-davinci-003, prompt=leave it, maxTokens=1000, temperature=0.0, topP=1.0)] as "application/json;charset=UTF-8"
+2023-02-23 18:19:55,419 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-6] Response 200 OK
+2023-02-23 18:19:55,420 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-6] Reading to [com.chatGpt.dto.ChatResponse]
+2023-02-23 18:19:55,421 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8080-exec-6] response: <200,ChatResponse(id=cmpl-6nFAOczjyeh4fwUbeDPzeNGb5V5nH, object=text_completion, created=+4593972-04-12, model=text-davinci-003, choices=[Choice(text=
+
+It is best to leave a dead animal where it is unless it is in a place where it could cause a hazard or health risk. If the animal is in a public area, you may want to contact your local animal control or health department to have it removed., index=0, logprobs=null, finishReason=stop)], usage=Usage(promptTokens=2, completionTokens=55, totalTokens=57)),[Date:"Thu, 23 Feb 2023 23:19:54 GMT", Content-Type:"application/json", Content-Length:"506", Connection:"keep-alive", Access-Control-Allow-Origin:"*", Cache-Control:"no-cache, must-revalidate", Openai-Model:"text-davinci-003", Openai-Organization:"user-xbngof7ex9kgc20aeaxs8tdl", Openai-Processing-Ms:"2332", Openai-Version:"2020-10-01", Strict-Transport-Security:"max-age=15724800; includeSubDomains", X-Request-Id:"207a78c21a565f2ddf686a39a4b32077"]>
+2023-02-23 18:19:55,421 INFO com.chatGpt.controller.GptController [http-nio-8080-exec-6] Response--> requestId d7db6bec-2dd6-4403-acb1-dadbcfe3d796, ip 127.0.0.1, response : 
+
+It is best to leave a dead animal where it is unless it is in a place where it could cause a hazard or health risk. If the animal is in a public area, you may want to contact your local animal control or health department to have it removed.
+2023-02-23 18:19:55,421 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor [http-nio-8080-exec-6] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-02-23 18:19:55,422 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor [http-nio-8080-exec-6] Writing [ResponseModel(code=200, message=success, data=<EOL><EOL>It is best to leave a dead animal where it is unless (truncated)...]
+2023-02-23 18:19:55,422 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-6] Completed 200 OK
+2023-02-23 18:20:47,125 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(14)-127.0.0.1] Application shutdown requested.
+2023-02-23 18:22:00,500 INFO com.chatGpt.Etech7ChatGptServiceApplicationTests [main] Starting Etech7ChatGptServiceApplicationTests using Java 17.0.3 on GOGIA with PID 23416 (started by adity in C:\Users\adity\Documents\workspace-spring-tool-suite-4-4.15.2.RELEASE\etech7-chatGpt-service)
+2023-02-23 18:22:00,518 INFO com.chatGpt.Etech7ChatGptServiceApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2023-02-23 18:22:00,554 DEBUG org.springframework.web.context.support.GenericWebApplicationContext [main] Refreshing org.springframework.web.context.support.GenericWebApplicationContext@3c6aa04a
+2023-02-23 18:22:01,486 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-02-23 18:22:01,552 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] 3 mappings in 'requestMappingHandlerMapping'
+2023-02-23 18:22:01,554 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page: class path resource [static/index.html]
+2023-02-23 18:22:01,594 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-02-23 18:22:01,604 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-02-23 18:22:01,827 INFO com.chatGpt.Etech7ChatGptServiceApplicationTests [main] Started Etech7ChatGptServiceApplicationTests in 1.847 seconds (JVM running for 2.655)
+2023-02-23 18:22:02,188 DEBUG org.springframework.web.context.support.GenericWebApplicationContext [SpringApplicationShutdownHook] Closing org.springframework.web.context.support.GenericWebApplicationContext@3c6aa04a, started on Thu Feb 23 18:22:00 EST 2023
+2023-02-23 18:23:18,609 INFO com.chatGpt.Etech7ChatGptServiceApplicationTests [main] Starting Etech7ChatGptServiceApplicationTests using Java 17.0.3 on GOGIA with PID 13224 (started by adity in C:\Users\adity\Documents\workspace-spring-tool-suite-4-4.15.2.RELEASE\etech7-chatGpt-service)
+2023-02-23 18:23:18,610 INFO com.chatGpt.Etech7ChatGptServiceApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2023-02-23 18:23:18,647 DEBUG org.springframework.web.context.support.GenericWebApplicationContext [main] Refreshing org.springframework.web.context.support.GenericWebApplicationContext@37fdfb05
+2023-02-23 18:23:19,634 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-02-23 18:23:19,702 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] 3 mappings in 'requestMappingHandlerMapping'
+2023-02-23 18:23:19,703 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page: class path resource [static/index.html]
+2023-02-23 18:23:19,758 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-02-23 18:23:19,775 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-02-23 18:23:19,862 INFO com.chatGpt.Etech7ChatGptServiceApplicationTests [main] Started Etech7ChatGptServiceApplicationTests in 1.607 seconds (JVM running for 2.445)
+2023-02-23 18:23:20,243 DEBUG org.springframework.web.context.support.GenericWebApplicationContext [SpringApplicationShutdownHook] Closing org.springframework.web.context.support.GenericWebApplicationContext@37fdfb05, started on Thu Feb 23 18:23:18 EST 2023
+2023-02-23 18:26:48,023 INFO com.chatGpt.Etech7ChatGptServiceApplicationTests [main] Starting Etech7ChatGptServiceApplicationTests using Java 17.0.3 on GOGIA with PID 8116 (started by adity in C:\Users\adity\Documents\workspace-spring-tool-suite-4-4.15.2.RELEASE\etech7-chatGpt-service)
+2023-02-23 18:26:48,024 INFO com.chatGpt.Etech7ChatGptServiceApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2023-02-23 18:26:48,051 DEBUG org.springframework.web.context.support.GenericWebApplicationContext [main] Refreshing org.springframework.web.context.support.GenericWebApplicationContext@69cac930
+2023-02-23 18:26:48,888 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-02-23 18:26:48,956 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] 3 mappings in 'requestMappingHandlerMapping'
+2023-02-23 18:26:48,958 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page: class path resource [static/index.html]
+2023-02-23 18:26:49,004 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-02-23 18:26:49,015 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-02-23 18:26:49,095 INFO com.chatGpt.Etech7ChatGptServiceApplicationTests [main] Started Etech7ChatGptServiceApplicationTests in 1.408 seconds (JVM running for 2.137)
+2023-02-23 18:26:49,434 DEBUG org.springframework.web.context.support.GenericWebApplicationContext [SpringApplicationShutdownHook] Closing org.springframework.web.context.support.GenericWebApplicationContext@69cac930, started on Thu Feb 23 18:26:48 EST 2023
+2023-02-23 18:28:28,735 INFO com.chatGpt.Etech7ChatGptServiceApplicationTests [main] Starting Etech7ChatGptServiceApplicationTests using Java 17.0.3 on GOGIA with PID 12656 (started by adity in C:\Users\adity\Documents\workspace-spring-tool-suite-4-4.15.2.RELEASE\etech7-chatGpt-service)
+2023-02-23 18:28:28,736 INFO com.chatGpt.Etech7ChatGptServiceApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2023-02-23 18:28:28,763 DEBUG org.springframework.web.context.support.GenericWebApplicationContext [main] Refreshing org.springframework.web.context.support.GenericWebApplicationContext@69cac930
+2023-02-23 18:28:29,586 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-02-23 18:28:29,648 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] 3 mappings in 'requestMappingHandlerMapping'
+2023-02-23 18:28:29,649 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page: class path resource [static/index.html]
+2023-02-23 18:28:29,692 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-02-23 18:28:29,703 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-02-23 18:28:29,785 INFO com.chatGpt.Etech7ChatGptServiceApplicationTests [main] Started Etech7ChatGptServiceApplicationTests in 1.393 seconds (JVM running for 2.172)
+2023-02-23 18:28:30,131 DEBUG org.springframework.web.context.support.GenericWebApplicationContext [SpringApplicationShutdownHook] Closing org.springframework.web.context.support.GenericWebApplicationContext@69cac930, started on Thu Feb 23 18:28:28 EST 2023
+2023-02-23 18:30:21,278 INFO com.chatGpt.Etech7ChatGptServiceApplicationTests [main] Starting Etech7ChatGptServiceApplicationTests using Java 17.0.3 on GOGIA with PID 1756 (started by adity in C:\Users\adity\Documents\workspace-spring-tool-suite-4-4.15.2.RELEASE\etech7-chatGpt-service)
+2023-02-23 18:30:21,279 INFO com.chatGpt.Etech7ChatGptServiceApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2023-02-23 18:30:21,305 DEBUG org.springframework.web.context.support.GenericWebApplicationContext [main] Refreshing org.springframework.web.context.support.GenericWebApplicationContext@69cac930
+2023-02-23 18:30:22,119 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-02-23 18:30:22,185 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] 3 mappings in 'requestMappingHandlerMapping'
+2023-02-23 18:30:22,187 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page: class path resource [static/index.html]
+2023-02-23 18:30:22,229 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-02-23 18:30:22,239 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-02-23 18:30:22,319 INFO com.chatGpt.Etech7ChatGptServiceApplicationTests [main] Started Etech7ChatGptServiceApplicationTests in 1.379 seconds (JVM running for 2.127)
+2023-02-23 18:30:22,670 DEBUG org.springframework.web.context.support.GenericWebApplicationContext [SpringApplicationShutdownHook] Closing org.springframework.web.context.support.GenericWebApplicationContext@69cac930, started on Thu Feb 23 18:30:21 EST 2023
+2023-02-23 18:41:41,708 INFO com.chatGpt.Etech7ChatGptServiceApplication [restartedMain] Starting Etech7ChatGptServiceApplication using Java 17.0.3 on GOGIA with PID 13904 (C:\Users\adity\Documents\workspace-spring-tool-suite-4-4.15.2.RELEASE\etech7-chatGpt-service\target\classes started by adity in C:\Users\adity\Documents\workspace-spring-tool-suite-4-4.15.2.RELEASE\etech7-chatGpt-service)
+2023-02-23 18:41:41,732 INFO com.chatGpt.Etech7ChatGptServiceApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-02-23 18:41:41,779 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-23 18:41:41,779 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-23 18:41:42,469 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-02-23 18:41:42,476 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-02-23 18:41:42,476 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.63]
+2023-02-23 18:41:42,538 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-02-23 18:41:42,539 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 758 ms
+2023-02-23 18:41:42,750 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2023-02-23 18:41:42,822 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-02-23 18:41:42,846 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-23 18:41:42,852 INFO com.chatGpt.Etech7ChatGptServiceApplication [restartedMain] Started Etech7ChatGptServiceApplication in 1.836 seconds (JVM running for 2.683)
+2023-02-23 18:41:53,780 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-23 18:41:53,781 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-02-23 18:41:53,782 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 0 ms
+2023-02-23 18:42:04,419 INFO com.chatGpt.controller.GptController [http-nio-8080-exec-2] requestId bc95a751-0278-4bed-996b-a632b2db08f9, ip 127.0.0.1, send a message : Network Security Engineering
+2023-02-23 18:42:04,421 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8080-exec-2] request url: https://api.openai.com/v1/completions, httpEntity: <ChatRequest(model=text-davinci-003, prompt=Network Security Engineering, maxTokens=1000, temperature=0.0, topP=1.0),[Content-Type:"application/json;charset=UTF-8", Authorization:"Bearer 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"]>
+2023-02-23 18:42:07,800 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8080-exec-2] response: <200,ChatResponse(id=cmpl-6nFVsQyM18mvHgPki6Hqk965CToQW, object=text_completion, created=+4593975-12-05, model=text-davinci-003, choices=[Choice(text=
+
+Network security engineering is the process of designing, implementing, and maintaining secure networks. This includes the development of secure network architectures, the implementation of security policies, and the deployment of security technologies. It also involves the monitoring of network traffic and the detection and response to security incidents. Network security engineering is an important part of any organization's overall security strategy., index=0, logprobs=null, finishReason=stop)], usage=Usage(promptTokens=3, completionTokens=72, totalTokens=75)),[Date:"Thu, 23 Feb 2023 23:42:07 GMT", Content-Type:"application/json", Content-Length:"722", Connection:"keep-alive", Access-Control-Allow-Origin:"*", Cache-Control:"no-cache, must-revalidate", Openai-Model:"text-davinci-003", Openai-Organization:"user-xbngof7ex9kgc20aeaxs8tdl", Openai-Processing-Ms:"3053", Openai-Version:"2020-10-01", Strict-Transport-Security:"max-age=15724800; includeSubDomains", X-Request-Id:"7bf2d5630b08973ab3480336f5c72edf"]>
+2023-02-23 18:42:07,802 INFO com.chatGpt.controller.GptController [http-nio-8080-exec-2] Response--> requestId bc95a751-0278-4bed-996b-a632b2db08f9, ip 127.0.0.1, response : 
+
+Network security engineering is the process of designing, implementing, and maintaining secure networks. This includes the development of secure network architectures, the implementation of security policies, and the deployment of security technologies. It also involves the monitoring of network traffic and the detection and response to security incidents. Network security engineering is an important part of any organization's overall security strategy.
+2023-02-23 18:46:17,446 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(14)-127.0.0.1] Application shutdown requested.
+2023-02-23 18:46:39,184 INFO com.chatGpt.Etech7ChatGptServiceApplicationTests [main] Starting Etech7ChatGptServiceApplicationTests using Java 17.0.3 on GOGIA with PID 12384 (started by adity in C:\Users\adity\Documents\workspace-spring-tool-suite-4-4.15.2.RELEASE\etech7-chatGpt-service)
+2023-02-23 18:46:39,203 INFO com.chatGpt.Etech7ChatGptServiceApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2023-02-23 18:46:40,241 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page: class path resource [static/index.html]
+2023-02-23 18:46:40,511 INFO com.chatGpt.Etech7ChatGptServiceApplicationTests [main] Started Etech7ChatGptServiceApplicationTests in 1.877 seconds (JVM running for 2.688)
+2023-02-23 19:00:54,213 INFO com.chatGpt.Etech7ChatGptServiceApplicationTests [main] Starting Etech7ChatGptServiceApplicationTests using Java 17.0.3 on GOGIA with PID 2696 (started by adity in C:\Users\adity\Documents\workspace-spring-tool-suite-4-4.15.2.RELEASE\etech7-chatGpt-service)
+2023-02-23 19:00:54,237 INFO com.chatGpt.Etech7ChatGptServiceApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2023-02-23 19:00:55,630 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page: class path resource [static/index.html]
+2023-02-23 19:00:55,974 INFO com.chatGpt.Etech7ChatGptServiceApplicationTests [main] Started Etech7ChatGptServiceApplicationTests in 2.48 seconds (JVM running for 3.505)
+2023-02-23 19:11:47,448 INFO com.chatGpt.Etech7ChatGptServiceApplicationTests [main] Starting Etech7ChatGptServiceApplicationTests using Java 17.0.3 on GOGIA with PID 23976 (started by adity in C:\Users\adity\Documents\workspace-spring-tool-suite-4-4.15.2.RELEASE\etech7-chatGpt-service)
+2023-02-23 19:11:47,468 INFO com.chatGpt.Etech7ChatGptServiceApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2023-02-23 19:11:48,783 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page: class path resource [static/index.html]
+2023-02-23 19:11:49,094 INFO com.chatGpt.Etech7ChatGptServiceApplicationTests [main] Started Etech7ChatGptServiceApplicationTests in 2.382 seconds (JVM running for 3.481)
+2023-02-23 19:19:24,508 INFO com.chatGpt.Etech7ChatGptServiceApplication [restartedMain] Starting Etech7ChatGptServiceApplication using Java 17.0.3 on GOGIA with PID 9636 (C:\Users\adity\Documents\workspace-spring-tool-suite-4-4.15.2.RELEASE\etech7-chatGpt-service\target\classes started by adity in C:\Users\adity\Documents\workspace-spring-tool-suite-4-4.15.2.RELEASE\etech7-chatGpt-service)
+2023-02-23 19:19:24,529 INFO com.chatGpt.Etech7ChatGptServiceApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-02-23 19:19:24,593 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-23 19:19:24,593 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-23 19:19:25,626 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-02-23 19:19:25,636 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-02-23 19:19:25,636 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.63]
+2023-02-23 19:19:25,724 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-02-23 19:19:25,725 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1131 ms
+2023-02-23 19:19:26,069 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2023-02-23 19:19:26,179 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-02-23 19:19:26,252 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-23 19:19:26,266 INFO com.chatGpt.Etech7ChatGptServiceApplication [restartedMain] Started Etech7ChatGptServiceApplication in 2.489 seconds (JVM running for 3.375)
+2023-02-23 19:19:48,441 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-23 19:19:48,442 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-02-23 19:19:48,444 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2023-02-23 19:19:49,896 INFO com.chatGpt.controller.GptController [http-nio-8080-exec-2] requestId 0c34b3f0-122d-4af5-8fb6-795d55e3c2fa, ip 127.0.0.1, send a message : As a DevOPS expert, create a deployment.yaml file to deplot the springboot application into azure.
+2023-02-23 19:19:49,899 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8080-exec-2] request url: https://api.openai.com/v1/completions, httpEntity: <ChatRequest(model=text-davinci-003, prompt=As a DevOPS expert, create a deployment.yaml file to deplot the springboot application into azure., maxTokens=1000, temperature=0.0, topP=1.0),[Content-Type:"application/json;charset=UTF-8", Authorization:"Bearer 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"]>
+2023-02-23 19:20:29,048 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8080-exec-2] response: <200,ChatResponse(id=cmpl-6nG6PZ91KLLkegCgF6xvTwN1EGHYt, object=text_completion, created=+4593982-02-16, model=text-davinci-003, choices=[Choice(text=
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: springboot-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: springboot-app
+  template:
+    metadata:
+      labels:
+        app: springboot-app
+    spec:
+      containers:
+      - name: springboot-app
+        image: <your-springboot-app-image>
+        ports:
+        - containerPort: 8080
+        resources:
+          requests:
+            memory: "128Mi"
+            cpu: "100m"
+        env:
+        - name: SPRING_PROFILES_ACTIVE
+          value: azure
+      imagePullSecrets:
+      - name: <your-azure-registry-secret>
+      nodeSelector:
+        "beta.kubernetes.io/os": linux
+        "beta.kubernetes.io/arch": amd64
+      tolerations:
+      - key: "azure.com/aci"
+        operator: "Exists"
+        effect: "NoSchedule"
+      - key: "azure.com/aks"
+        operator: "Exists"
+        effect: "NoSchedule"
+      - key: "azure.com/vmss"
+        operator: "Exists"
+        effect: "NoSchedule"
+      - key: "azure.com/aks-preview"
+        operator: "Exists"
+        effect: "NoSchedule"
+      - key: "azure.com/vmss-preview"
+        operator: "Exists"
+        effect: "NoSchedule"
+      - key: "azure.com/aks-hci"
+        operator: "Exists"
+        effect: "NoSchedule"
+      - key: "azure.com/vmss-hci"
+        operator: "Exists"
+        effect: "NoSchedule"
+      - key: "azure.com/aks-hci-preview"
+        operator: "Exists"
+        effect: "NoSchedule"
+      - key: "azure.com/vmss-hci-preview"
+        operator: "Exists"
+        effect: "NoSchedule"
+      - key: "azure.com/aks-hci-dev"
+        operator: "Exists"
+        effect: "NoSchedule"
+      - key: "azure.com/vmss-hci-dev"
+        operator: "Exists"
+        effect: "NoSchedule"
+      - key: "azure.com/aks-hci-dev-preview"
+        operator: "Exists"
+        effect: "NoSchedule"
+      - key: "azure.com/vmss-hci-dev-preview"
+        operator: "Exists"
+        effect: "NoSchedule"
+      - key: "azure.com/aks-hci-prod"
+        operator: "Exists"
+        effect: "NoSchedule"
+      - key: "azure.com/vmss-hci-prod"
+        operator: "Exists"
+        effect: "NoSchedule"
+      - key: "azure.com/aks-hci-prod-preview"
+        operator: "Exists"
+        effect: "NoSchedule"
+      - key: "azure.com/vmss-hci-prod-preview"
+        operator: "Exists"
+        effect: "NoSchedule"
+      - key: "azure.com/aks-hci-staging"
+        operator: "Exists"
+        effect: "NoSchedule"
+      - key: "azure.com/vmss-hci-staging"
+        operator: "Exists"
+        effect: "NoSchedule"
+      - key: "azure.com/aks-hci-staging-preview"
+        operator: "Exists"
+        effect: "NoSchedule"
+      - key: "azure.com/vmss-hci-staging-preview"
+        operator: "Exists"
+        effect: "NoSchedule"
+      - key: "azure.com/aks-hci-test"
+        operator, index=0, logprobs=null, finishReason=length)], usage=Usage(promptTokens=24, completionTokens=1000, totalTokens=1024)),[Date:"Fri, 24 Feb 2023 00:20:28 GMT", Content-Type:"application/json", Content-Length:"3275", Connection:"keep-alive", Access-Control-Allow-Origin:"*", Cache-Control:"no-cache, must-revalidate", Openai-Model:"text-davinci-003", Openai-Organization:"user-xbngof7ex9kgc20aeaxs8tdl", Openai-Processing-Ms:"38702", Openai-Version:"2020-10-01", Strict-Transport-Security:"max-age=15724800; includeSubDomains", X-Request-Id:"01771c0bdf782fc0bb22cd12549fb985"]>
+2023-02-23 19:20:29,050 INFO com.chatGpt.controller.GptController [http-nio-8080-exec-2] Response--> requestId 0c34b3f0-122d-4af5-8fb6-795d55e3c2fa, ip 127.0.0.1, response : 
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: springboot-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: springboot-app
+  template:
+    metadata:
+      labels:
+        app: springboot-app
+    spec:
+      containers:
+      - name: springboot-app
+        image: <your-springboot-app-image>
+        ports:
+        - containerPort: 8080
+        resources:
+          requests:
+            memory: "128Mi"
+            cpu: "100m"
+        env:
+        - name: SPRING_PROFILES_ACTIVE
+          value: azure
+      imagePullSecrets:
+      - name: <your-azure-registry-secret>
+      nodeSelector:
+        "beta.kubernetes.io/os": linux
+        "beta.kubernetes.io/arch": amd64
+      tolerations:
+      - key: "azure.com/aci"
+        operator: "Exists"
+        effect: "NoSchedule"
+      - key: "azure.com/aks"
+        operator: "Exists"
+        effect: "NoSchedule"
+      - key: "azure.com/vmss"
+        operator: "Exists"
+        effect: "NoSchedule"
+      - key: "azure.com/aks-preview"
+        operator: "Exists"
+        effect: "NoSchedule"
+      - key: "azure.com/vmss-preview"
+        operator: "Exists"
+        effect: "NoSchedule"
+      - key: "azure.com/aks-hci"
+        operator: "Exists"
+        effect: "NoSchedule"
+      - key: "azure.com/vmss-hci"
+        operator: "Exists"
+        effect: "NoSchedule"
+      - key: "azure.com/aks-hci-preview"
+        operator: "Exists"
+        effect: "NoSchedule"
+      - key: "azure.com/vmss-hci-preview"
+        operator: "Exists"
+        effect: "NoSchedule"
+      - key: "azure.com/aks-hci-dev"
+        operator: "Exists"
+        effect: "NoSchedule"
+      - key: "azure.com/vmss-hci-dev"
+        operator: "Exists"
+        effect: "NoSchedule"
+      - key: "azure.com/aks-hci-dev-preview"
+        operator: "Exists"
+        effect: "NoSchedule"
+      - key: "azure.com/vmss-hci-dev-preview"
+        operator: "Exists"
+        effect: "NoSchedule"
+      - key: "azure.com/aks-hci-prod"
+        operator: "Exists"
+        effect: "NoSchedule"
+      - key: "azure.com/vmss-hci-prod"
+        operator: "Exists"
+        effect: "NoSchedule"
+      - key: "azure.com/aks-hci-prod-preview"
+        operator: "Exists"
+        effect: "NoSchedule"
+      - key: "azure.com/vmss-hci-prod-preview"
+        operator: "Exists"
+        effect: "NoSchedule"
+      - key: "azure.com/aks-hci-staging"
+        operator: "Exists"
+        effect: "NoSchedule"
+      - key: "azure.com/vmss-hci-staging"
+        operator: "Exists"
+        effect: "NoSchedule"
+      - key: "azure.com/aks-hci-staging-preview"
+        operator: "Exists"
+        effect: "NoSchedule"
+      - key: "azure.com/vmss-hci-staging-preview"
+        operator: "Exists"
+        effect: "NoSchedule"
+      - key: "azure.com/aks-hci-test"
+        operator
+2023-02-23 19:29:15,858 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(19)-127.0.0.1] Application shutdown requested.
+2023-02-23 19:41:13,785 INFO com.chatGpt.Etech7ChatGptServiceApplication [restartedMain] Starting Etech7ChatGptServiceApplication using Java 17.0.3 on GOGIA with PID 9384 (C:\Users\adity\Documents\workspace-spring-tool-suite-4-4.15.2.RELEASE\etech7-chatGpt-service\target\classes started by adity in C:\Users\adity\Documents\workspace-spring-tool-suite-4-4.15.2.RELEASE\etech7-chatGpt-service)
+2023-02-23 19:41:13,806 INFO com.chatGpt.Etech7ChatGptServiceApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-02-23 19:41:13,855 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-23 19:41:13,856 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-23 19:41:14,681 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-02-23 19:41:14,689 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-02-23 19:41:14,690 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.63]
+2023-02-23 19:41:14,763 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-02-23 19:41:14,764 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 907 ms
+2023-02-23 19:41:15,039 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2023-02-23 19:41:15,127 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-02-23 19:41:15,157 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-23 19:41:15,166 INFO com.chatGpt.Etech7ChatGptServiceApplication [restartedMain] Started Etech7ChatGptServiceApplication in 1.958 seconds (JVM running for 2.678)
+2023-02-23 19:41:27,268 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-23 19:41:27,269 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-02-23 19:41:27,270 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2023-02-23 19:42:01,553 INFO com.chatGpt.controller.GptController [http-nio-8080-exec-2] requestId 87fdde13-28e4-4e94-a8ec-014c557f2789, ip 127.0.0.1, send a message : HI
+2023-02-23 19:42:01,556 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8080-exec-2] request url: https://api.openai.com/v1/completions, httpEntity: <ChatRequest(model=text-davinci-003, prompt=HI, maxTokens=1000, temperature=0.0, topP=1.0),[Content-Type:"application/json;charset=UTF-8", Authorization:"Bearer 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"]>
+2023-02-23 19:42:39,293 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8080-exec-2] response: <200,ChatResponse(id=cmpl-6nGRtqGb6JjmS0ovS6fRPwnLlPgQE, object=text_completion, created=+4593985-10-10, model=text-davinci-003, choices=[Choice(text=_U32 u32DataSize, HI_U32 u32DataNum, HI_U32 u32DataWidth, HI_U32 u32DataAddr, HI_U32 u32DataStride, HI_U32 u32DataFormat, HI_U32 u32DataEndian, HI_U32 u32DataSegment, HI_U32 u32DataSegmentStride, HI_U32 u32DataSegmentAddr)
+{
+    HI_U32 u32DataSizeTmp;
+    HI_U32 u32DataNumTmp;
+    HI_U32 u32DataWidthTmp;
+    HI_U32 u32DataAddrTmp;
+    HI_U32 u32DataStrideTmp;
+    HI_U32 u32DataFormatTmp;
+    HI_U32 u32DataEndianTmp;
+    HI_U32 u32DataSegmentTmp;
+    HI_U32 u32DataSegmentStrideTmp;
+    HI_U32 u32DataSegmentAddrTmp;
+
+    u32DataSizeTmp = u32DataSize;
+    u32DataNumTmp = u32DataNum;
+    u32DataWidthTmp = u32DataWidth;
+    u32DataAddrTmp = u32DataAddr;
+    u32DataStrideTmp = u32DataStride;
+    u32DataFormatTmp = u32DataFormat;
+    u32DataEndianTmp = u32DataEndian;
+    u32DataSegmentTmp = u32DataSegment;
+    u32DataSegmentStrideTmp = u32DataSegmentStride;
+    u32DataSegmentAddrTmp = u32DataSegmentAddr;
+
+    if (u32DataSizeTmp == 0)
+    {
+        u32DataSizeTmp = 0xFFFFFFFF;
+    }
+
+    if (u32DataNumTmp == 0)
+    {
+        u32DataNumTmp = 0xFFFFFFFF;
+    }
+
+    if (u32DataWidthTmp == 0)
+    {
+        u32DataWidthTmp = 0xFFFFFFFF;
+    }
+
+    if (u32DataAddrTmp == 0)
+    {
+        u32DataAddrTmp = 0xFFFFFFFF;
+    }
+
+    if (u32DataStrideTmp == 0)
+    {
+        u32DataStrideTmp = 0xFFFFFFFF;
+    }
+
+    if (u32DataFormatTmp == 0)
+    {
+        u32DataFormatTmp = 0xFFFFFFFF;
+    }
+
+    if (u32DataEndianTmp == 0)
+    {
+        u32DataEndianTmp = 0xFFFFFFFF;
+    }
+
+    if (u32DataSegmentTmp == 0)
+    {
+        u32DataSegmentTmp = 0xFFFFFFFF;
+    }
+
+    if (u32DataSegmentStrideTmp == 0)
+    {
+        u32DataSegmentStrideTmp = 0xFFFFFFFF;
+    }
+
+    if (u32DataSegmentAddrTmp == 0)
+    {
+        u32DataSegmentAddrTmp = 0xFFFFFFFF;
+    }
+
+    VDP_PRINT("DataSize:%d, DataNum:%d, DataWidth:%d, DataAddr:0x%x, DataStride:%d, DataFormat:%d, DataEndian:%d, DataSegment:%d, DataSegmentStride:%d, DataSegmentAddr:0x%x\n",
+        u32DataSizeTmp, u32DataNumTmp, u32DataWidthTmp, u32DataAddrTmp, u32DataStrideTmp, u32DataFormatTmp, u32DataEndianTmp, u32DataSegmentTmp, u32DataSegmentStrideTmp, u32DataSegmentAddrTmp);
+}
+
+HI_VOID VDP_PRINT_SetLayerAddr(HI_U32 u32Layer, HI_U32 u32DataAddr, HI_U32 u32DataStride, HI_U32 u32DataFormat, HI_U32 u32DataEndian, HI_U32 u32DataSegment, HI_U32 u32Data, index=0, logprobs=null, finishReason=length)], usage=Usage(promptTokens=1, completionTokens=1000, totalTokens=1001)),[Date:"Fri, 24 Feb 2023 00:42:38 GMT", Content-Type:"application/json", Content-Length:"2645", Connection:"keep-alive", Access-Control-Allow-Origin:"*", Cache-Control:"no-cache, must-revalidate", Openai-Model:"text-davinci-003", Openai-Organization:"user-xbngof7ex9kgc20aeaxs8tdl", Openai-Processing-Ms:"37393", Openai-Version:"2020-10-01", Strict-Transport-Security:"max-age=15724800; includeSubDomains", X-Request-Id:"0f57e6dbb835ec3823ee1bd4629fd724"]>
+2023-02-23 19:42:39,294 INFO com.chatGpt.controller.GptController [http-nio-8080-exec-2] Response--> requestId 87fdde13-28e4-4e94-a8ec-014c557f2789, ip 127.0.0.1, response : _U32 u32DataSize, HI_U32 u32DataNum, HI_U32 u32DataWidth, HI_U32 u32DataAddr, HI_U32 u32DataStride, HI_U32 u32DataFormat, HI_U32 u32DataEndian, HI_U32 u32DataSegment, HI_U32 u32DataSegmentStride, HI_U32 u32DataSegmentAddr)
+{
+    HI_U32 u32DataSizeTmp;
+    HI_U32 u32DataNumTmp;
+    HI_U32 u32DataWidthTmp;
+    HI_U32 u32DataAddrTmp;
+    HI_U32 u32DataStrideTmp;
+    HI_U32 u32DataFormatTmp;
+    HI_U32 u32DataEndianTmp;
+    HI_U32 u32DataSegmentTmp;
+    HI_U32 u32DataSegmentStrideTmp;
+    HI_U32 u32DataSegmentAddrTmp;
+
+    u32DataSizeTmp = u32DataSize;
+    u32DataNumTmp = u32DataNum;
+    u32DataWidthTmp = u32DataWidth;
+    u32DataAddrTmp = u32DataAddr;
+    u32DataStrideTmp = u32DataStride;
+    u32DataFormatTmp = u32DataFormat;
+    u32DataEndianTmp = u32DataEndian;
+    u32DataSegmentTmp = u32DataSegment;
+    u32DataSegmentStrideTmp = u32DataSegmentStride;
+    u32DataSegmentAddrTmp = u32DataSegmentAddr;
+
+    if (u32DataSizeTmp == 0)
+    {
+        u32DataSizeTmp = 0xFFFFFFFF;
+    }
+
+    if (u32DataNumTmp == 0)
+    {
+        u32DataNumTmp = 0xFFFFFFFF;
+    }
+
+    if (u32DataWidthTmp == 0)
+    {
+        u32DataWidthTmp = 0xFFFFFFFF;
+    }
+
+    if (u32DataAddrTmp == 0)
+    {
+        u32DataAddrTmp = 0xFFFFFFFF;
+    }
+
+    if (u32DataStrideTmp == 0)
+    {
+        u32DataStrideTmp = 0xFFFFFFFF;
+    }
+
+    if (u32DataFormatTmp == 0)
+    {
+        u32DataFormatTmp = 0xFFFFFFFF;
+    }
+
+    if (u32DataEndianTmp == 0)
+    {
+        u32DataEndianTmp = 0xFFFFFFFF;
+    }
+
+    if (u32DataSegmentTmp == 0)
+    {
+        u32DataSegmentTmp = 0xFFFFFFFF;
+    }
+
+    if (u32DataSegmentStrideTmp == 0)
+    {
+        u32DataSegmentStrideTmp = 0xFFFFFFFF;
+    }
+
+    if (u32DataSegmentAddrTmp == 0)
+    {
+        u32DataSegmentAddrTmp = 0xFFFFFFFF;
+    }
+
+    VDP_PRINT("DataSize:%d, DataNum:%d, DataWidth:%d, DataAddr:0x%x, DataStride:%d, DataFormat:%d, DataEndian:%d, DataSegment:%d, DataSegmentStride:%d, DataSegmentAddr:0x%x\n",
+        u32DataSizeTmp, u32DataNumTmp, u32DataWidthTmp, u32DataAddrTmp, u32DataStrideTmp, u32DataFormatTmp, u32DataEndianTmp, u32DataSegmentTmp, u32DataSegmentStrideTmp, u32DataSegmentAddrTmp);
+}
+
+HI_VOID VDP_PRINT_SetLayerAddr(HI_U32 u32Layer, HI_U32 u32DataAddr, HI_U32 u32DataStride, HI_U32 u32DataFormat, HI_U32 u32DataEndian, HI_U32 u32DataSegment, HI_U32 u32Data
+2023-02-23 19:43:05,645 INFO com.chatGpt.controller.GptController [http-nio-8080-exec-4] requestId 1f42dbcb-1796-44e7-a117-ba4a85711134, ip 127.0.0.1, send a message : Hi how are you?
+2023-02-23 19:43:05,646 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8080-exec-4] request url: https://api.openai.com/v1/completions, httpEntity: <ChatRequest(model=text-davinci-003, prompt=Hi how are you?, maxTokens=1000, temperature=0.0, topP=1.0),[Content-Type:"application/json;charset=UTF-8", Authorization:"Bearer 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"]>
+2023-02-23 19:43:06,832 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8080-exec-4] response: <200,ChatResponse(id=cmpl-6nGSvyf4P8YdFP2TZ8eFjzVpqojJQ, object=text_completion, created=+4593985-12-13, model=text-davinci-003, choices=[Choice(text=
+
+I'm doing well, thank you. How about you?, index=0, logprobs=null, finishReason=stop)], usage=Usage(promptTokens=5, completionTokens=14, totalTokens=19)),[Date:"Fri, 24 Feb 2023 00:43:06 GMT", Content-Type:"application/json", Content-Length:"306", Connection:"keep-alive", Access-Control-Allow-Origin:"*", Cache-Control:"no-cache, must-revalidate", Openai-Model:"text-davinci-003", Openai-Organization:"user-xbngof7ex9kgc20aeaxs8tdl", Openai-Processing-Ms:"908", Openai-Version:"2020-10-01", Strict-Transport-Security:"max-age=15724800; includeSubDomains", X-Request-Id:"f60ff170f8ab07871f447629444f4d50"]>
+2023-02-23 19:43:06,833 INFO com.chatGpt.controller.GptController [http-nio-8080-exec-4] Response--> requestId 1f42dbcb-1796-44e7-a117-ba4a85711134, ip 127.0.0.1, response : 
+
+I'm doing well, thank you. How about you?
+2023-02-23 19:43:14,819 INFO com.chatGpt.controller.GptController [http-nio-8080-exec-5] requestId 81cd35f5-6c05-48ae-a1d4-877d1f3bfe2d, ip 127.0.0.1, send a message : I;m good and wbu?
+2023-02-23 19:43:14,820 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8080-exec-5] request url: https://api.openai.com/v1/completions, httpEntity: <ChatRequest(model=text-davinci-003, prompt=I;m good and wbu?, maxTokens=1000, temperature=0.0, topP=1.0),[Content-Type:"application/json;charset=UTF-8", Authorization:"Bearer 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"]>
+2023-02-23 19:43:15,673 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8080-exec-5] response: <200,ChatResponse(id=cmpl-6nGT4rZ0uibuty6bXTnZtwod0xd1Z, object=text_completion, created=+4593985-12-22, model=text-davinci-003, choices=[Choice(text=
+
+I'm doing great, thanks!, index=0, logprobs=null, finishReason=stop)], usage=Usage(promptTokens=8, completionTokens=9, totalTokens=17)),[Date:"Fri, 24 Feb 2023 00:43:15 GMT", Content-Type:"application/json", Content-Length:"288", Connection:"keep-alive", Access-Control-Allow-Origin:"*", Cache-Control:"no-cache, must-revalidate", Openai-Model:"text-davinci-003", Openai-Organization:"user-xbngof7ex9kgc20aeaxs8tdl", Openai-Processing-Ms:"647", Openai-Version:"2020-10-01", Strict-Transport-Security:"max-age=15724800; includeSubDomains", X-Request-Id:"a7824c77b2e915cc45e312d16aee0f3c"]>
+2023-02-23 19:43:15,674 INFO com.chatGpt.controller.GptController [http-nio-8080-exec-5] Response--> requestId 81cd35f5-6c05-48ae-a1d4-877d1f3bfe2d, ip 127.0.0.1, response : 
+
+I'm doing great, thanks!
+2023-02-23 19:43:41,717 INFO com.chatGpt.controller.GptController [http-nio-8080-exec-6] requestId 67407a2f-9bef-42dd-8992-26792837dd58, ip 127.0.0.1, send a message : what was the last question I asked in my account just a minute ago
+2023-02-23 19:43:41,718 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8080-exec-6] request url: https://api.openai.com/v1/completions, httpEntity: <ChatRequest(model=text-davinci-003, prompt=what was the last question I asked in my account just a minute ago, maxTokens=1000, temperature=0.0, topP=1.0),[Content-Type:"application/json;charset=UTF-8", Authorization:"Bearer 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"]>
+2023-02-23 19:43:43,287 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8080-exec-6] response: <200,ChatResponse(id=cmpl-6nGTVmVUVQjDxNu8QEAKbwYQfHxxu, object=text_completion, created=+4593986-01-18, model=text-davinci-003, choices=[Choice(text=
+
+The last question you asked in your account was, "What are some tips for creating a successful online business?", index=0, logprobs=null, finishReason=stop)], usage=Usage(promptTokens=14, completionTokens=24, totalTokens=38)),[Date:"Fri, 24 Feb 2023 00:43:42 GMT", Content-Type:"application/json", Content-Length:"380", Connection:"keep-alive", Access-Control-Allow-Origin:"*", Cache-Control:"no-cache, must-revalidate", Openai-Model:"text-davinci-003", Openai-Organization:"user-xbngof7ex9kgc20aeaxs8tdl", Openai-Processing-Ms:"1346", Openai-Version:"2020-10-01", Strict-Transport-Security:"max-age=15724800; includeSubDomains", X-Request-Id:"943c6e8d78b3dbb5cfe5772c089f0211"]>
+2023-02-23 19:43:43,288 INFO com.chatGpt.controller.GptController [http-nio-8080-exec-6] Response--> requestId 67407a2f-9bef-42dd-8992-26792837dd58, ip 127.0.0.1, response : 
+
+The last question you asked in your account was, "What are some tips for creating a successful online business?"
+2023-02-23 19:44:26,839 INFO com.chatGpt.controller.GptController [http-nio-8080-exec-7] requestId eb7e4203-23ff-4885-82fc-de817c6a58ed, ip 127.0.0.1, send a message : tell me the account email ID which I/m using to  prompt the chatgpt
+2023-02-23 19:44:26,840 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8080-exec-7] request url: https://api.openai.com/v1/completions, httpEntity: <ChatRequest(model=text-davinci-003, prompt=tell me the account email ID which I/m using to  prompt the chatgpt, maxTokens=1000, temperature=0.0, topP=1.0),[Content-Type:"application/json;charset=UTF-8", Authorization:"Bearer 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"]>
+2023-02-23 19:44:28,063 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8080-exec-7] response: <200,ChatResponse(id=cmpl-6nGUENst2n37Tp1zjA2xS2DcuZcF1, object=text_completion, created=+4593986-03-04, model=text-davinci-003, choices=[Choice(text=
+
+The account email ID used to prompt the chatbot is support@chatgpt.com., index=0, logprobs=null, finishReason=stop)], usage=Usage(promptTokens=18, completionTokens=21, totalTokens=39)),[Date:"Fri, 24 Feb 2023 00:44:27 GMT", Content-Type:"application/json", Content-Length:"337", Connection:"keep-alive", Access-Control-Allow-Origin:"*", Cache-Control:"no-cache, must-revalidate", Openai-Model:"text-davinci-003", Openai-Organization:"user-xbngof7ex9kgc20aeaxs8tdl", Openai-Processing-Ms:"1008", Openai-Version:"2020-10-01", Strict-Transport-Security:"max-age=15724800; includeSubDomains", X-Request-Id:"afc3c85f8512487ebc093856fd60add9"]>
+2023-02-23 19:44:28,064 INFO com.chatGpt.controller.GptController [http-nio-8080-exec-7] Response--> requestId eb7e4203-23ff-4885-82fc-de817c6a58ed, ip 127.0.0.1, response : 
+
+The account email ID used to prompt the chatbot is support@chatgpt.com.
+2023-02-23 19:44:58,622 INFO com.chatGpt.controller.GptController [http-nio-8080-exec-8] requestId 6b5e7345-4016-48f5-997e-b36ff2446f2a, ip 127.0.0.1, send a message : what is my name assocaitiated with this account
+2023-02-23 19:44:58,623 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8080-exec-8] request url: https://api.openai.com/v1/completions, httpEntity: <ChatRequest(model=text-davinci-003, prompt=what is my name assocaitiated with this account, maxTokens=1000, temperature=0.0, topP=1.0),[Content-Type:"application/json;charset=UTF-8", Authorization:"Bearer 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"]>
+2023-02-23 19:44:59,430 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8080-exec-8] response: <200,ChatResponse(id=cmpl-6nGUkfJqzbf8PbizGwmPCYjeip14h, object=text_completion, created=+4593986-04-05, model=text-davinci-003, choices=[Choice(text=
+
+Your name is not associated with this account., index=0, logprobs=null, finishReason=stop)], usage=Usage(promptTokens=11, completionTokens=11, totalTokens=22)),[Date:"Fri, 24 Feb 2023 00:44:58 GMT", Content-Type:"application/json", Content-Length:"312", Connection:"keep-alive", Access-Control-Allow-Origin:"*", Cache-Control:"no-cache, must-revalidate", Openai-Model:"text-davinci-003", Openai-Organization:"user-xbngof7ex9kgc20aeaxs8tdl", Openai-Processing-Ms:"626", Openai-Version:"2020-10-01", Strict-Transport-Security:"max-age=15724800; includeSubDomains", X-Request-Id:"224b8100a5c87607ae4697dd5154cb1c"]>
+2023-02-23 19:44:59,431 INFO com.chatGpt.controller.GptController [http-nio-8080-exec-8] Response--> requestId 6b5e7345-4016-48f5-997e-b36ff2446f2a, ip 127.0.0.1, response : 
+
+Your name is not associated with this account.
+2023-02-23 19:45:29,222 INFO com.chatGpt.controller.GptController [http-nio-8080-exec-9] requestId 0e6498aa-c163-4f3d-a510-6de99e559218, ip 127.0.0.1, send a message : tell me which Stock i should have bought in 2020
+2023-02-23 19:45:29,223 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8080-exec-9] request url: https://api.openai.com/v1/completions, httpEntity: <ChatRequest(model=text-davinci-003, prompt=tell me which Stock i should have bought in 2020, maxTokens=1000, temperature=0.0, topP=1.0),[Content-Type:"application/json;charset=UTF-8", Authorization:"Bearer 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"]>
+2023-02-23 19:45:32,749 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8080-exec-9] response: <200,ChatResponse(id=cmpl-6nGVFpmb3wNusOr0PSNrcquRe2B9j, object=text_completion, created=+4593986-05-06, model=text-davinci-003, choices=[Choice(text=
+
+It is impossible to answer this question without knowing your individual investment goals and risk tolerance. The best stock to buy in 2020 depends on your individual financial situation and investment objectives. Generally speaking, stocks that have performed well in 2020 include technology stocks such as Apple, Microsoft, Amazon, and Tesla; healthcare stocks such as Moderna and Novavax; and consumer staples stocks such as Walmart and Procter & Gamble., index=0, logprobs=null, finishReason=stop)], usage=Usage(promptTokens=10, completionTokens=85, totalTokens=95)),[Date:"Fri, 24 Feb 2023 00:45:32 GMT", Content-Type:"application/json", Content-Length:"723", Connection:"keep-alive", Access-Control-Allow-Origin:"*", Cache-Control:"no-cache, must-revalidate", Openai-Model:"text-davinci-003", Openai-Organization:"user-xbngof7ex9kgc20aeaxs8tdl", Openai-Processing-Ms:"3327", Openai-Version:"2020-10-01", Strict-Transport-Security:"max-age=15724800; includeSubDomains", X-Request-Id:"6be40136881d8a6787837f083adb8ec3"]>
+2023-02-23 19:45:32,750 INFO com.chatGpt.controller.GptController [http-nio-8080-exec-9] Response--> requestId 0e6498aa-c163-4f3d-a510-6de99e559218, ip 127.0.0.1, response : 
+
+It is impossible to answer this question without knowing your individual investment goals and risk tolerance. The best stock to buy in 2020 depends on your individual financial situation and investment objectives. Generally speaking, stocks that have performed well in 2020 include technology stocks such as Apple, Microsoft, Amazon, and Tesla; healthcare stocks such as Moderna and Novavax; and consumer staples stocks such as Walmart and Procter & Gamble.

@@ -1,0 +1,747 @@
+2023-02-21 13:49:21,301 INFO com.chatGpt.Etech7ChatGptServiceApplication [restartedMain] Starting Etech7ChatGptServiceApplication using Java 17.0.3 on GOGIA with PID 31088 (C:\Users\adity\Documents\workspace-spring-tool-suite-4-4.15.2.RELEASE\etech7-chatGpt-service\target\classes started by adity in C:\Users\adity\Documents\workspace-spring-tool-suite-4-4.15.2.RELEASE\etech7-chatGpt-service)
+2023-02-21 13:49:21,302 INFO com.chatGpt.Etech7ChatGptServiceApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-02-21 13:49:21,333 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-21 13:49:21,333 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-21 13:49:22,076 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-02-21 13:49:22,082 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-02-21 13:49:22,082 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.63]
+2023-02-21 13:49:22,151 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-02-21 13:49:22,151 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 817 ms
+2023-02-21 13:49:22,378 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [restartedMain] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-02-21 13:49:22,421 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [restartedMain] 3 mappings in 'requestMappingHandlerMapping'
+2023-02-21 13:49:22,423 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2023-02-21 13:49:22,435 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [restartedMain] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-02-21 13:49:22,441 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [restartedMain] ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-02-21 13:49:22,496 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-02-21 13:49:22,522 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-21 13:49:22,529 INFO com.chatGpt.Etech7ChatGptServiceApplication [restartedMain] Started Etech7ChatGptServiceApplication in 1.551 seconds (JVM running for 2.221)
+2023-02-21 13:49:41,607 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-21 13:49:41,608 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-02-21 13:49:41,608 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected StandardServletMultipartResolver
+2023-02-21 13:49:41,608 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected AcceptHeaderLocaleResolver
+2023-02-21 13:49:41,608 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected FixedThemeResolver
+2023-02-21 13:49:41,609 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@11a1b714
+2023-02-21 13:49:41,609 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected org.springframework.web.servlet.support.SessionFlashMapManager@55ccff55
+2023-02-21 13:49:41,609 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-02-21 13:49:41,609 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2023-02-21 13:49:41,726 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] GET "/", parameters={}
+2023-02-21 13:49:41,735 DEBUG org.springframework.web.servlet.view.ContentNegotiatingViewResolver [http-nio-8080-exec-1] Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2023-02-21 13:49:41,735 DEBUG org.springframework.web.servlet.view.InternalResourceView [http-nio-8080-exec-1] View name 'forward:', model {}
+2023-02-21 13:49:41,736 DEBUG org.springframework.web.servlet.view.InternalResourceView [http-nio-8080-exec-1] Forwarding to [index.html]
+2023-02-21 13:49:41,738 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] "FORWARD" dispatch for GET "/index.html", parameters={}
+2023-02-21 13:49:41,741 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [http-nio-8080-exec-1] Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-02-21 13:49:41,749 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Exiting from "FORWARD" dispatch, status 200
+2023-02-21 13:49:41,749 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed 200 OK
+2023-02-21 13:50:02,405 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] GET "/send?message=hi%20tell%20me%20about%20Aditya%20Gogia,%20SBU%20CE%20Masters%20student%20from%20India.%20NHyderabad", parameters={masked}
+2023-02-21 13:50:02,406 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [http-nio-8080-exec-2] Mapped to com.chatGpt.controller.GptController#send(HttpServletRequest, String)
+2023-02-21 13:50:02,419 INFO com.chatGpt.controller.GptController [http-nio-8080-exec-2] requestId 3590d32b-df7a-4feb-9be6-5161416ad1da, ip 127.0.0.1, send a message : hi tell me about Aditya Gogia, SBU CE Masters student from India. NHyderabad
+2023-02-21 13:50:02,420 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8080-exec-2] request url: https://api.openai.com/v1/completions, httpEntity: <ChatRequest(model=text-davinci-003, prompt=hi tell me about Aditya Gogia, SBU CE Masters student from India. NHyderabad, maxTokens=1000, temperature=0.0, topP=1.0),[Content-Type:"application/json;charset=UTF-8", Authorization:"Bearer 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"]>
+2023-02-21 13:50:02,435 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-2] HTTP POST https://api.openai.com/v1/completions
+2023-02-21 13:50:02,465 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-2] Accept=[application/json, application/*+json]
+2023-02-21 13:50:02,473 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-2] Writing [ChatRequest(model=text-davinci-003, prompt=hi tell me about Aditya Gogia, SBU CE Masters student from India. NHyderabad, maxTokens=1000, temperature=0.0, topP=1.0)] as "application/json;charset=UTF-8"
+2023-02-21 13:50:07,648 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-2] Response 500 INTERNAL_SERVER_ERROR
+2023-02-21 13:50:07,652 ERROR com.chatGpt.controller.GptController [http-nio-8080-exec-2] requestId 3590d32b-df7a-4feb-9be6-5161416ad1da, ip 127.0.0.1, error
+org.springframework.web.client.HttpServerErrorException$InternalServerError: 500 Internal Server Error: "{<EOL>    "error": {<EOL>        "message": "Internal server error",<EOL>        "type": "auth_subrequest_error",<EOL>        "param": null,<EOL>        "code": "internal_error"<EOL>    }<EOL>}<EOL>"
+	at org.springframework.web.client.HttpServerErrorException.create(HttpServerErrorException.java:100)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:170)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:122)
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:819)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:777)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.postForEntity(RestTemplate.java:468)
+	at com.chatGpt.service.DefaultChatgptService.getResponse(DefaultChatgptService.java:58)
+	at com.chatGpt.service.DefaultChatgptService.sendMessage(DefaultChatgptService.java:35)
+	at com.chatGpt.controller.GptController.send(GptController.java:33)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.microsoft.applicationinsights.web.internal.WebRequestTrackingFilter.doFilter(WebRequestTrackingFilter.java:142)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-02-21 13:50:07,656 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor [http-nio-8080-exec-2] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-02-21 13:50:07,657 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor [http-nio-8080-exec-2] Writing [ResponseModel(code=500, message=error, data=500 Internal Server Error: "{<EOL>    "error": {<EOL>    (truncated)...]
+2023-02-21 13:50:07,658 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Completed 200 OK
+2023-02-21 13:50:42,527 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-4] GET "/send?message=Hi%20how%20are%20you", parameters={masked}
+2023-02-21 13:50:42,528 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [http-nio-8080-exec-4] Mapped to com.chatGpt.controller.GptController#send(HttpServletRequest, String)
+2023-02-21 13:50:42,529 INFO com.chatGpt.controller.GptController [http-nio-8080-exec-4] requestId dbb5965f-4378-4b45-a32f-40b6591244db, ip 127.0.0.1, send a message : Hi how are you
+2023-02-21 13:50:42,529 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8080-exec-4] request url: https://api.openai.com/v1/completions, httpEntity: <ChatRequest(model=text-davinci-003, prompt=Hi how are you, maxTokens=1000, temperature=0.0, topP=1.0),[Content-Type:"application/json;charset=UTF-8", Authorization:"Bearer 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"]>
+2023-02-21 13:50:42,530 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-4] HTTP POST https://api.openai.com/v1/completions
+2023-02-21 13:50:42,532 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-4] Accept=[application/json, application/*+json]
+2023-02-21 13:50:42,533 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-4] Writing [ChatRequest(model=text-davinci-003, prompt=Hi how are you, maxTokens=1000, temperature=0.0, topP=1.0)] as "application/json;charset=UTF-8"
+2023-02-21 13:50:47,712 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-4] Response 500 INTERNAL_SERVER_ERROR
+2023-02-21 13:50:47,715 ERROR com.chatGpt.controller.GptController [http-nio-8080-exec-4] requestId dbb5965f-4378-4b45-a32f-40b6591244db, ip 127.0.0.1, error
+org.springframework.web.client.HttpServerErrorException$InternalServerError: 500 Internal Server Error: "{<EOL>    "error": {<EOL>        "message": "Internal server error",<EOL>        "type": "auth_subrequest_error",<EOL>        "param": null,<EOL>        "code": "internal_error"<EOL>    }<EOL>}<EOL>"
+	at org.springframework.web.client.HttpServerErrorException.create(HttpServerErrorException.java:100)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:170)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:122)
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:819)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:777)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.postForEntity(RestTemplate.java:468)
+	at com.chatGpt.service.DefaultChatgptService.getResponse(DefaultChatgptService.java:58)
+	at com.chatGpt.service.DefaultChatgptService.sendMessage(DefaultChatgptService.java:35)
+	at com.chatGpt.controller.GptController.send(GptController.java:33)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.microsoft.applicationinsights.web.internal.WebRequestTrackingFilter.doFilter(WebRequestTrackingFilter.java:142)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-02-21 13:50:47,717 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor [http-nio-8080-exec-4] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-02-21 13:50:47,717 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor [http-nio-8080-exec-4] Writing [ResponseModel(code=500, message=error, data=500 Internal Server Error: "{<EOL>    "error": {<EOL>    (truncated)...]
+2023-02-21 13:50:47,718 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-4] Completed 200 OK
+2023-02-21 13:52:00,774 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(12)-127.0.0.1] Application shutdown requested.
+2023-02-21 13:52:02,616 INFO com.chatGpt.Etech7ChatGptServiceApplication [restartedMain] Starting Etech7ChatGptServiceApplication using Java 17.0.3 on GOGIA with PID 25088 (C:\Users\adity\Documents\workspace-spring-tool-suite-4-4.15.2.RELEASE\etech7-chatGpt-service\target\classes started by adity in C:\Users\adity\Documents\workspace-spring-tool-suite-4-4.15.2.RELEASE\etech7-chatGpt-service)
+2023-02-21 13:52:02,617 INFO com.chatGpt.Etech7ChatGptServiceApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-02-21 13:52:02,646 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-21 13:52:02,647 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-21 13:52:03,368 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-02-21 13:52:03,375 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-02-21 13:52:03,375 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.63]
+2023-02-21 13:52:03,439 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-02-21 13:52:03,440 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 793 ms
+2023-02-21 13:52:03,671 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [restartedMain] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-02-21 13:52:03,715 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [restartedMain] 3 mappings in 'requestMappingHandlerMapping'
+2023-02-21 13:52:03,716 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2023-02-21 13:52:03,730 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [restartedMain] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-02-21 13:52:03,736 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [restartedMain] ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-02-21 13:52:03,784 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-02-21 13:52:03,809 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-21 13:52:03,817 INFO com.chatGpt.Etech7ChatGptServiceApplication [restartedMain] Started Etech7ChatGptServiceApplication in 1.523 seconds (JVM running for 2.11)
+2023-02-21 13:52:23,823 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-21 13:52:23,824 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-02-21 13:52:23,824 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected StandardServletMultipartResolver
+2023-02-21 13:52:23,824 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected AcceptHeaderLocaleResolver
+2023-02-21 13:52:23,825 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected FixedThemeResolver
+2023-02-21 13:52:23,825 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@3d95d086
+2023-02-21 13:52:23,825 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected org.springframework.web.servlet.support.SessionFlashMapManager@5b194c3d
+2023-02-21 13:52:23,825 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-02-21 13:52:23,826 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2023-02-21 13:52:23,933 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] GET "/send?message=write%20a%20paragraph%20on%20AI", parameters={masked}
+2023-02-21 13:52:23,936 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [http-nio-8080-exec-1] Mapped to com.chatGpt.controller.GptController#send(HttpServletRequest, String)
+2023-02-21 13:52:23,948 INFO com.chatGpt.controller.GptController [http-nio-8080-exec-1] requestId 1a0635ac-9500-4edf-aee4-b52e06c3736a, ip 0:0:0:0:0:0:0:1, send a message : write a paragraph on AI
+2023-02-21 13:52:23,952 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8080-exec-1] request url: https://api.openai.com/v1/completions, httpEntity: <ChatRequest(model=text-davinci-003, prompt=write a paragraph on AI, maxTokens=1000, temperature=0.0, topP=1.0),[Content-Type:"application/json;charset=UTF-8", Authorization:"Bearer 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"]>
+2023-02-21 13:52:23,970 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-1] HTTP POST https://api.openai.com/v1/completions
+2023-02-21 13:52:24,007 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-1] Accept=[application/json, application/*+json]
+2023-02-21 13:52:24,015 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-1] Writing [ChatRequest(model=text-davinci-003, prompt=write a paragraph on AI, maxTokens=1000, temperature=0.0, topP=1.0)] as "application/json;charset=UTF-8"
+2023-02-21 13:52:29,187 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-1] Response 500 INTERNAL_SERVER_ERROR
+2023-02-21 13:52:29,194 ERROR com.chatGpt.controller.GptController [http-nio-8080-exec-1] requestId 1a0635ac-9500-4edf-aee4-b52e06c3736a, ip 0:0:0:0:0:0:0:1, error
+org.springframework.web.client.HttpServerErrorException$InternalServerError: 500 Internal Server Error: "{<EOL>    "error": {<EOL>        "message": "Internal server error",<EOL>        "type": "auth_subrequest_error",<EOL>        "param": null,<EOL>        "code": "internal_error"<EOL>    }<EOL>}<EOL>"
+	at org.springframework.web.client.HttpServerErrorException.create(HttpServerErrorException.java:100)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:170)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:122)
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:819)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:777)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.postForEntity(RestTemplate.java:468)
+	at com.chatGpt.service.DefaultChatgptService.getResponse(DefaultChatgptService.java:58)
+	at com.chatGpt.service.DefaultChatgptService.sendMessage(DefaultChatgptService.java:35)
+	at com.chatGpt.controller.GptController.send(GptController.java:33)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.microsoft.applicationinsights.web.internal.WebRequestTrackingFilter.doFilter(WebRequestTrackingFilter.java:142)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-02-21 13:52:29,199 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor [http-nio-8080-exec-1] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-02-21 13:52:29,200 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor [http-nio-8080-exec-1] Writing [ResponseModel(code=500, message=error, data=500 Internal Server Error: "{<EOL>    "error": {<EOL>    (truncated)...]
+2023-02-21 13:52:29,204 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed 200 OK
+2023-02-21 14:24:19,660 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-3] GET "/send?message=write%20a%20paragraph%20on%20AI", parameters={masked}
+2023-02-21 14:24:19,661 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [http-nio-8080-exec-3] Mapped to com.chatGpt.controller.GptController#send(HttpServletRequest, String)
+2023-02-21 14:24:19,661 INFO com.chatGpt.controller.GptController [http-nio-8080-exec-3] requestId 5b34c12f-3b5a-4a32-97fa-69d02eb387d3, ip 0:0:0:0:0:0:0:1, send a message : write a paragraph on AI
+2023-02-21 14:24:19,661 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8080-exec-3] request url: https://api.openai.com/v1/completions, httpEntity: <ChatRequest(model=text-davinci-003, prompt=write a paragraph on AI, maxTokens=1000, temperature=0.0, topP=1.0),[Content-Type:"application/json;charset=UTF-8", Authorization:"Bearer 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"]>
+2023-02-21 14:24:19,663 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-3] HTTP POST https://api.openai.com/v1/completions
+2023-02-21 14:24:19,665 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-3] Accept=[application/json, application/*+json]
+2023-02-21 14:24:19,668 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-3] Writing [ChatRequest(model=text-davinci-003, prompt=write a paragraph on AI, maxTokens=1000, temperature=0.0, topP=1.0)] as "application/json;charset=UTF-8"
+2023-02-21 14:24:25,456 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-3] Response 200 OK
+2023-02-21 14:24:25,459 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-3] Reading to [com.chatGpt.dto.ChatResponse]
+2023-02-21 14:24:25,468 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8080-exec-3] response: <200,ChatResponse(id=cmpl-6mSXLu49vETCZrnccNS0bA2ntyYMZ, object=text_completion, created=+4593460-06-22, model=text-davinci-003, choices=[Choice(text=
+
+AI, or Artificial Intelligence, is a rapidly growing field of technology that is revolutionizing the way we interact with the world. AI is the ability of a computer or machine to think and learn, and it is being used in a variety of ways to make our lives easier. AI can be used to automate mundane tasks, such as scheduling appointments or managing customer service inquiries. It can also be used to analyze large amounts of data to make predictions and decisions. AI is being used in healthcare to diagnose diseases, in finance to make investment decisions, and in transportation to optimize routes. AI is quickly becoming an integral part of our lives, and its potential is only beginning to be explored., index=0, logprobs=null, finishReason=stop)], usage=Usage(promptTokens=5, completionTokens=138, totalTokens=143)),[Date:"Tue, 21 Feb 2023 19:24:24 GMT", Content-Type:"application/json", Content-Length:"974", Connection:"keep-alive", Access-Control-Allow-Origin:"*", Cache-Control:"no-cache, must-revalidate", Openai-Model:"text-davinci-003", Openai-Organization:"user-xbngof7ex9kgc20aeaxs8tdl", Openai-Processing-Ms:"5513", Openai-Version:"2020-10-01", Strict-Transport-Security:"max-age=15724800; includeSubDomains", X-Request-Id:"a6eafb2b13292eaa230f0056db8fc50b"]>
+2023-02-21 14:24:25,469 INFO com.chatGpt.controller.GptController [http-nio-8080-exec-3] requestId 5b34c12f-3b5a-4a32-97fa-69d02eb387d3, ip 0:0:0:0:0:0:0:1, get a reply : 
+
+AI, or Artificial Intelligence, is a rapidly growing field of technology that is revolutionizing the way we interact with the world. AI is the ability of a computer or machine to think and learn, and it is being used in a variety of ways to make our lives easier. AI can be used to automate mundane tasks, such as scheduling appointments or managing customer service inquiries. It can also be used to analyze large amounts of data to make predictions and decisions. AI is being used in healthcare to diagnose diseases, in finance to make investment decisions, and in transportation to optimize routes. AI is quickly becoming an integral part of our lives, and its potential is only beginning to be explored.
+2023-02-21 14:24:25,469 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor [http-nio-8080-exec-3] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-02-21 14:24:25,469 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor [http-nio-8080-exec-3] Writing [ResponseModel(code=200, message=success, data=<EOL><EOL>AI, or Artificial Intelligence, is a rapidly growing (truncated)...]
+2023-02-21 14:24:25,470 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-3] Completed 200 OK
+2023-02-21 14:24:35,620 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-4] GET "/send?message=write%20a%20paragraph%20on%20AI", parameters={masked}
+2023-02-21 14:24:35,621 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [http-nio-8080-exec-4] Mapped to com.chatGpt.controller.GptController#send(HttpServletRequest, String)
+2023-02-21 14:24:35,621 INFO com.chatGpt.controller.GptController [http-nio-8080-exec-4] requestId 6c3cfedf-13ce-4db3-8b0e-efc60c10b1c2, ip 0:0:0:0:0:0:0:1, send a message : write a paragraph on AI
+2023-02-21 14:24:35,621 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8080-exec-4] request url: https://api.openai.com/v1/completions, httpEntity: <ChatRequest(model=text-davinci-003, prompt=write a paragraph on AI, maxTokens=1000, temperature=0.0, topP=1.0),[Content-Type:"application/json;charset=UTF-8", Authorization:"Bearer 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"]>
+2023-02-21 14:24:35,623 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-4] HTTP POST https://api.openai.com/v1/completions
+2023-02-21 14:24:35,625 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-4] Accept=[application/json, application/*+json]
+2023-02-21 14:24:35,626 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-4] Writing [ChatRequest(model=text-davinci-003, prompt=write a paragraph on AI, maxTokens=1000, temperature=0.0, topP=1.0)] as "application/json;charset=UTF-8"
+2023-02-21 14:24:41,474 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-4] Response 200 OK
+2023-02-21 14:24:41,476 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-4] Reading to [com.chatGpt.dto.ChatResponse]
+2023-02-21 14:24:41,478 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8080-exec-4] response: <200,ChatResponse(id=cmpl-6mSXbvooIThaEzEIrFrfQLH7Bo2Tf, object=text_completion, created=+4593460-07-08, model=text-davinci-003, choices=[Choice(text=
+
+AI, or Artificial Intelligence, is a rapidly growing field of technology that is revolutionizing the way we interact with the world. AI is the ability of a computer or machine to think and learn, and it is being used in a variety of ways to make our lives easier. AI can be used to automate mundane tasks, such as scheduling appointments or managing customer service inquiries. It can also be used to analyze large amounts of data to make predictions and decisions. AI is being used in healthcare to diagnose diseases, in finance to make investment decisions, and in transportation to optimize routes. AI is quickly becoming an integral part of our lives, and its potential is only beginning to be explored., index=0, logprobs=null, finishReason=stop)], usage=Usage(promptTokens=5, completionTokens=138, totalTokens=143)),[Date:"Tue, 21 Feb 2023 19:24:40 GMT", Content-Type:"application/json", Content-Length:"974", Connection:"keep-alive", Access-Control-Allow-Origin:"*", Cache-Control:"no-cache, must-revalidate", Openai-Model:"text-davinci-003", Openai-Organization:"user-xbngof7ex9kgc20aeaxs8tdl", Openai-Processing-Ms:"5638", Openai-Version:"2020-10-01", Strict-Transport-Security:"max-age=15724800; includeSubDomains", X-Request-Id:"cfcdd9adb41ca01af480e2de9557b44e"]>
+2023-02-21 14:24:41,479 INFO com.chatGpt.controller.GptController [http-nio-8080-exec-4] requestId 6c3cfedf-13ce-4db3-8b0e-efc60c10b1c2, ip 0:0:0:0:0:0:0:1, get a reply : 
+
+AI, or Artificial Intelligence, is a rapidly growing field of technology that is revolutionizing the way we interact with the world. AI is the ability of a computer or machine to think and learn, and it is being used in a variety of ways to make our lives easier. AI can be used to automate mundane tasks, such as scheduling appointments or managing customer service inquiries. It can also be used to analyze large amounts of data to make predictions and decisions. AI is being used in healthcare to diagnose diseases, in finance to make investment decisions, and in transportation to optimize routes. AI is quickly becoming an integral part of our lives, and its potential is only beginning to be explored.
+2023-02-21 14:24:41,479 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor [http-nio-8080-exec-4] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-02-21 14:24:41,479 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor [http-nio-8080-exec-4] Writing [ResponseModel(code=200, message=success, data=<EOL><EOL>AI, or Artificial Intelligence, is a rapidly growing (truncated)...]
+2023-02-21 14:24:41,480 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-4] Completed 200 OK
+2023-02-21 14:26:24,426 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(37)-127.0.0.1] Application shutdown requested.
+2023-02-21 14:26:30,930 INFO com.chatGpt.Etech7ChatGptServiceApplication [restartedMain] Starting Etech7ChatGptServiceApplication using Java 17.0.3 on GOGIA with PID 27024 (C:\Users\adity\Documents\workspace-spring-tool-suite-4-4.15.2.RELEASE\etech7-chatGpt-service\target\classes started by adity in C:\Users\adity\Documents\workspace-spring-tool-suite-4-4.15.2.RELEASE\etech7-chatGpt-service)
+2023-02-21 14:26:30,931 INFO com.chatGpt.Etech7ChatGptServiceApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-02-21 14:26:30,966 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-21 14:26:30,966 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-21 14:26:31,711 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-02-21 14:26:31,720 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-02-21 14:26:31,720 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.63]
+2023-02-21 14:26:31,789 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-02-21 14:26:31,790 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 824 ms
+2023-02-21 14:26:32,037 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [restartedMain] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-02-21 14:26:32,086 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [restartedMain] 3 mappings in 'requestMappingHandlerMapping'
+2023-02-21 14:26:32,088 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2023-02-21 14:26:32,102 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [restartedMain] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-02-21 14:26:32,107 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [restartedMain] ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-02-21 14:26:32,153 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-02-21 14:26:32,187 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-21 14:26:32,194 INFO com.chatGpt.Etech7ChatGptServiceApplication [restartedMain] Started Etech7ChatGptServiceApplication in 1.596 seconds (JVM running for 2.184)
+2023-02-21 14:29:44,427 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-21 14:29:44,428 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-02-21 14:29:44,428 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected StandardServletMultipartResolver
+2023-02-21 14:29:44,428 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected AcceptHeaderLocaleResolver
+2023-02-21 14:29:44,428 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected FixedThemeResolver
+2023-02-21 14:29:44,429 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@6dab7a99
+2023-02-21 14:29:44,429 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected org.springframework.web.servlet.support.SessionFlashMapManager@653f7318
+2023-02-21 14:29:44,429 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-02-21 14:29:44,429 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2023-02-21 14:29:44,579 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] GET "/send?message=write%20a%20paragraph%20on%20AI%20in%202%20sentence", parameters={masked}
+2023-02-21 14:29:44,584 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [http-nio-8080-exec-1] Mapped to com.chatGpt.controller.GptController#send(HttpServletRequest, String)
+2023-02-21 14:29:44,597 INFO com.chatGpt.controller.GptController [http-nio-8080-exec-1] requestId e7b1483f-82c7-40da-99f0-3c3d54ab635e, ip 0:0:0:0:0:0:0:1, send a message : write a paragraph on AI in 2 sentence
+2023-02-21 14:29:44,602 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8080-exec-1] request url: https://api.openai.com/v1/completions, httpEntity: <ChatRequest(model=text-davinci-003, prompt=write a paragraph on AI in 2 sentence, maxTokens=1000, temperature=0.0, topP=1.0),[Content-Type:"application/json;charset=UTF-8", Authorization:"Bearer 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"]>
+2023-02-21 14:29:44,623 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-1] HTTP POST https://api.openai.com/v1/completions
+2023-02-21 14:29:44,667 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-1] Accept=[application/json, application/*+json]
+2023-02-21 14:29:44,676 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-1] Writing [ChatRequest(model=text-davinci-003, prompt=write a paragraph on AI in 2 sentence, maxTokens=1000, temperature=0.0, topP=1.0)] as "application/json;charset=UTF-8"
+2023-02-21 14:29:46,966 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-1] Response 200 OK
+2023-02-21 14:29:46,968 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-1] Reading to [com.chatGpt.dto.ChatResponse]
+2023-02-21 14:29:46,977 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8080-exec-1] response: <200,ChatResponse(id=cmpl-6mScagDDNzwsOfY189BV2bQzuPWt2, object=text_completion, created=+4593461-05-13, model=text-davinci-003, choices=[Choice(text=
+
+AI is a rapidly growing field of technology that is revolutionizing the way we interact with the world. It is being used in a variety of industries to automate processes, improve decision-making, and create new products and services., index=0, logprobs=null, finishReason=stop)], usage=Usage(promptTokens=8, completionTokens=47, totalTokens=55)),[Date:"Tue, 21 Feb 2023 19:29:46 GMT", Content-Type:"application/json", Content-Length:"498", Connection:"keep-alive", Access-Control-Allow-Origin:"*", Cache-Control:"no-cache, must-revalidate", Openai-Model:"text-davinci-003", Openai-Organization:"user-xbngof7ex9kgc20aeaxs8tdl", Openai-Processing-Ms:"1870", Openai-Version:"2020-10-01", Strict-Transport-Security:"max-age=15724800; includeSubDomains", X-Request-Id:"64fb6a2d1d523493d33057f46fbf8a9e"]>
+2023-02-21 14:29:46,978 INFO com.chatGpt.controller.GptController [http-nio-8080-exec-1] requestId e7b1483f-82c7-40da-99f0-3c3d54ab635e, ip 0:0:0:0:0:0:0:1, get a reply : 
+
+AI is a rapidly growing field of technology that is revolutionizing the way we interact with the world. It is being used in a variety of industries to automate processes, improve decision-making, and create new products and services.
+2023-02-21 14:29:46,983 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor [http-nio-8080-exec-1] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-02-21 14:29:46,984 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor [http-nio-8080-exec-1] Writing [ResponseModel(code=200, message=success, data=<EOL><EOL>AI is a rapidly growing field of technology that is  (truncated)...]
+2023-02-21 14:29:46,998 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed 200 OK
+2023-02-21 14:46:05,470 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(25)-127.0.0.1] Application shutdown requested.
+2023-02-21 14:50:34,527 ERROR org.springframework.boot.SpringApplication [restartedMain] Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.action.AppenderAction - Could not create an Appender of type [com.microsoft.applicationsights.logback.ApplicationInsightsAppender]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.microsoft.applicationsights.logback.ApplicationInsightsAppender
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@15:114 - ActionException in Action for tag [appender] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.microsoft.applicationsights.logback.ApplicationInsightsAppender
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - Could not find an appender named [AZURE-INSIGHTS]. Did you define it below instead of above in the configuration file?
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - See http://logback.qos.ch/codes.html#appender_order for more details.
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:328)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:282)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:240)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:216)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:85)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:66)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:120)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:114)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:65)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at com.chatGpt.Etech7ChatGptServiceApplication.main(Etech7ChatGptServiceApplication.java:11)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.action.AppenderAction - Could not create an Appender of type [com.microsoft.applicationsights.logback.ApplicationInsightsAppender]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.microsoft.applicationsights.logback.ApplicationInsightsAppender
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@15:114 - ActionException in Action for tag [appender] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.microsoft.applicationsights.logback.ApplicationInsightsAppender
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - Could not find an appender named [AZURE-INSIGHTS]. Did you define it below instead of above in the configuration file?
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - See http://logback.qos.ch/codes.html#appender_order for more details.
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:179)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:80)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:132)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:313)
+	... 23 common frames omitted
+2023-02-21 14:52:04,049 INFO com.chatGpt.Etech7ChatGptServiceApplication [restartedMain] Starting Etech7ChatGptServiceApplication using Java 17.0.3 on GOGIA with PID 32976 (C:\Users\adity\Documents\workspace-spring-tool-suite-4-4.15.2.RELEASE\etech7-chatGpt-service\target\classes started by adity in C:\Users\adity\Documents\workspace-spring-tool-suite-4-4.15.2.RELEASE\etech7-chatGpt-service)
+2023-02-21 14:52:04,063 INFO com.chatGpt.Etech7ChatGptServiceApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-02-21 14:52:04,095 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-21 14:52:04,096 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-21 14:52:04,713 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-02-21 14:52:04,721 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-02-21 14:52:04,721 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.63]
+2023-02-21 14:52:04,785 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-02-21 14:52:04,786 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 690 ms
+2023-02-21 14:52:04,961 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [restartedMain] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-02-21 14:52:05,010 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [restartedMain] 3 mappings in 'requestMappingHandlerMapping'
+2023-02-21 14:52:05,012 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2023-02-21 14:52:05,028 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [restartedMain] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-02-21 14:52:05,033 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [restartedMain] ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-02-21 14:52:05,079 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-02-21 14:52:05,103 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-21 14:52:05,111 INFO com.chatGpt.Etech7ChatGptServiceApplication [restartedMain] Started Etech7ChatGptServiceApplication in 1.522 seconds (JVM running for 2.192)
+2023-02-21 14:52:23,736 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-21 14:52:23,736 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-02-21 14:52:23,737 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected StandardServletMultipartResolver
+2023-02-21 14:52:23,738 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected AcceptHeaderLocaleResolver
+2023-02-21 14:52:23,738 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected FixedThemeResolver
+2023-02-21 14:52:23,739 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@65ac7bcd
+2023-02-21 14:52:23,740 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected org.springframework.web.servlet.support.SessionFlashMapManager@10b49511
+2023-02-21 14:52:23,742 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-02-21 14:52:23,743 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 6 ms
+2023-02-21 14:52:23,844 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] GET "/send?message=write%20a%20paragraph%20on%20ML", parameters={masked}
+2023-02-21 14:52:23,848 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [http-nio-8080-exec-1] Mapped to com.chatGpt.controller.GptController#send(HttpServletRequest, String)
+2023-02-21 14:52:23,860 INFO com.chatGpt.controller.GptController [http-nio-8080-exec-1] requestId 1c141671-c6bc-4a50-96a4-c30debfe0a91, ip 0:0:0:0:0:0:0:1, send a message : write a paragraph on ML
+2023-02-21 14:52:23,865 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8080-exec-1] request url: https://api.openai.com/v1/completions, httpEntity: <ChatRequest(model=text-davinci-003, prompt=write a paragraph on ML, maxTokens=1000, temperature=0.0, topP=1.0),[Content-Type:"application/json;charset=UTF-8", Authorization:"Bearer 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"]>
+2023-02-21 14:52:23,885 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-1] HTTP POST https://api.openai.com/v1/completions
+2023-02-21 14:52:23,917 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-1] Accept=[application/json, application/*+json]
+2023-02-21 14:52:23,926 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-1] Writing [ChatRequest(model=text-davinci-003, prompt=write a paragraph on ML, maxTokens=1000, temperature=0.0, topP=1.0)] as "application/json;charset=UTF-8"
+2023-02-21 14:52:32,625 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-1] Response 200 OK
+2023-02-21 14:52:32,626 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-1] Reading to [com.chatGpt.dto.ChatResponse]
+2023-02-21 14:52:32,635 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8080-exec-1] response: <200,ChatResponse(id=cmpl-6mSyYrVm7zJ1iotZB8kUTeswMfRKp, object=text_completion, created=+4593465-02-03, model=text-davinci-003, choices=[Choice(text=
+
+Machine Learning (ML) is a branch of Artificial Intelligence (AI) that enables computers to learn from data and experience without being explicitly programmed. ML algorithms use statistical techniques to find patterns in large amounts of data and make decisions with minimal human intervention. ML is used in a variety of applications, such as image recognition, natural language processing, and predictive analytics. ML algorithms are used to identify patterns in data, make predictions, and automate decisions. ML is becoming increasingly important in the modern world, as it is used to improve the accuracy and efficiency of many tasks., index=0, logprobs=null, finishReason=stop)], usage=Usage(promptTokens=5, completionTokens=114, totalTokens=119)),[Date:"Tue, 21 Feb 2023 19:52:32 GMT", Content-Type:"application/json", Content-Length:"906", Connection:"keep-alive", Access-Control-Allow-Origin:"*", Cache-Control:"no-cache, must-revalidate", Openai-Model:"text-davinci-003", Openai-Organization:"user-xbngof7ex9kgc20aeaxs8tdl", Openai-Processing-Ms:"8410", Openai-Version:"2020-10-01", Strict-Transport-Security:"max-age=15724800; includeSubDomains", X-Request-Id:"d80e88fec11f04dd38781081dc904bc5"]>
+2023-02-21 14:52:32,636 INFO com.chatGpt.controller.GptController [http-nio-8080-exec-1] requestId 1c141671-c6bc-4a50-96a4-c30debfe0a91, ip 0:0:0:0:0:0:0:1, get a reply : 
+
+Machine Learning (ML) is a branch of Artificial Intelligence (AI) that enables computers to learn from data and experience without being explicitly programmed. ML algorithms use statistical techniques to find patterns in large amounts of data and make decisions with minimal human intervention. ML is used in a variety of applications, such as image recognition, natural language processing, and predictive analytics. ML algorithms are used to identify patterns in data, make predictions, and automate decisions. ML is becoming increasingly important in the modern world, as it is used to improve the accuracy and efficiency of many tasks.
+2023-02-21 14:52:32,643 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor [http-nio-8080-exec-1] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-02-21 14:52:32,643 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor [http-nio-8080-exec-1] Writing [ResponseModel(code=200, message=success, data=<EOL><EOL>Machine Learning (ML) is a branch of Artificial Inte (truncated)...]
+2023-02-21 14:52:32,648 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed 200 OK
+2023-02-21 14:52:55,551 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] GET "/", parameters={}
+2023-02-21 14:52:55,557 DEBUG org.springframework.web.servlet.view.ContentNegotiatingViewResolver [http-nio-8080-exec-2] Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2023-02-21 14:52:55,558 DEBUG org.springframework.web.servlet.view.InternalResourceView [http-nio-8080-exec-2] View name 'forward:', model {}
+2023-02-21 14:52:55,559 DEBUG org.springframework.web.servlet.view.InternalResourceView [http-nio-8080-exec-2] Forwarding to [index.html]
+2023-02-21 14:52:55,561 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] "FORWARD" dispatch for GET "/index.html", parameters={}
+2023-02-21 14:52:55,563 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [http-nio-8080-exec-2] Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-02-21 14:52:55,567 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Exiting from "FORWARD" dispatch, status 200
+2023-02-21 14:52:55,568 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Completed 200 OK
+2023-02-21 14:53:12,559 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-3] GET "/send?message=Tell%20me%20about%20Azure%20Cogintive%20Services", parameters={masked}
+2023-02-21 14:53:12,560 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [http-nio-8080-exec-3] Mapped to com.chatGpt.controller.GptController#send(HttpServletRequest, String)
+2023-02-21 14:53:12,562 INFO com.chatGpt.controller.GptController [http-nio-8080-exec-3] requestId 140665d7-f011-41ce-b405-71bd5e9adb0d, ip 127.0.0.1, send a message : Tell me about Azure Cogintive Services
+2023-02-21 14:53:12,562 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8080-exec-3] request url: https://api.openai.com/v1/completions, httpEntity: <ChatRequest(model=text-davinci-003, prompt=Tell me about Azure Cogintive Services, maxTokens=1000, temperature=0.0, topP=1.0),[Content-Type:"application/json;charset=UTF-8", Authorization:"Bearer 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"]>
+2023-02-21 14:53:12,564 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-3] HTTP POST https://api.openai.com/v1/completions
+2023-02-21 14:53:12,565 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-3] Accept=[application/json, application/*+json]
+2023-02-21 14:53:12,566 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-3] Writing [ChatRequest(model=text-davinci-003, prompt=Tell me about Azure Cogintive Services, maxTokens=1000, temperature=0.0, topP=1.0)] as "application/json;charset=UTF-8"
+2023-02-21 14:53:17,599 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-3] Response 200 OK
+2023-02-21 14:53:17,602 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-3] Reading to [com.chatGpt.dto.ChatResponse]
+2023-02-21 14:53:17,606 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8080-exec-3] response: <200,ChatResponse(id=cmpl-6mSzIiW0bsHnfo92J0QKrcZxP5Md0, object=text_completion, created=+4593465-03-21, model=text-davinci-003, choices=[Choice(text=
+
+Azure Cognitive Services is a collection of cloud-based services that allow developers to build applications that can understand natural language, recognize objects in images, and interpret speech. These services are powered by artificial intelligence (AI) and machine learning algorithms, and can be used to create applications that can understand and respond to user input. With Azure Cognitive Services, developers can create applications that can understand natural language, recognize objects in images, and interpret speech. These services are powered by artificial intelligence (AI) and machine learning algorithms, and can be used to create applications that can understand and respond to user input., index=0, logprobs=null, finishReason=stop)], usage=Usage(promptTokens=9, completionTokens=121, totalTokens=130)),[Date:"Tue, 21 Feb 2023 19:53:17 GMT", Content-Type:"application/json", Content-Length:"975", Connection:"keep-alive", Access-Control-Allow-Origin:"*", Cache-Control:"no-cache, must-revalidate", Openai-Model:"text-davinci-003", Openai-Organization:"user-xbngof7ex9kgc20aeaxs8tdl", Openai-Processing-Ms:"4761", Openai-Version:"2020-10-01", Strict-Transport-Security:"max-age=15724800; includeSubDomains", X-Request-Id:"ce92265df95c2d9745c2827076f0bb5f"]>
+2023-02-21 14:53:17,608 INFO com.chatGpt.controller.GptController [http-nio-8080-exec-3] requestId 140665d7-f011-41ce-b405-71bd5e9adb0d, ip 127.0.0.1, get a reply : 
+
+Azure Cognitive Services is a collection of cloud-based services that allow developers to build applications that can understand natural language, recognize objects in images, and interpret speech. These services are powered by artificial intelligence (AI) and machine learning algorithms, and can be used to create applications that can understand and respond to user input. With Azure Cognitive Services, developers can create applications that can understand natural language, recognize objects in images, and interpret speech. These services are powered by artificial intelligence (AI) and machine learning algorithms, and can be used to create applications that can understand and respond to user input.
+2023-02-21 14:53:17,610 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor [http-nio-8080-exec-3] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-02-21 14:53:17,611 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor [http-nio-8080-exec-3] Writing [ResponseModel(code=200, message=success, data=<EOL><EOL>Azure Cognitive Services is a collection of cloud-ba (truncated)...]
+2023-02-21 14:53:17,614 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-3] Completed 200 OK
+2023-02-21 14:58:57,701 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-7] GET "/send?message=write%20a%20paragraph%20on%20ML%20in%202%20sentence", parameters={masked}
+2023-02-21 14:58:57,702 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [http-nio-8080-exec-7] Mapped to com.chatGpt.controller.GptController#send(HttpServletRequest, String)
+2023-02-21 14:58:57,703 INFO com.chatGpt.controller.GptController [http-nio-8080-exec-7] requestId 99dad337-8b07-4da4-9404-b64e93fbea0f, ip 0:0:0:0:0:0:0:1, send a message : write a paragraph on ML in 2 sentence
+2023-02-21 14:58:57,703 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8080-exec-7] request url: https://api.openai.com/v1/completions, httpEntity: <ChatRequest(model=text-davinci-003, prompt=write a paragraph on ML in 2 sentence, maxTokens=1000, temperature=0.0, topP=1.0),[Content-Type:"application/json;charset=UTF-8", Authorization:"Bearer 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"]>
+2023-02-21 14:58:57,706 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-7] HTTP POST https://api.openai.com/v1/completions
+2023-02-21 14:58:57,708 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-7] Accept=[application/json, application/*+json]
+2023-02-21 14:58:57,711 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-7] Writing [ChatRequest(model=text-davinci-003, prompt=write a paragraph on ML in 2 sentence, maxTokens=1000, temperature=0.0, topP=1.0)] as "application/json;charset=UTF-8"
+2023-02-21 14:59:00,125 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-7] Response 200 OK
+2023-02-21 14:59:00,127 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-7] Reading to [com.chatGpt.dto.ChatResponse]
+2023-02-21 14:59:00,130 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8080-exec-7] response: <200,ChatResponse(id=cmpl-6mT4riuUcqL7j90damqCnPNsv4b6X, object=text_completion, created=+4593466-03-01, model=text-davinci-003, choices=[Choice(text=
+
+Machine Learning is a type of Artificial Intelligence that enables computers to learn from data and make decisions without being explicitly programmed. It is used to identify patterns in data and make predictions based on those patterns., index=0, logprobs=null, finishReason=stop)], usage=Usage(promptTokens=8, completionTokens=41, totalTokens=49)),[Date:"Tue, 21 Feb 2023 19:58:59 GMT", Content-Type:"application/json", Content-Length:"502", Connection:"keep-alive", Access-Control-Allow-Origin:"*", Cache-Control:"no-cache, must-revalidate", Openai-Model:"text-davinci-003", Openai-Organization:"user-xbngof7ex9kgc20aeaxs8tdl", Openai-Processing-Ms:"2175", Openai-Version:"2020-10-01", Strict-Transport-Security:"max-age=15724800; includeSubDomains", X-Request-Id:"934fe703f127a68f3265f808e180d023"]>
+2023-02-21 14:59:00,133 INFO com.chatGpt.controller.GptController [http-nio-8080-exec-7] requestId 99dad337-8b07-4da4-9404-b64e93fbea0f, ip 0:0:0:0:0:0:0:1, get a reply : 
+
+Machine Learning is a type of Artificial Intelligence that enables computers to learn from data and make decisions without being explicitly programmed. It is used to identify patterns in data and make predictions based on those patterns.
+2023-02-21 14:59:00,135 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor [http-nio-8080-exec-7] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-02-21 14:59:00,136 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor [http-nio-8080-exec-7] Writing [ResponseModel(code=200, message=success, data=<EOL><EOL>Machine Learning is a type of Artificial Intelligenc (truncated)...]
+2023-02-21 14:59:00,139 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-7] Completed 200 OK
+2023-02-21 17:01:51,775 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-9] GET "/send?message=Steps%20to%20connect%20Springboot%20to%20teams%20to%20send%20message%20via%20azure,%20Elaborate%20each%20step%20and%20provide%20code%20in%20java", parameters={masked}
+2023-02-21 17:01:51,776 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [http-nio-8080-exec-9] Mapped to com.chatGpt.controller.GptController#send(HttpServletRequest, String)
+2023-02-21 17:01:51,778 INFO com.chatGpt.controller.GptController [http-nio-8080-exec-9] requestId 016856f5-7c28-4cf3-a229-c27027200320, ip 127.0.0.1, send a message : Steps to connect Springboot to teams to send message via azure, Elaborate each step and provide code in java
+2023-02-21 17:01:51,779 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8080-exec-9] request url: https://api.openai.com/v1/completions, httpEntity: <ChatRequest(model=text-davinci-003, prompt=Steps to connect Springboot to teams to send message via azure, Elaborate each step and provide code in java, maxTokens=1000, temperature=0.0, topP=1.0),[Content-Type:"application/json;charset=UTF-8", Authorization:"Bearer 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"]>
+2023-02-21 17:01:51,783 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-9] HTTP POST https://api.openai.com/v1/completions
+2023-02-21 17:01:51,785 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-9] Accept=[application/json, application/*+json]
+2023-02-21 17:01:51,786 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-9] Writing [ChatRequest(model=text-davinci-003, prompt=Steps to connect Springboot to teams to send message via azure, Elaborate each step and provide code in java, maxTokens=1000, temperature=0.0, topP=1.0)] as "application/json;charset=UTF-8"
+2023-02-21 17:02:07,969 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-9] Response 200 OK
+2023-02-21 17:02:07,970 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-9] Reading to [com.chatGpt.dto.ChatResponse]
+2023-02-21 17:02:07,972 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8080-exec-9] response: <200,ChatResponse(id=cmpl-6mUznVNaivhqI64rqnjGdWrZpvbPs, object=text_completion, created=+4593486-05-09, model=text-davinci-003, choices=[Choice(text=
+
+Step 1: Create an Azure account
+
+To connect Springboot to Teams, you will need to create an Azure account. You can do this by visiting the Azure website and signing up for an account.
+
+Step 2: Create an Azure App
+
+Once you have an Azure account, you will need to create an Azure App. This will allow you to access the Teams API and send messages to Teams. To create an Azure App, go to the Azure portal and select “Create a resource”. Select “Web App” and follow the instructions to create your app.
+
+Step 3: Configure the Azure App
+
+Once you have created your Azure App, you will need to configure it. This includes setting up authentication, setting up the Teams API, and setting up the application permissions.
+
+Step 4: Create a Spring Boot Application
+
+Once you have configured your Azure App, you will need to create a Spring Boot application. This will allow you to access the Teams API and send messages to Teams. To create a Spring Boot application, you will need to install the Spring Boot CLI and create a new project.
+
+Step 5: Configure the Spring Boot Application
+
+Once you have created your Spring Boot application, you will need to configure it. This includes setting up the Teams API, setting up the application permissions, and setting up the authentication.
+
+Step 6: Send a Message to Teams
+
+Once you have configured your Spring Boot application, you can use the Teams API to send a message to Teams. To do this, you will need to create a TeamsMessage object and use the Teams API to send the message.
+
+Example code in Java:
+
+// Create a TeamsMessage object
+TeamsMessage message = new TeamsMessage();
+message.setText("Hello World!");
+
+// Use the Teams API to send the message
+TeamsApi teamsApi = new TeamsApi();
+teamsApi.sendMessage(message);, index=0, logprobs=null, finishReason=stop)], usage=Usage(promptTokens=25, completionTokens=412, totalTokens=437)),[Date:"Tue, 21 Feb 2023 22:02:07 GMT", Content-Type:"application/json", Transfer-Encoding:"chunked", Connection:"keep-alive", Access-Control-Allow-Origin:"*", Cache-Control:"no-cache, must-revalidate", Openai-Model:"text-davinci-003", Openai-Organization:"user-xbngof7ex9kgc20aeaxs8tdl", Openai-Processing-Ms:"15875", Openai-Version:"2020-10-01", Strict-Transport-Security:"max-age=15724800; includeSubDomains", X-Request-Id:"5b058f083e4f5b39c60c2f85d95814b3"]>
+2023-02-21 17:02:07,974 INFO com.chatGpt.controller.GptController [http-nio-8080-exec-9] requestId 016856f5-7c28-4cf3-a229-c27027200320, ip 127.0.0.1, get a reply : 
+
+Step 1: Create an Azure account
+
+To connect Springboot to Teams, you will need to create an Azure account. You can do this by visiting the Azure website and signing up for an account.
+
+Step 2: Create an Azure App
+
+Once you have an Azure account, you will need to create an Azure App. This will allow you to access the Teams API and send messages to Teams. To create an Azure App, go to the Azure portal and select “Create a resource”. Select “Web App” and follow the instructions to create your app.
+
+Step 3: Configure the Azure App
+
+Once you have created your Azure App, you will need to configure it. This includes setting up authentication, setting up the Teams API, and setting up the application permissions.
+
+Step 4: Create a Spring Boot Application
+
+Once you have configured your Azure App, you will need to create a Spring Boot application. This will allow you to access the Teams API and send messages to Teams. To create a Spring Boot application, you will need to install the Spring Boot CLI and create a new project.
+
+Step 5: Configure the Spring Boot Application
+
+Once you have created your Spring Boot application, you will need to configure it. This includes setting up the Teams API, setting up the application permissions, and setting up the authentication.
+
+Step 6: Send a Message to Teams
+
+Once you have configured your Spring Boot application, you can use the Teams API to send a message to Teams. To do this, you will need to create a TeamsMessage object and use the Teams API to send the message.
+
+Example code in Java:
+
+// Create a TeamsMessage object
+TeamsMessage message = new TeamsMessage();
+message.setText("Hello World!");
+
+// Use the Teams API to send the message
+TeamsApi teamsApi = new TeamsApi();
+teamsApi.sendMessage(message);
+2023-02-21 17:02:07,976 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor [http-nio-8080-exec-9] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-02-21 17:02:07,976 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor [http-nio-8080-exec-9] Writing [ResponseModel(code=200, message=success, data=<EOL><EOL>Step 1: Create an Azure account<EOL><EOL>To connect Springbo (truncated)...]
+2023-02-21 17:02:07,978 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-9] Completed 200 OK
+2023-02-21 17:02:47,549 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-10] GET "/", parameters={}
+2023-02-21 17:02:47,551 DEBUG org.springframework.web.servlet.view.ContentNegotiatingViewResolver [http-nio-8080-exec-10] Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2023-02-21 17:02:47,551 DEBUG org.springframework.web.servlet.view.InternalResourceView [http-nio-8080-exec-10] View name 'forward:', model {}
+2023-02-21 17:02:47,552 DEBUG org.springframework.web.servlet.view.InternalResourceView [http-nio-8080-exec-10] Forwarding to [index.html]
+2023-02-21 17:02:47,552 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-10] "FORWARD" dispatch for GET "/index.html", parameters={}
+2023-02-21 17:02:47,553 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [http-nio-8080-exec-10] Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-02-21 17:02:47,556 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-10] Exiting from "FORWARD" dispatch, status 200
+2023-02-21 17:02:47,557 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-10] Completed 200 OK
+2023-02-21 17:03:12,807 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] GET "/send?message=Connect%20springboot%20to%20teams%20via%20azure,%20Elaborate%20each%20step", parameters={masked}
+2023-02-21 17:03:12,808 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [http-nio-8080-exec-2] Mapped to com.chatGpt.controller.GptController#send(HttpServletRequest, String)
+2023-02-21 17:03:12,809 INFO com.chatGpt.controller.GptController [http-nio-8080-exec-2] requestId 8c7ace51-1882-400c-bde7-d10cfd5694e5, ip 127.0.0.1, send a message : Connect springboot to teams via azure, Elaborate each step
+2023-02-21 17:03:12,810 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8080-exec-2] request url: https://api.openai.com/v1/completions, httpEntity: <ChatRequest(model=text-davinci-003, prompt=Connect springboot to teams via azure, Elaborate each step, maxTokens=1000, temperature=0.0, topP=1.0),[Content-Type:"application/json;charset=UTF-8", Authorization:"Bearer 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"]>
+2023-02-21 17:03:12,811 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-2] HTTP POST https://api.openai.com/v1/completions
+2023-02-21 17:03:12,813 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-2] Accept=[application/json, application/*+json]
+2023-02-21 17:03:12,815 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-2] Writing [ChatRequest(model=text-davinci-003, prompt=Connect springboot to teams via azure, Elaborate each step, maxTokens=1000, temperature=0.0, topP=1.0)] as "application/json;charset=UTF-8"
+2023-02-21 17:03:23,318 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-2] Response 200 OK
+2023-02-21 17:03:23,320 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-2] Reading to [com.chatGpt.dto.ChatResponse]
+2023-02-21 17:03:23,323 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8080-exec-2] response: <200,ChatResponse(id=cmpl-6mV16FiR6QKyyQeeu9FfH3mEJ78uX, object=text_completion, created=+4593486-07-29, model=text-davinci-003, choices=[Choice(text=
+
+1. Create an Azure account: The first step is to create an Azure account. This will provide you with access to the Azure platform and its services.
+
+2. Create an Azure App Service: Once you have an Azure account, you can create an Azure App Service. This will provide you with a platform to host your Spring Boot application.
+
+3. Configure the App Service: Once the App Service is created, you will need to configure it to run your Spring Boot application. This includes setting up the environment, configuring the application settings, and setting up the deployment process.
+
+4. Connect the App Service to Teams: Once the App Service is configured, you can connect it to Teams. This will allow you to send notifications to Teams when certain events occur in your application.
+
+5. Deploy the Spring Boot application: Once the App Service is connected to Teams, you can deploy your Spring Boot application. This will allow you to access the application from Teams.
+
+6. Monitor the application: Finally, you can monitor the application using the Azure portal. This will allow you to view the performance of the application and make any necessary changes., index=0, logprobs=null, finishReason=stop)], usage=Usage(promptTokens=14, completionTokens=239, totalTokens=253)),[Date:"Tue, 21 Feb 2023 22:03:22 GMT", Content-Type:"application/json", Content-Length:"1430", Connection:"keep-alive", Access-Control-Allow-Origin:"*", Cache-Control:"no-cache, must-revalidate", Openai-Model:"text-davinci-003", Openai-Organization:"user-xbngof7ex9kgc20aeaxs8tdl", Openai-Processing-Ms:"10236", Openai-Version:"2020-10-01", Strict-Transport-Security:"max-age=15724800; includeSubDomains", X-Request-Id:"fafa895336bb570894cad6706ff9b303"]>
+2023-02-21 17:03:23,324 INFO com.chatGpt.controller.GptController [http-nio-8080-exec-2] requestId 8c7ace51-1882-400c-bde7-d10cfd5694e5, ip 127.0.0.1, get a reply : 
+
+1. Create an Azure account: The first step is to create an Azure account. This will provide you with access to the Azure platform and its services.
+
+2. Create an Azure App Service: Once you have an Azure account, you can create an Azure App Service. This will provide you with a platform to host your Spring Boot application.
+
+3. Configure the App Service: Once the App Service is created, you will need to configure it to run your Spring Boot application. This includes setting up the environment, configuring the application settings, and setting up the deployment process.
+
+4. Connect the App Service to Teams: Once the App Service is configured, you can connect it to Teams. This will allow you to send notifications to Teams when certain events occur in your application.
+
+5. Deploy the Spring Boot application: Once the App Service is connected to Teams, you can deploy your Spring Boot application. This will allow you to access the application from Teams.
+
+6. Monitor the application: Finally, you can monitor the application using the Azure portal. This will allow you to view the performance of the application and make any necessary changes.
+2023-02-21 17:03:23,326 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor [http-nio-8080-exec-2] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-02-21 17:03:23,327 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor [http-nio-8080-exec-2] Writing [ResponseModel(code=200, message=success, data=<EOL><EOL>1. Create an Azure account: The first step is to cre (truncated)...]
+2023-02-21 17:03:23,329 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Completed 200 OK
+2023-02-21 17:06:02,707 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-5] GET "/send?message=Connect%20springboot%20to%20teams%20via%20azure,%20Elaborate%20each%20step.%20Write%20code%20to%20configure,%20properties%20and%20also%20logic%20in%20java", parameters={masked}
+2023-02-21 17:06:02,708 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [http-nio-8080-exec-5] Mapped to com.chatGpt.controller.GptController#send(HttpServletRequest, String)
+2023-02-21 17:06:02,709 INFO com.chatGpt.controller.GptController [http-nio-8080-exec-5] requestId fb8bba4f-9fb6-44ee-a0f4-d302f44537df, ip 127.0.0.1, send a message : Connect springboot to teams via azure, Elaborate each step. Write code to configure, properties and also logic in java
+2023-02-21 17:06:02,709 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8080-exec-5] request url: https://api.openai.com/v1/completions, httpEntity: <ChatRequest(model=text-davinci-003, prompt=Connect springboot to teams via azure, Elaborate each step. Write code to configure, properties and also logic in java, maxTokens=1000, temperature=0.0, topP=1.0),[Content-Type:"application/json;charset=UTF-8", Authorization:"Bearer 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"]>
+2023-02-21 17:06:02,712 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-5] HTTP POST https://api.openai.com/v1/completions
+2023-02-21 17:06:02,714 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-5] Accept=[application/json, application/*+json]
+2023-02-21 17:06:02,715 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-5] Writing [ChatRequest(model=text-davinci-003, prompt=Connect springboot to teams via azure, Elaborate each step. Write code to configure, properties and also logic in java, maxTokens=1000, temperature=0.0, topP=1.0)] as "application/json;charset=UTF-8"
+2023-02-21 17:06:18,737 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-5] Response 200 OK
+2023-02-21 17:06:18,738 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-5] Reading to [com.chatGpt.dto.ChatResponse]
+2023-02-21 17:06:18,739 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8080-exec-5] response: <200,ChatResponse(id=cmpl-6mV3qD9ddPOsMWbw02t05AyJOYuDk, object=text_completion, created=+4593487-01-15, model=text-davinci-003, choices=[Choice(text=
+
+Step 1: Create an Azure Active Directory (AAD) application
+
+To create an AAD application, you need to log in to the Azure portal and navigate to the Azure Active Directory section. Once there, click on App registrations and then click on New registration.
+
+Step 2: Configure the AAD application
+
+Once the AAD application is created, you need to configure it. To do this, you need to provide a name for the application, select the supported account types, and provide a redirect URL.
+
+Step 3: Configure the Spring Boot application
+
+Once the AAD application is configured, you need to configure the Spring Boot application. To do this, you need to add the following properties to the application.properties file:
+
+spring.security.oauth2.client.registration.azure.client-id=<AAD_CLIENT_ID>
+spring.security.oauth2.client.registration.azure.client-secret=<AAD_CLIENT_SECRET>
+spring.security.oauth2.client.registration.azure.redirect-uri=<REDIRECT_URL>
+
+Step 4: Configure the authentication logic
+
+Once the properties are configured, you need to configure the authentication logic. To do this, you need to create a class that implements the AuthenticationProvider interface. This class should contain the logic to authenticate the user using the AAD application.
+
+Step 5: Configure the authorization logic
+
+Once the authentication logic is configured, you need to configure the authorization logic. To do this, you need to create a class that implements the AuthorizationProvider interface. This class should contain the logic to authorize the user using the AAD application.
+
+Step 6: Configure the Teams integration
+
+Once the authentication and authorization logic is configured, you need to configure the Teams integration. To do this, you need to create a class that implements the TeamsIntegration interface. This class should contain the logic to integrate the application with Teams., index=0, logprobs=null, finishReason=stop)], usage=Usage(promptTokens=26, completionTokens=428, totalTokens=454)),[Date:"Tue, 21 Feb 2023 22:06:18 GMT", Content-Type:"application/json", Content-Length:"2177", Connection:"keep-alive", Access-Control-Allow-Origin:"*", Cache-Control:"no-cache, must-revalidate", Openai-Model:"text-davinci-003", Openai-Organization:"user-xbngof7ex9kgc20aeaxs8tdl", Openai-Processing-Ms:"15744", Openai-Version:"2020-10-01", Strict-Transport-Security:"max-age=15724800; includeSubDomains", X-Request-Id:"4f0268329c33232cbf688cff0fc6e553"]>
+2023-02-21 17:06:18,740 INFO com.chatGpt.controller.GptController [http-nio-8080-exec-5] requestId fb8bba4f-9fb6-44ee-a0f4-d302f44537df, ip 127.0.0.1, get a reply : 
+
+Step 1: Create an Azure Active Directory (AAD) application
+
+To create an AAD application, you need to log in to the Azure portal and navigate to the Azure Active Directory section. Once there, click on App registrations and then click on New registration.
+
+Step 2: Configure the AAD application
+
+Once the AAD application is created, you need to configure it. To do this, you need to provide a name for the application, select the supported account types, and provide a redirect URL.
+
+Step 3: Configure the Spring Boot application
+
+Once the AAD application is configured, you need to configure the Spring Boot application. To do this, you need to add the following properties to the application.properties file:
+
+spring.security.oauth2.client.registration.azure.client-id=<AAD_CLIENT_ID>
+spring.security.oauth2.client.registration.azure.client-secret=<AAD_CLIENT_SECRET>
+spring.security.oauth2.client.registration.azure.redirect-uri=<REDIRECT_URL>
+
+Step 4: Configure the authentication logic
+
+Once the properties are configured, you need to configure the authentication logic. To do this, you need to create a class that implements the AuthenticationProvider interface. This class should contain the logic to authenticate the user using the AAD application.
+
+Step 5: Configure the authorization logic
+
+Once the authentication logic is configured, you need to configure the authorization logic. To do this, you need to create a class that implements the AuthorizationProvider interface. This class should contain the logic to authorize the user using the AAD application.
+
+Step 6: Configure the Teams integration
+
+Once the authentication and authorization logic is configured, you need to configure the Teams integration. To do this, you need to create a class that implements the TeamsIntegration interface. This class should contain the logic to integrate the application with Teams.
+2023-02-21 17:06:18,740 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor [http-nio-8080-exec-5] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-02-21 17:06:18,741 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor [http-nio-8080-exec-5] Writing [ResponseModel(code=200, message=success, data=<EOL><EOL>Step 1: Create an Azure Active Directory (AAD) appli (truncated)...]
+2023-02-21 17:06:18,742 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-5] Completed 200 OK
+2023-02-21 17:41:59,943 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-7] GET "/send?message=Once%20the%20authentication%20and%20authorization%20logic%20is%20configured,%20you%20need%20to%20configure%20the%20Teams%20integration.%20To%20do%20this,%20you%20need%20to%20create%20a%20class%20that%20implements%20the%20TeamsIntegration%20interface.%20This%20class%20should%20contain%20the%20logic%20to%20integrate%20the%20application%20with%20Teams.%20Write%20code%20to%20connect%20spring%20to%20teams%20to%20send%20message%20in%20code", parameters={masked}
+2023-02-21 17:41:59,944 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [http-nio-8080-exec-7] Mapped to com.chatGpt.controller.GptController#send(HttpServletRequest, String)
+2023-02-21 17:41:59,946 INFO com.chatGpt.controller.GptController [http-nio-8080-exec-7] requestId beb46ba9-0711-4121-abf8-a58aa5ce0429, ip 127.0.0.1, send a message : Once the authentication and authorization logic is configured, you need to configure the Teams integration. To do this, you need to create a class that implements the TeamsIntegration interface. This class should contain the logic to integrate the application with Teams. Write code to connect spring to teams to send message in code
+2023-02-21 17:41:59,947 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8080-exec-7] request url: https://api.openai.com/v1/completions, httpEntity: <ChatRequest(model=text-davinci-003, prompt=Once the authentication and authorization logic is configured, you need to configure the Teams integration. To do this, you need to create a class that implements the TeamsIntegration interface. This class should contain the logic to integrate the application with Teams. Write code to connect spring to teams to send message in code, maxTokens=1000, temperature=0.0, topP=1.0),[Content-Type:"application/json;charset=UTF-8", Authorization:"Bearer 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"]>
+2023-02-21 17:41:59,949 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-7] HTTP POST https://api.openai.com/v1/completions
+2023-02-21 17:41:59,952 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-7] Accept=[application/json, application/*+json]
+2023-02-21 17:41:59,954 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-7] Writing [ChatRequest(model=text-davinci-003, prompt=Once the authentication and authorization logic is configured, you need to configure the Teams integration. To do this, you need to create a class that implements the TeamsIntegration interface. This class should contain the logic to integrate the application with Teams. Write code to connect spring to teams to send message in code, maxTokens=1000, temperature=0.0, topP=1.0)] as "application/json;charset=UTF-8"
+2023-02-21 17:42:04,054 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-7] Response 200 OK
+2023-02-21 17:42:04,056 DEBUG org.springframework.web.client.RestTemplate [http-nio-8080-exec-7] Reading to [com.chatGpt.dto.ChatResponse]
+2023-02-21 17:42:04,059 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8080-exec-7] response: <200,ChatResponse(id=cmpl-6mVcdPTQC7dVWKFDjtrXW3jLHFhZ2, object=text_completion, created=+4593492-12-11, model=text-davinci-003, choices=[Choice(text=
+
+@Service
+public class TeamsIntegrationImpl implements TeamsIntegration {
+
+    private final WebhookService webhookService;
+
+    @Autowired
+    public TeamsIntegrationImpl(WebhookService webhookService) {
+        this.webhookService = webhookService;
+    }
+
+    @Override
+    public void sendMessage(String message) {
+        webhookService.sendMessage(message);
+    }
+}, index=0, logprobs=null, finishReason=stop)], usage=Usage(promptTokens=60, completionTokens=95, totalTokens=155)),[Date:"Tue, 21 Feb 2023 22:42:03 GMT", Content-Type:"application/json", Content-Length:"650", Connection:"keep-alive", Access-Control-Allow-Origin:"*", Cache-Control:"no-cache, must-revalidate", Openai-Model:"text-davinci-003", Openai-Organization:"user-xbngof7ex9kgc20aeaxs8tdl", Openai-Processing-Ms:"3840", Openai-Version:"2020-10-01", Strict-Transport-Security:"max-age=15724800; includeSubDomains", X-Request-Id:"f32abdc2e6bdddcc35bdc45bb2a9ef7d"]>
+2023-02-21 17:42:04,061 INFO com.chatGpt.controller.GptController [http-nio-8080-exec-7] requestId beb46ba9-0711-4121-abf8-a58aa5ce0429, ip 127.0.0.1, get a reply : 
+
+@Service
+public class TeamsIntegrationImpl implements TeamsIntegration {
+
+    private final WebhookService webhookService;
+
+    @Autowired
+    public TeamsIntegrationImpl(WebhookService webhookService) {
+        this.webhookService = webhookService;
+    }
+
+    @Override
+    public void sendMessage(String message) {
+        webhookService.sendMessage(message);
+    }
+}
+2023-02-21 17:42:04,063 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor [http-nio-8080-exec-7] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-02-21 17:42:04,064 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor [http-nio-8080-exec-7] Writing [ResponseModel(code=200, message=success, data=<EOL><EOL>@Service<EOL>public class TeamsIntegrationImpl implement (truncated)...]
+2023-02-21 17:42:04,066 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-7] Completed 200 OK
